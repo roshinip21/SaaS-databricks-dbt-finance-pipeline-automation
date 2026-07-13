@@ -1,0 +1,7 @@
+plan_id,plan_name,tier,billing_interval,price_usd
+1,Starter Monthly,Starter,Monthly,29
+2,Starter Annual,Starter,Annual,290
+3,Pro Monthly,Pro,Monthly,99
+4,Pro Annual,Pro,Annual,990
+5,Enterprise Monthly,Enterprise,Monthly,299
+6,Enterprise Annual,Enterprise,Annual,2990

@@ -1,0 +1,1948 @@
+ticket_id,customer_id,created_at,resolved_at,priority,category,satisfaction_score,status
+1,1,2025-07-30 18:00:00,2025-08-03 00:00:00,Low,General Question,2,resolved
+2,1,2025-03-18 09:00:00,2025-03-23 11:00:00,Low,Integration,1,resolved
+3,2,2026-06-30 16:00:00,2026-07-06 02:00:00,Low,Billing,1,resolved
+4,2,2026-05-27 03:00:00,2026-06-02 11:00:00,Low,Onboarding,1,resolved
+5,3,2026-06-26 13:00:00,2026-06-27 01:00:00,High,Onboarding,1,resolved
+6,3,2026-03-07 22:00:00,2026-03-14 17:00:00,Low,Account Access,2,resolved
+7,3,2026-07-10 10:00:00,,Low,Bug Report,,open
+8,3,2026-07-05 09:00:00,2026-07-10 15:00:00,Low,Feature Request,3,resolved
+9,3,2026-04-26 03:00:00,,Medium,Performance,,open
+10,3,2026-02-26 14:00:00,2026-03-04 04:00:00,Low,Feature Request,5,resolved
+11,4,2025-08-29 10:00:00,2025-08-31 07:00:00,Medium,Integration,5,resolved
+12,5,2025-02-22 04:00:00,2025-02-25 02:00:00,Medium,General Question,4,resolved
+13,5,2025-05-04 18:00:00,2025-05-05 05:00:00,High,General Question,4,resolved
+14,5,2025-06-03 19:00:00,2025-06-05 18:00:00,Medium,Onboarding,5,resolved
+15,5,2025-11-14 01:00:00,2025-11-14 10:00:00,High,Performance,2,resolved
+16,5,2025-04-17 08:00:00,2025-04-19 13:00:00,Medium,Performance,3,resolved
+17,5,2025-10-22 15:00:00,2025-10-28 09:00:00,Low,Performance,5,resolved
+18,5,2026-06-03 02:00:00,2026-06-03 05:00:00,Medium,Integration,1,resolved
+19,7,2025-12-10 17:00:00,2025-12-15 17:00:00,Low,Feature Request,1,resolved
+20,7,2026-04-04 08:00:00,2026-04-05 03:00:00,High,General Question,2,resolved
+21,7,2026-04-09 18:00:00,2026-04-10 22:00:00,Medium,Performance,1,resolved
+22,8,2026-06-18 13:00:00,2026-06-19 14:00:00,Medium,Integration,4,resolved
+23,8,2026-06-16 21:00:00,2026-06-17 15:00:00,Medium,Feature Request,5,resolved
+24,9,2026-04-15 13:00:00,2026-04-20 00:00:00,Low,Onboarding,4,resolved
+25,9,2025-08-25 04:00:00,2025-08-28 22:00:00,Low,Integration,3,resolved
+26,9,2025-05-01 12:00:00,,Low,General Question,,open
+27,9,2025-08-07 21:00:00,2025-08-07 22:00:00,Medium,Bug Report,5,resolved
+28,9,2024-11-24 22:00:00,2024-11-27 11:00:00,Medium,Bug Report,1,resolved
+29,9,2025-10-19 04:00:00,2025-10-24 20:00:00,Low,Account Access,4,resolved
+30,9,2026-05-03 10:00:00,2026-05-06 08:00:00,Medium,Billing,4,resolved
+31,9,2026-05-13 12:00:00,2026-05-17 21:00:00,Low,General Question,1,resolved
+32,10,2026-02-11 08:00:00,2026-02-14 06:00:00,Medium,Feature Request,5,resolved
+33,10,2025-02-04 00:00:00,2025-02-07 23:00:00,Low,Account Access,4,resolved
+34,12,2025-08-26 07:00:00,2025-08-26 15:00:00,Medium,Account Access,4,resolved
+35,12,2025-10-21 01:00:00,,Low,Integration,,open
+36,12,2025-02-05 11:00:00,2025-02-08 11:00:00,Medium,Billing,4,resolved
+37,12,2024-12-06 11:00:00,2024-12-08 02:00:00,Medium,Feature Request,4,resolved
+38,12,2026-01-30 12:00:00,2026-01-31 10:00:00,Medium,Integration,4,resolved
+39,13,2024-12-28 09:00:00,,High,General Question,,open
+40,13,2026-02-24 12:00:00,2026-02-24 22:00:00,High,Integration,1,resolved
+41,13,2024-08-28 16:00:00,2024-09-04 02:00:00,Low,Integration,4,resolved
+42,14,2026-01-25 03:00:00,2026-01-28 01:00:00,Medium,Feature Request,4,resolved
+43,14,2026-04-30 10:00:00,2026-05-05 03:00:00,Low,Integration,4,resolved
+44,14,2026-05-30 04:00:00,2026-05-31 01:00:00,High,Bug Report,2,resolved
+45,14,2025-12-17 00:00:00,2025-12-22 07:00:00,Low,Account Access,5,resolved
+46,15,2026-05-24 21:00:00,,Low,Account Access,,open
+47,15,2026-02-27 06:00:00,2026-02-27 18:00:00,Medium,Billing,3,resolved
+48,15,2026-03-03 23:00:00,2026-03-06 15:00:00,Low,Integration,4,resolved
+49,16,2026-07-07 12:00:00,2026-07-09 04:00:00,Medium,Integration,4,resolved
+50,16,2024-12-05 07:00:00,2024-12-07 10:00:00,Low,Performance,3,resolved
+51,16,2024-12-10 16:00:00,2024-12-11 11:00:00,Low,Billing,3,resolved
+52,16,2025-12-10 22:00:00,2025-12-11 02:00:00,High,Bug Report,4,resolved
+53,16,2024-11-19 18:00:00,2024-11-19 21:00:00,High,Billing,5,resolved
+54,16,2024-08-04 08:00:00,2024-08-05 21:00:00,Medium,Billing,5,resolved
+55,16,2025-02-11 22:00:00,2025-02-18 09:00:00,Low,Onboarding,1,resolved
+56,16,2025-11-11 16:00:00,2025-11-12 01:00:00,Low,Performance,5,resolved
+57,17,2025-06-21 13:00:00,2025-06-23 11:00:00,Low,Billing,3,resolved
+58,17,2024-05-19 14:00:00,2024-05-24 10:00:00,Low,Billing,1,resolved
+59,17,2024-11-20 23:00:00,2024-11-24 18:00:00,Low,Account Access,3,resolved
+60,17,2025-03-21 09:00:00,2025-03-26 01:00:00,Low,Integration,3,resolved
+61,18,2025-10-21 21:00:00,2025-10-22 08:00:00,High,Onboarding,5,resolved
+62,18,2026-06-27 04:00:00,,Medium,Account Access,,open
+63,18,2025-08-09 23:00:00,2025-08-12 01:00:00,Medium,General Question,1,resolved
+64,18,2025-07-02 02:00:00,2025-07-02 23:00:00,High,Account Access,5,resolved
+65,18,2025-08-16 22:00:00,2025-08-17 02:00:00,Urgent,Account Access,1,resolved
+66,19,2024-11-29 13:00:00,2024-11-30 02:00:00,High,Onboarding,3,resolved
+67,20,2025-05-27 18:00:00,2025-06-02 19:00:00,Low,Performance,1,resolved
+68,20,2024-11-20 14:00:00,2024-11-27 04:00:00,Low,Bug Report,4,resolved
+69,20,2025-08-28 05:00:00,2025-08-29 22:00:00,Low,Bug Report,5,resolved
+70,20,2024-08-28 05:00:00,2024-08-29 18:00:00,Medium,Bug Report,4,resolved
+71,20,2025-01-07 09:00:00,2025-01-07 10:00:00,Urgent,General Question,4,resolved
+72,20,2024-09-03 16:00:00,2024-09-05 01:00:00,Medium,Onboarding,2,resolved
+73,20,2025-10-03 15:00:00,2025-10-05 10:00:00,Low,Onboarding,3,resolved
+74,20,2024-12-03 12:00:00,2024-12-06 02:00:00,Medium,Performance,3,resolved
+75,21,2026-06-21 10:00:00,2026-06-27 19:00:00,Low,Bug Report,2,resolved
+76,21,2026-07-04 07:00:00,2026-07-05 06:00:00,High,Onboarding,5,resolved
+77,21,2026-06-18 03:00:00,2026-06-20 11:00:00,Medium,Performance,3,resolved
+78,21,2026-07-06 15:00:00,2026-07-08 01:00:00,Medium,Integration,1,resolved
+79,21,2026-02-02 09:00:00,2026-02-03 23:00:00,Medium,Integration,4,resolved
+80,22,2024-03-28 14:00:00,2024-03-30 07:00:00,Medium,Performance,4,resolved
+81,22,2024-07-23 17:00:00,2024-07-24 17:00:00,High,Performance,2,resolved
+82,23,2026-06-28 20:00:00,2026-06-30 12:00:00,Medium,Performance,4,resolved
+83,23,2026-06-15 00:00:00,2026-06-16 00:00:00,High,Integration,5,resolved
+84,23,2026-05-29 19:00:00,2026-06-01 10:00:00,Medium,Account Access,2,resolved
+85,23,2026-07-02 08:00:00,2026-07-02 20:00:00,High,General Question,4,resolved
+86,24,2024-05-05 19:00:00,2024-05-05 21:00:00,Urgent,Billing,4,resolved
+87,24,2024-11-15 10:00:00,2024-11-20 09:00:00,Low,Account Access,1,resolved
+88,24,2026-07-01 09:00:00,2026-07-06 05:00:00,Low,Integration,2,resolved
+89,24,2026-04-04 09:00:00,2026-04-04 23:00:00,Low,Feature Request,4,resolved
+90,24,2025-07-16 06:00:00,2025-07-16 15:00:00,Medium,Performance,5,resolved
+91,25,2023-08-21 02:00:00,2023-08-23 02:00:00,Low,General Question,2,resolved
+92,25,2024-04-04 14:00:00,2024-04-04 18:00:00,Urgent,Onboarding,3,resolved
+93,25,2023-11-04 21:00:00,2023-11-06 04:00:00,Low,Billing,3,resolved
+94,25,2025-10-25 02:00:00,2025-10-28 02:00:00,Medium,Onboarding,5,resolved
+95,25,2024-08-29 08:00:00,2024-09-02 23:00:00,Low,Account Access,5,resolved
+96,25,2023-06-16 09:00:00,2023-06-21 00:00:00,Low,Account Access,1,resolved
+97,26,2024-09-30 15:00:00,2024-10-01 10:00:00,Medium,Onboarding,2,resolved
+98,26,2026-05-18 20:00:00,2026-05-20 07:00:00,Medium,Onboarding,1,resolved
+99,26,2025-01-05 10:00:00,2025-01-05 19:00:00,Medium,Account Access,3,resolved
+100,26,2024-12-31 06:00:00,2025-01-05 12:00:00,Low,Performance,4,resolved
+101,26,2024-12-30 08:00:00,2024-12-31 00:00:00,High,General Question,5,resolved
+102,26,2026-03-17 21:00:00,2026-03-18 17:00:00,High,General Question,3,resolved
+103,26,2026-05-15 09:00:00,2026-05-16 06:00:00,Medium,Account Access,3,resolved
+104,26,2025-04-26 18:00:00,2025-04-27 12:00:00,High,Feature Request,5,resolved
+105,27,2025-12-24 09:00:00,2025-12-31 06:00:00,Low,Integration,5,resolved
+106,27,2025-12-19 07:00:00,2025-12-20 05:00:00,High,Onboarding,1,resolved
+107,27,2025-07-15 16:00:00,2025-07-19 03:00:00,Low,General Question,3,resolved
+108,27,2026-01-09 07:00:00,2026-01-11 19:00:00,Low,General Question,5,resolved
+109,27,2025-08-29 23:00:00,2025-08-31 01:00:00,Medium,Billing,2,resolved
+110,27,2025-01-11 01:00:00,2025-01-14 02:00:00,Low,Bug Report,3,resolved
+111,29,2026-07-01 23:00:00,2026-07-06 12:00:00,Low,Feature Request,3,resolved
+112,29,2026-06-12 00:00:00,2026-06-14 13:00:00,Low,Account Access,4,resolved
+113,29,2026-05-10 12:00:00,2026-05-10 16:00:00,Medium,Billing,4,resolved
+114,29,2026-04-28 13:00:00,,High,Account Access,,open
+115,29,2026-07-01 17:00:00,,Medium,Account Access,,open
+116,29,2026-06-30 17:00:00,2026-06-30 19:00:00,Medium,Feature Request,3,resolved
+117,29,2026-06-15 10:00:00,2026-06-18 04:00:00,Medium,Performance,5,resolved
+118,29,2026-04-23 12:00:00,2026-04-24 11:00:00,Low,Account Access,1,resolved
+119,30,2025-11-14 22:00:00,2025-11-18 20:00:00,Low,General Question,2,resolved
+120,30,2024-07-25 21:00:00,,Medium,Onboarding,,open
+121,30,2023-07-29 11:00:00,2023-07-29 22:00:00,Medium,Feature Request,4,resolved
+122,31,2025-12-16 18:00:00,2025-12-18 13:00:00,Medium,Billing,2,resolved
+123,31,2025-12-11 06:00:00,2025-12-12 13:00:00,Medium,Performance,3,resolved
+124,31,2026-01-26 14:00:00,2026-02-01 04:00:00,Low,Bug Report,3,resolved
+125,32,2025-09-03 01:00:00,2025-09-07 20:00:00,Low,Onboarding,2,resolved
+126,32,2025-11-16 09:00:00,2025-11-17 13:00:00,Low,Onboarding,5,resolved
+127,32,2026-06-19 23:00:00,2026-06-26 02:00:00,Low,General Question,2,resolved
+128,32,2025-10-23 09:00:00,2025-10-24 02:00:00,Medium,Billing,2,resolved
+129,34,2025-09-03 10:00:00,2025-09-04 17:00:00,Low,Integration,3,resolved
+130,34,2026-01-30 14:00:00,2026-01-30 16:00:00,High,Billing,5,resolved
+131,34,2025-06-14 10:00:00,2025-06-14 17:00:00,High,Integration,2,resolved
+132,34,2025-09-15 20:00:00,2025-09-18 04:00:00,Medium,Billing,1,resolved
+133,34,2026-02-28 05:00:00,2026-02-28 19:00:00,Medium,Feature Request,3,resolved
+134,34,2026-04-13 11:00:00,2026-04-13 15:00:00,Low,Account Access,5,resolved
+135,34,2026-01-15 14:00:00,2026-01-20 13:00:00,Low,Performance,5,resolved
+136,34,2026-04-01 20:00:00,2026-04-02 18:00:00,High,Bug Report,3,resolved
+137,35,2024-05-23 14:00:00,2024-05-25 20:00:00,Medium,Bug Report,3,resolved
+138,35,2023-11-30 17:00:00,2023-12-04 13:00:00,Low,Billing,1,resolved
+139,36,2026-03-04 22:00:00,2026-03-05 11:00:00,High,Bug Report,1,resolved
+140,36,2026-04-22 06:00:00,2026-04-23 13:00:00,Medium,Performance,1,resolved
+141,36,2026-06-08 05:00:00,2026-06-08 14:00:00,High,Integration,3,resolved
+142,36,2026-03-13 04:00:00,2026-03-13 21:00:00,High,Bug Report,5,resolved
+143,37,2025-01-26 07:00:00,2025-01-28 18:00:00,Low,General Question,3,resolved
+144,37,2024-12-03 01:00:00,2024-12-07 08:00:00,Low,General Question,3,resolved
+145,37,2026-05-24 18:00:00,2026-05-25 23:00:00,Medium,Account Access,5,resolved
+146,38,2026-06-29 09:00:00,2026-07-03 20:00:00,Low,General Question,3,resolved
+147,38,2026-02-16 08:00:00,2026-02-18 22:00:00,Low,Account Access,3,resolved
+148,38,2025-06-19 15:00:00,2025-06-22 23:00:00,Low,Performance,2,resolved
+149,39,2025-11-09 07:00:00,2025-11-10 02:00:00,High,Feature Request,5,resolved
+150,39,2026-03-21 07:00:00,2026-03-21 13:00:00,Medium,Account Access,3,resolved
+151,39,2025-11-18 02:00:00,2025-11-19 02:00:00,High,Onboarding,3,resolved
+152,40,2026-07-02 04:00:00,2026-07-02 08:00:00,Urgent,General Question,5,resolved
+153,40,2026-02-23 12:00:00,2026-02-23 13:00:00,High,Feature Request,1,resolved
+154,40,2026-05-19 17:00:00,2026-05-22 05:00:00,Medium,Feature Request,3,resolved
+155,40,2026-03-22 05:00:00,,Urgent,Onboarding,,open
+156,40,2024-02-10 05:00:00,2024-02-11 11:00:00,Medium,Feature Request,1,resolved
+157,40,2026-04-13 14:00:00,2026-04-15 13:00:00,Medium,Onboarding,5,resolved
+158,41,2026-01-12 19:00:00,2026-01-13 12:00:00,High,Feature Request,4,resolved
+159,41,2024-10-23 07:00:00,2024-10-24 18:00:00,Medium,Account Access,2,resolved
+160,41,2025-05-03 01:00:00,,Low,Feature Request,,open
+161,42,2025-07-03 16:00:00,2025-07-04 03:00:00,Medium,General Question,5,resolved
+162,42,2025-12-16 22:00:00,2025-12-17 06:00:00,High,Account Access,4,resolved
+163,42,2025-11-13 23:00:00,2025-11-14 11:00:00,High,Account Access,4,resolved
+164,43,2025-12-17 05:00:00,2025-12-18 02:00:00,High,Billing,5,resolved
+165,43,2025-12-26 20:00:00,2026-01-01 10:00:00,Low,Feature Request,1,resolved
+166,45,2025-08-24 13:00:00,2025-08-24 23:00:00,Medium,Account Access,5,resolved
+167,45,2026-03-02 00:00:00,2026-03-05 10:00:00,Low,Billing,2,resolved
+168,45,2025-06-05 04:00:00,2025-06-07 21:00:00,Medium,General Question,2,resolved
+169,45,2025-11-06 06:00:00,2025-11-08 03:00:00,Medium,Feature Request,5,resolved
+170,46,2026-03-26 09:00:00,2026-03-26 11:00:00,Urgent,Billing,4,resolved
+171,46,2026-04-25 15:00:00,2026-04-26 01:00:00,Medium,Billing,3,resolved
+172,47,2026-05-18 14:00:00,2026-05-18 18:00:00,Low,Onboarding,1,resolved
+173,47,2026-03-23 13:00:00,2026-03-24 17:00:00,Low,Integration,5,resolved
+174,47,2026-01-08 22:00:00,2026-01-09 06:00:00,Medium,Integration,2,resolved
+175,47,2026-02-23 11:00:00,,Medium,Billing,,open
+176,47,2026-03-14 09:00:00,2026-03-14 13:00:00,Urgent,Feature Request,5,resolved
+177,47,2026-03-23 19:00:00,2026-03-24 19:00:00,High,Account Access,4,resolved
+178,48,2024-09-05 13:00:00,2024-09-05 15:00:00,Urgent,Feature Request,3,resolved
+179,48,2024-09-07 11:00:00,2024-09-08 16:00:00,Low,Feature Request,2,resolved
+180,48,2024-10-15 10:00:00,,Urgent,Performance,,open
+181,48,2024-03-28 04:00:00,2024-03-29 03:00:00,High,Onboarding,4,resolved
+182,48,2025-04-07 01:00:00,2025-04-07 12:00:00,Low,Feature Request,2,resolved
+183,48,2026-06-02 07:00:00,2026-06-02 15:00:00,Medium,General Question,1,resolved
+184,50,2024-09-19 06:00:00,2024-09-24 11:00:00,Low,Feature Request,5,resolved
+185,50,2025-02-17 17:00:00,2025-02-18 23:00:00,Medium,Feature Request,3,resolved
+186,50,2025-12-18 03:00:00,2025-12-19 18:00:00,Medium,Feature Request,4,resolved
+187,50,2025-02-12 07:00:00,2025-02-12 16:00:00,High,Onboarding,2,resolved
+188,50,2025-07-08 16:00:00,2025-07-13 23:00:00,Low,Account Access,3,resolved
+189,50,2023-12-09 14:00:00,2023-12-12 11:00:00,Medium,Onboarding,2,resolved
+190,50,2025-05-18 06:00:00,2025-05-20 13:00:00,Medium,Feature Request,2,resolved
+191,50,2025-09-28 05:00:00,2025-10-01 10:00:00,Low,Feature Request,4,resolved
+192,51,2026-05-29 18:00:00,2026-05-29 20:00:00,High,Account Access,3,resolved
+193,52,2024-12-30 22:00:00,2025-01-01 00:00:00,Low,Onboarding,1,resolved
+194,52,2024-06-02 01:00:00,2024-06-02 16:00:00,High,Bug Report,1,resolved
+195,52,2025-03-23 14:00:00,2025-03-26 08:00:00,Low,Billing,5,resolved
+196,53,2025-10-01 01:00:00,2025-10-01 20:00:00,High,General Question,2,resolved
+197,53,2025-10-05 12:00:00,2025-10-08 08:00:00,Medium,Bug Report,5,resolved
+198,53,2025-01-13 05:00:00,2025-01-14 21:00:00,Medium,Bug Report,1,resolved
+199,54,2026-03-29 08:00:00,2026-04-01 15:00:00,Low,General Question,5,resolved
+200,54,2026-03-05 01:00:00,2026-03-05 22:00:00,Low,Integration,5,resolved
+201,54,2026-02-14 06:00:00,2026-02-18 22:00:00,Low,Feature Request,1,resolved
+202,54,2026-04-27 07:00:00,2026-04-28 00:00:00,Low,Performance,3,resolved
+203,55,2026-05-08 08:00:00,2026-05-08 13:00:00,High,Performance,1,resolved
+204,55,2026-01-23 03:00:00,2026-01-23 19:00:00,Medium,Bug Report,4,resolved
+205,55,2026-07-09 00:00:00,,Low,Feature Request,,open
+206,55,2026-04-03 16:00:00,2026-04-04 13:00:00,High,Onboarding,3,resolved
+207,55,2026-06-02 01:00:00,2026-06-03 15:00:00,Medium,General Question,4,resolved
+208,55,2026-04-26 10:00:00,2026-04-27 12:00:00,Medium,Onboarding,4,resolved
+209,57,2025-12-05 09:00:00,2025-12-08 19:00:00,Low,Performance,2,resolved
+210,57,2024-10-23 19:00:00,2024-10-24 12:00:00,Low,General Question,5,resolved
+211,57,2026-06-17 10:00:00,2026-06-19 13:00:00,Medium,Bug Report,3,resolved
+212,57,2025-10-30 04:00:00,2025-10-30 14:00:00,High,General Question,3,resolved
+213,57,2025-12-26 08:00:00,2025-12-26 15:00:00,High,Performance,5,resolved
+214,57,2025-12-04 00:00:00,2025-12-04 02:00:00,High,Integration,4,resolved
+215,57,2025-01-11 22:00:00,2025-01-15 19:00:00,Low,Billing,5,resolved
+216,59,2026-04-04 04:00:00,,Medium,Billing,,open
+217,59,2024-09-23 19:00:00,2024-09-25 08:00:00,Medium,Billing,4,resolved
+218,59,2025-08-22 17:00:00,2025-08-24 09:00:00,Medium,Account Access,3,resolved
+219,59,2025-04-14 15:00:00,2025-04-15 05:00:00,Low,Bug Report,1,resolved
+220,59,2026-04-02 07:00:00,2026-04-04 16:00:00,Medium,Bug Report,2,resolved
+221,60,2026-06-12 23:00:00,,Medium,Bug Report,,open
+222,60,2024-03-31 06:00:00,2024-04-04 02:00:00,Low,Onboarding,5,resolved
+223,60,2025-10-21 15:00:00,2025-10-21 19:00:00,Urgent,Performance,5,resolved
+224,60,2026-01-03 06:00:00,2026-01-04 16:00:00,Medium,Onboarding,5,resolved
+225,60,2025-08-09 14:00:00,2025-08-12 12:00:00,Medium,Account Access,4,resolved
+226,60,2025-02-25 01:00:00,2025-02-25 22:00:00,High,Feature Request,1,resolved
+227,60,2026-05-05 02:00:00,2026-05-08 15:00:00,Low,Feature Request,3,resolved
+228,60,2024-12-15 03:00:00,2024-12-17 15:00:00,Low,Feature Request,5,resolved
+229,61,2023-08-10 23:00:00,2023-08-11 16:00:00,Medium,Account Access,4,resolved
+230,61,2025-09-09 23:00:00,2025-09-11 22:00:00,Low,Feature Request,2,resolved
+231,61,2026-06-19 09:00:00,2026-06-19 14:00:00,Medium,Feature Request,1,resolved
+232,61,2026-02-08 03:00:00,,Low,Performance,,open
+233,61,2024-01-29 03:00:00,2024-01-29 23:00:00,Low,Account Access,5,resolved
+234,61,2025-07-18 19:00:00,2025-07-21 04:00:00,Medium,Bug Report,5,resolved
+235,62,2025-11-04 09:00:00,2025-11-04 18:00:00,High,Integration,1,resolved
+236,62,2025-06-08 22:00:00,2025-06-09 14:00:00,High,Performance,5,resolved
+237,62,2025-07-02 22:00:00,2025-07-09 10:00:00,Low,Bug Report,5,resolved
+238,62,2025-01-16 18:00:00,2025-01-19 03:00:00,Medium,Bug Report,2,resolved
+239,63,2025-08-20 08:00:00,,Medium,Account Access,,open
+240,63,2026-01-10 10:00:00,2026-01-10 21:00:00,Low,General Question,4,resolved
+241,63,2024-10-18 17:00:00,2024-10-20 17:00:00,Low,Billing,1,resolved
+242,64,2023-09-06 22:00:00,2023-09-09 01:00:00,Low,Account Access,2,resolved
+243,65,2026-06-18 12:00:00,2026-06-19 05:00:00,High,Bug Report,1,resolved
+244,65,2026-06-11 06:00:00,2026-06-16 17:00:00,Low,Billing,4,resolved
+245,66,2026-02-14 05:00:00,2026-02-14 08:00:00,Urgent,Account Access,4,resolved
+246,66,2026-02-08 12:00:00,2026-02-11 23:00:00,Low,Performance,4,resolved
+247,66,2026-05-20 03:00:00,2026-05-20 06:00:00,Urgent,Account Access,4,resolved
+248,66,2026-05-01 13:00:00,,Medium,Billing,,open
+249,67,2026-03-15 23:00:00,,High,Integration,,open
+250,67,2026-03-15 18:00:00,2026-03-15 19:00:00,High,Account Access,2,resolved
+251,69,2026-04-09 08:00:00,2026-04-09 23:00:00,Medium,Onboarding,4,resolved
+252,70,2026-05-06 17:00:00,2026-05-09 07:00:00,Low,General Question,3,resolved
+253,70,2025-07-10 10:00:00,2025-07-10 12:00:00,High,Billing,3,resolved
+254,70,2026-06-07 05:00:00,2026-06-11 12:00:00,Low,Feature Request,4,resolved
+255,70,2025-10-22 09:00:00,,Low,Bug Report,,open
+256,70,2026-02-27 17:00:00,,Medium,Billing,,open
+257,71,2025-12-08 22:00:00,2025-12-13 11:00:00,Low,Billing,1,resolved
+258,71,2026-04-22 20:00:00,2026-04-24 03:00:00,Low,Performance,5,resolved
+259,71,2026-01-07 20:00:00,2026-01-07 21:00:00,High,Account Access,3,resolved
+260,71,2026-07-11 04:00:00,2026-07-12 02:00:00,High,Billing,1,resolved
+261,71,2025-11-01 19:00:00,2025-11-03 18:00:00,Medium,General Question,4,resolved
+262,72,2026-01-11 13:00:00,,High,General Question,,open
+263,72,2024-05-03 11:00:00,,High,Performance,,open
+264,72,2025-01-18 09:00:00,2025-01-21 06:00:00,Low,General Question,2,resolved
+265,73,2024-10-29 02:00:00,2024-10-29 05:00:00,High,Bug Report,2,resolved
+266,73,2025-05-05 01:00:00,2025-05-07 10:00:00,Medium,General Question,3,resolved
+267,73,2024-12-05 22:00:00,2024-12-06 20:00:00,High,Account Access,1,resolved
+268,73,2025-01-24 10:00:00,,Medium,General Question,,open
+269,73,2025-03-26 12:00:00,2025-03-30 05:00:00,Low,General Question,3,resolved
+270,73,2025-03-09 03:00:00,2025-03-11 04:00:00,Medium,Onboarding,4,resolved
+271,74,2025-03-25 21:00:00,2025-03-27 11:00:00,Medium,Performance,1,resolved
+272,74,2025-01-17 07:00:00,2025-01-24 03:00:00,Low,Account Access,3,resolved
+273,74,2023-05-17 17:00:00,,Low,Account Access,,open
+274,74,2025-06-09 09:00:00,2025-06-11 14:00:00,Medium,Onboarding,1,resolved
+275,74,2023-06-12 13:00:00,2023-06-15 20:00:00,Low,Integration,5,resolved
+276,74,2026-01-01 06:00:00,2026-01-02 21:00:00,Low,Bug Report,5,resolved
+277,74,2024-12-16 12:00:00,,Medium,Performance,,open
+278,74,2025-05-28 08:00:00,2025-05-30 02:00:00,Low,Feature Request,3,resolved
+279,77,2025-05-23 06:00:00,2025-05-24 01:00:00,Medium,Bug Report,2,resolved
+280,77,2025-09-28 10:00:00,2025-09-29 08:00:00,High,Performance,3,resolved
+281,78,2026-03-31 15:00:00,2026-04-03 00:00:00,Low,Account Access,2,resolved
+282,79,2026-06-19 15:00:00,2026-06-21 19:00:00,Medium,General Question,2,resolved
+283,79,2025-12-04 05:00:00,2025-12-05 00:00:00,High,Account Access,5,resolved
+284,79,2025-12-16 16:00:00,2025-12-19 02:00:00,Medium,Billing,4,resolved
+285,79,2025-12-27 18:00:00,2025-12-29 22:00:00,Medium,Onboarding,2,resolved
+286,80,2025-02-28 10:00:00,2025-03-02 04:00:00,Medium,Performance,1,resolved
+287,80,2024-09-10 15:00:00,2024-09-14 08:00:00,Low,General Question,1,resolved
+288,80,2026-06-08 07:00:00,2026-06-09 03:00:00,Low,Feature Request,2,resolved
+289,80,2023-11-27 20:00:00,2023-11-28 06:00:00,High,Bug Report,2,resolved
+290,80,2024-09-10 08:00:00,,Low,Feature Request,,open
+291,80,2026-01-07 00:00:00,2026-01-07 10:00:00,High,General Question,4,resolved
+292,80,2026-04-06 09:00:00,2026-04-06 21:00:00,Medium,Account Access,2,resolved
+293,80,2025-08-01 19:00:00,2025-08-07 19:00:00,Low,Feature Request,5,resolved
+294,81,2026-04-01 20:00:00,2026-04-02 06:00:00,Medium,Bug Report,4,resolved
+295,81,2026-05-25 22:00:00,2026-05-27 11:00:00,Medium,Billing,1,resolved
+296,81,2026-01-12 01:00:00,2026-01-15 18:00:00,Low,General Question,2,resolved
+297,81,2025-12-24 02:00:00,2025-12-25 21:00:00,Medium,Bug Report,1,resolved
+298,81,2026-04-26 18:00:00,2026-04-30 21:00:00,Low,Bug Report,5,resolved
+299,81,2026-05-07 10:00:00,2026-05-07 12:00:00,High,Feature Request,3,resolved
+300,81,2025-12-31 16:00:00,2025-12-31 18:00:00,Urgent,Account Access,2,resolved
+301,81,2026-04-26 23:00:00,2026-04-29 03:00:00,Low,Bug Report,5,resolved
+302,82,2026-03-02 18:00:00,2026-03-05 10:00:00,Medium,Performance,2,resolved
+303,83,2024-05-15 13:00:00,2024-05-21 12:00:00,Low,General Question,4,resolved
+304,83,2024-12-15 09:00:00,2024-12-16 00:00:00,Medium,Account Access,2,resolved
+305,83,2023-11-07 08:00:00,2023-11-10 01:00:00,Medium,Feature Request,2,resolved
+306,83,2026-05-15 00:00:00,,Medium,Onboarding,,open
+307,83,2025-09-09 01:00:00,2025-09-09 22:00:00,High,Onboarding,3,resolved
+308,83,2025-06-21 08:00:00,2025-06-27 11:00:00,Low,Performance,4,resolved
+309,83,2025-09-19 22:00:00,,Medium,Feature Request,,open
+310,83,2026-06-20 01:00:00,2026-06-20 12:00:00,High,General Question,4,resolved
+311,84,2026-04-06 21:00:00,2026-04-08 19:00:00,Medium,Integration,5,resolved
+312,84,2025-10-06 03:00:00,2025-10-08 21:00:00,Medium,Billing,3,resolved
+313,85,2025-07-03 02:00:00,2025-07-03 12:00:00,Medium,Performance,3,resolved
+314,85,2026-06-18 06:00:00,2026-06-20 09:00:00,Medium,Account Access,4,resolved
+315,85,2026-02-09 01:00:00,2026-02-15 17:00:00,Low,Bug Report,1,resolved
+316,86,2025-01-06 15:00:00,2025-01-09 02:00:00,Medium,General Question,3,resolved
+317,86,2024-12-07 22:00:00,2024-12-08 05:00:00,Medium,Onboarding,3,resolved
+318,86,2025-08-23 18:00:00,2025-08-28 09:00:00,Low,Onboarding,3,resolved
+319,86,2025-01-25 05:00:00,2025-01-28 09:00:00,Low,Billing,5,resolved
+320,86,2026-05-01 14:00:00,2026-05-02 17:00:00,Medium,Onboarding,2,resolved
+321,86,2025-10-26 06:00:00,2025-10-26 14:00:00,High,Integration,4,resolved
+322,86,2025-06-19 22:00:00,2025-06-20 06:00:00,High,Onboarding,5,resolved
+323,86,2025-02-19 14:00:00,2025-02-22 16:00:00,Low,Bug Report,5,resolved
+324,88,2026-05-25 20:00:00,2026-05-26 11:00:00,High,Performance,3,resolved
+325,89,2024-08-22 03:00:00,2024-08-24 05:00:00,Medium,Account Access,2,resolved
+326,89,2023-11-16 09:00:00,2023-11-17 08:00:00,Medium,Onboarding,4,resolved
+327,89,2023-11-05 19:00:00,2023-11-08 03:00:00,Medium,Account Access,1,resolved
+328,89,2025-08-03 14:00:00,,High,Account Access,,open
+329,89,2025-04-25 04:00:00,2025-04-28 07:00:00,Low,Feature Request,3,resolved
+330,90,2024-08-01 14:00:00,2024-08-06 00:00:00,Low,Account Access,5,resolved
+331,90,2026-01-10 15:00:00,2026-01-11 05:00:00,Medium,Onboarding,5,resolved
+332,90,2024-09-10 22:00:00,2024-09-14 22:00:00,Low,Bug Report,5,resolved
+333,91,2025-03-12 04:00:00,2025-03-13 03:00:00,Medium,Integration,2,resolved
+334,91,2024-09-19 22:00:00,2024-09-22 11:00:00,Medium,Bug Report,2,resolved
+335,91,2026-05-22 16:00:00,2026-05-28 15:00:00,Low,Integration,3,resolved
+336,91,2025-06-30 21:00:00,2025-07-06 10:00:00,Low,Onboarding,1,resolved
+337,91,2025-05-30 21:00:00,2025-05-31 16:00:00,Medium,General Question,4,resolved
+338,91,2024-12-16 16:00:00,2024-12-19 22:00:00,Low,Bug Report,2,resolved
+339,91,2026-03-16 23:00:00,2026-03-19 20:00:00,Medium,Bug Report,4,resolved
+340,92,2026-06-27 19:00:00,2026-06-29 00:00:00,Medium,General Question,5,resolved
+341,92,2025-06-07 17:00:00,,Low,Onboarding,,open
+342,92,2026-07-06 03:00:00,2026-07-09 12:00:00,Low,Performance,1,resolved
+343,92,2025-01-21 14:00:00,2025-01-21 22:00:00,High,Billing,5,resolved
+344,92,2025-07-04 08:00:00,2025-07-06 21:00:00,Low,Integration,3,resolved
+345,92,2025-07-09 22:00:00,2025-07-13 23:00:00,Low,Account Access,3,resolved
+346,92,2025-04-08 04:00:00,2025-04-08 15:00:00,High,Bug Report,3,resolved
+347,93,2025-07-12 12:00:00,2025-07-17 11:00:00,Low,Account Access,5,resolved
+348,93,2026-04-26 02:00:00,2026-04-27 08:00:00,Low,Feature Request,2,resolved
+349,93,2025-04-24 04:00:00,2025-04-24 23:00:00,High,Feature Request,2,resolved
+350,93,2025-03-26 16:00:00,2025-03-31 08:00:00,Low,Performance,1,resolved
+351,93,2024-06-07 05:00:00,2024-06-07 16:00:00,Low,Account Access,2,resolved
+352,93,2024-08-21 15:00:00,,Medium,Onboarding,,open
+353,94,2025-05-08 18:00:00,2025-05-09 04:00:00,High,General Question,4,resolved
+354,94,2026-03-16 08:00:00,2026-03-17 01:00:00,Medium,Billing,4,resolved
+355,94,2026-04-08 00:00:00,2026-04-11 09:00:00,Low,Account Access,3,resolved
+356,94,2025-10-08 14:00:00,2025-10-08 15:00:00,High,Performance,1,resolved
+357,94,2026-01-19 15:00:00,2026-01-20 10:00:00,High,Feature Request,2,resolved
+358,94,2024-03-30 10:00:00,2024-04-04 07:00:00,Low,Feature Request,1,resolved
+359,94,2024-06-08 08:00:00,2024-06-08 18:00:00,High,Integration,3,resolved
+360,95,2026-06-01 19:00:00,,High,Feature Request,,open
+361,95,2026-06-01 09:00:00,,Medium,Bug Report,,open
+362,95,2026-07-03 18:00:00,2026-07-03 20:00:00,High,Integration,1,resolved
+363,95,2026-05-25 08:00:00,2026-05-31 10:00:00,Low,Billing,1,resolved
+364,96,2026-04-24 07:00:00,2026-04-27 08:00:00,Low,Account Access,5,resolved
+365,97,2026-06-23 20:00:00,2026-06-25 18:00:00,Medium,Onboarding,1,resolved
+366,97,2026-05-18 18:00:00,,Low,Account Access,,open
+367,97,2026-06-19 20:00:00,2026-06-19 23:00:00,Urgent,Onboarding,5,resolved
+368,98,2026-07-04 01:00:00,2026-07-06 21:00:00,Low,Feature Request,3,resolved
+369,98,2026-05-03 17:00:00,2026-05-08 08:00:00,Low,Bug Report,3,resolved
+370,98,2026-03-21 02:00:00,,High,Integration,,open
+371,98,2026-06-10 05:00:00,2026-06-10 18:00:00,Medium,Integration,2,resolved
+372,99,2026-01-28 14:00:00,2026-01-30 03:00:00,Low,Billing,1,resolved
+373,99,2026-05-19 12:00:00,,Medium,Feature Request,,open
+374,99,2026-01-26 14:00:00,2026-01-28 07:00:00,Medium,Integration,4,resolved
+375,99,2026-06-07 18:00:00,2026-06-11 19:00:00,Low,Onboarding,2,resolved
+376,99,2026-02-11 14:00:00,,Low,Billing,,open
+377,100,2025-03-28 16:00:00,2025-03-29 14:00:00,High,Integration,4,resolved
+378,100,2025-02-06 19:00:00,2025-02-08 23:00:00,Medium,Billing,2,resolved
+379,100,2025-05-11 17:00:00,2025-05-18 01:00:00,Low,Account Access,5,resolved
+380,100,2026-06-03 04:00:00,2026-06-03 07:00:00,Urgent,Onboarding,2,resolved
+381,101,2026-04-05 16:00:00,2026-04-07 19:00:00,Medium,Onboarding,2,resolved
+382,101,2026-07-06 05:00:00,,Low,General Question,,open
+383,101,2026-03-03 07:00:00,2026-03-07 13:00:00,Low,Billing,1,resolved
+384,101,2026-01-20 17:00:00,2026-01-25 04:00:00,Low,General Question,1,resolved
+385,101,2025-12-30 15:00:00,2025-12-30 17:00:00,Urgent,Bug Report,5,resolved
+386,103,2023-09-20 21:00:00,,High,Onboarding,,open
+387,103,2024-06-15 13:00:00,2024-06-17 11:00:00,Medium,Feature Request,5,resolved
+388,104,2026-03-24 04:00:00,2026-03-30 08:00:00,Low,General Question,3,resolved
+389,104,2025-03-24 07:00:00,2025-03-24 09:00:00,Urgent,Onboarding,1,resolved
+390,104,2026-03-05 21:00:00,2026-03-06 18:00:00,High,General Question,3,resolved
+391,104,2026-03-08 21:00:00,2026-03-15 01:00:00,Low,Feature Request,4,resolved
+392,105,2026-02-09 17:00:00,,Urgent,Account Access,,open
+393,105,2026-05-20 16:00:00,2026-05-23 01:00:00,Medium,Account Access,5,resolved
+394,105,2026-01-05 21:00:00,2026-01-05 23:00:00,Medium,Billing,4,resolved
+395,106,2025-11-22 16:00:00,2025-11-23 06:00:00,Low,Account Access,3,resolved
+396,106,2026-01-10 03:00:00,,High,Account Access,,open
+397,106,2025-11-05 20:00:00,2025-11-07 08:00:00,Medium,Bug Report,3,resolved
+398,107,2025-06-17 08:00:00,2025-06-23 08:00:00,Low,Bug Report,3,resolved
+399,107,2025-08-01 11:00:00,,Medium,Bug Report,,open
+400,107,2026-02-08 23:00:00,2026-02-13 22:00:00,Low,Feature Request,1,resolved
+401,107,2026-01-23 20:00:00,2026-01-29 13:00:00,Low,General Question,5,resolved
+402,108,2026-05-14 17:00:00,2026-05-14 18:00:00,High,Feature Request,2,resolved
+403,109,2026-06-12 22:00:00,2026-06-13 07:00:00,Medium,General Question,3,resolved
+404,109,2025-06-08 21:00:00,2025-06-09 18:00:00,Low,Integration,2,resolved
+405,110,2026-03-22 10:00:00,,Low,Account Access,,open
+406,110,2025-07-04 09:00:00,2025-07-07 18:00:00,Low,General Question,4,resolved
+407,110,2024-08-13 17:00:00,,Low,Feature Request,,open
+408,110,2025-11-05 20:00:00,2025-11-06 07:00:00,High,Billing,3,resolved
+409,110,2026-05-31 21:00:00,2026-05-31 22:00:00,Medium,Performance,5,resolved
+410,110,2025-03-22 03:00:00,2025-03-24 13:00:00,Low,Account Access,5,resolved
+411,110,2024-12-09 22:00:00,2024-12-12 22:00:00,Low,Performance,4,resolved
+412,110,2024-09-11 21:00:00,,Medium,Bug Report,,open
+413,111,2026-04-20 00:00:00,2026-04-20 15:00:00,Medium,Billing,5,resolved
+414,111,2025-07-13 18:00:00,2025-07-18 12:00:00,Low,Billing,2,resolved
+415,111,2026-07-03 09:00:00,,Low,Billing,,open
+416,111,2024-10-22 21:00:00,2024-10-27 23:00:00,Low,Performance,1,resolved
+417,111,2026-04-14 17:00:00,,Low,Bug Report,,open
+418,112,2026-07-10 17:00:00,,Low,General Question,,open
+419,113,2023-02-20 21:00:00,2023-02-23 20:00:00,Low,Feature Request,3,resolved
+420,113,2025-12-12 11:00:00,2025-12-18 15:00:00,Low,Onboarding,2,resolved
+421,113,2025-05-16 19:00:00,2025-05-21 02:00:00,Low,General Question,4,resolved
+422,113,2023-04-30 02:00:00,2023-04-30 08:00:00,Low,Account Access,5,resolved
+423,114,2024-01-02 14:00:00,2024-01-03 21:00:00,Low,Account Access,4,resolved
+424,114,2025-09-24 03:00:00,2025-09-25 07:00:00,Medium,Onboarding,3,resolved
+425,115,2026-02-09 19:00:00,2026-02-11 16:00:00,Medium,Account Access,2,resolved
+426,115,2025-09-20 03:00:00,2025-09-20 20:00:00,High,General Question,4,resolved
+427,115,2026-02-02 09:00:00,2026-02-03 07:00:00,Low,Onboarding,2,resolved
+428,115,2026-02-02 07:00:00,2026-02-03 02:00:00,Medium,Bug Report,2,resolved
+429,115,2026-03-10 02:00:00,2026-03-10 17:00:00,High,Integration,5,resolved
+430,115,2025-10-24 05:00:00,2025-10-26 19:00:00,Medium,Bug Report,1,resolved
+431,115,2025-10-21 10:00:00,2025-10-26 00:00:00,Low,Performance,3,resolved
+432,117,2025-02-09 17:00:00,2025-02-14 17:00:00,Low,Onboarding,2,resolved
+433,117,2025-06-27 08:00:00,2025-06-27 21:00:00,High,Onboarding,5,resolved
+434,118,2026-05-05 04:00:00,2026-05-06 01:00:00,Medium,Feature Request,3,resolved
+435,118,2026-07-08 02:00:00,2026-07-08 09:00:00,Low,Onboarding,1,resolved
+436,120,2026-05-24 05:00:00,2026-05-24 06:00:00,Urgent,Feature Request,3,resolved
+437,120,2026-05-10 04:00:00,2026-05-10 05:00:00,Medium,Bug Report,5,resolved
+438,120,2026-03-25 23:00:00,,Low,Account Access,,open
+439,120,2026-06-29 16:00:00,2026-06-30 09:00:00,Low,Account Access,3,resolved
+440,120,2026-04-16 23:00:00,2026-04-21 15:00:00,Low,Bug Report,3,resolved
+441,120,2026-04-24 08:00:00,,Medium,Performance,,open
+442,120,2026-05-30 03:00:00,2026-06-02 00:00:00,Medium,Performance,3,resolved
+443,121,2026-07-11 11:00:00,2026-07-12 14:00:00,Medium,Feature Request,1,resolved
+444,121,2026-07-09 11:00:00,2026-07-10 14:00:00,Low,Billing,1,resolved
+445,121,2026-07-12 13:00:00,,Low,Billing,,open
+446,121,2026-07-08 12:00:00,2026-07-08 22:00:00,High,Feature Request,2,resolved
+447,121,2026-07-06 16:00:00,2026-07-10 18:00:00,Low,Onboarding,2,resolved
+448,121,2026-07-11 16:00:00,2026-07-12 15:00:00,High,Performance,3,resolved
+449,121,2026-07-08 11:00:00,,Low,Integration,,open
+450,122,2026-05-25 05:00:00,2026-05-27 12:00:00,Low,Feature Request,1,resolved
+451,122,2026-02-22 07:00:00,2026-02-22 08:00:00,Urgent,Integration,4,resolved
+452,123,2026-03-31 03:00:00,2026-04-05 11:00:00,Low,Billing,1,resolved
+453,123,2025-06-24 12:00:00,2025-06-25 03:00:00,High,Account Access,3,resolved
+454,123,2025-07-12 14:00:00,2025-07-14 08:00:00,Low,Feature Request,1,resolved
+455,123,2023-08-29 22:00:00,2023-08-31 02:00:00,Low,Account Access,3,resolved
+456,123,2026-06-03 13:00:00,2026-06-03 19:00:00,Low,Onboarding,3,resolved
+457,123,2025-03-22 16:00:00,2025-03-28 15:00:00,Low,Billing,1,resolved
+458,124,2024-11-05 07:00:00,2024-11-08 03:00:00,Medium,Feature Request,5,resolved
+459,124,2024-07-17 12:00:00,2024-07-18 01:00:00,Medium,Bug Report,3,resolved
+460,124,2024-12-28 04:00:00,2024-12-29 08:00:00,Medium,Bug Report,3,resolved
+461,124,2026-03-03 17:00:00,,Low,Integration,,open
+462,124,2025-05-23 01:00:00,,Medium,General Question,,open
+463,124,2024-08-31 04:00:00,2024-08-31 19:00:00,Medium,Onboarding,5,resolved
+464,124,2024-07-27 02:00:00,2024-07-27 09:00:00,Low,Integration,4,resolved
+465,124,2024-08-26 14:00:00,2024-08-26 17:00:00,Urgent,Onboarding,4,resolved
+466,125,2025-05-21 08:00:00,2025-05-26 14:00:00,Low,Onboarding,1,resolved
+467,126,2023-06-10 07:00:00,2023-06-11 22:00:00,Low,Performance,5,resolved
+468,127,2025-02-14 09:00:00,2025-02-14 22:00:00,Medium,General Question,3,resolved
+469,127,2025-10-12 16:00:00,2025-10-13 16:00:00,High,General Question,2,resolved
+470,127,2024-03-29 13:00:00,2024-03-30 03:00:00,High,Account Access,4,resolved
+471,127,2025-09-12 20:00:00,2025-09-19 16:00:00,Low,Bug Report,3,resolved
+472,127,2024-11-30 21:00:00,2024-12-02 01:00:00,Medium,Bug Report,2,resolved
+473,127,2025-07-10 02:00:00,,High,Billing,,open
+474,127,2025-01-11 11:00:00,2025-01-11 12:00:00,Low,Onboarding,4,resolved
+475,128,2025-11-17 08:00:00,2025-11-23 07:00:00,Low,Onboarding,4,resolved
+476,128,2026-04-01 02:00:00,2026-04-07 12:00:00,Low,Integration,4,resolved
+477,128,2026-05-30 12:00:00,2026-06-04 07:00:00,Low,Bug Report,2,resolved
+478,128,2026-04-12 07:00:00,2026-04-12 08:00:00,High,Billing,5,resolved
+479,128,2025-06-24 22:00:00,2025-06-25 05:00:00,High,Account Access,1,resolved
+480,128,2025-08-13 11:00:00,2025-08-15 23:00:00,Medium,Billing,1,resolved
+481,129,2023-07-03 01:00:00,2023-07-03 20:00:00,Low,Bug Report,5,resolved
+482,129,2025-10-11 12:00:00,2025-10-15 01:00:00,Low,Account Access,5,resolved
+483,129,2024-05-06 01:00:00,,Medium,Bug Report,,open
+484,129,2023-07-09 17:00:00,2023-07-11 19:00:00,Medium,Feature Request,5,resolved
+485,129,2024-08-28 22:00:00,2024-08-29 06:00:00,Medium,General Question,4,resolved
+486,129,2025-10-09 16:00:00,2025-10-15 11:00:00,Low,Feature Request,2,resolved
+487,130,2025-08-28 09:00:00,2025-08-29 15:00:00,Medium,Bug Report,5,resolved
+488,130,2026-06-20 08:00:00,,High,Bug Report,,open
+489,130,2026-02-03 12:00:00,,High,Feature Request,,open
+490,130,2025-12-15 06:00:00,2025-12-15 10:00:00,Urgent,Account Access,5,resolved
+491,130,2025-12-07 22:00:00,2025-12-14 16:00:00,Low,Integration,3,resolved
+492,131,2026-04-02 11:00:00,2026-04-03 20:00:00,Low,Performance,4,resolved
+493,131,2026-03-04 07:00:00,2026-03-05 15:00:00,Medium,Account Access,2,resolved
+494,131,2025-12-04 11:00:00,2025-12-07 07:00:00,Low,Performance,2,resolved
+495,131,2025-12-28 23:00:00,2025-12-29 16:00:00,High,Integration,4,resolved
+496,131,2026-02-17 00:00:00,2026-02-23 04:00:00,Low,Integration,5,resolved
+497,131,2026-03-28 09:00:00,2026-04-01 16:00:00,Low,Integration,3,resolved
+498,132,2024-05-11 22:00:00,2024-05-17 13:00:00,Low,Feature Request,3,resolved
+499,133,2026-01-14 21:00:00,2026-01-18 13:00:00,Low,Integration,2,resolved
+500,133,2026-03-03 07:00:00,2026-03-03 08:00:00,Urgent,Feature Request,4,resolved
+501,133,2025-08-25 15:00:00,2025-08-28 06:00:00,Medium,General Question,2,resolved
+502,134,2026-04-28 11:00:00,2026-05-03 15:00:00,Low,Integration,2,resolved
+503,134,2025-10-16 09:00:00,,Medium,Billing,,open
+504,134,2025-06-23 02:00:00,2025-06-24 23:00:00,Medium,Performance,1,resolved
+505,134,2026-07-05 02:00:00,2026-07-07 14:00:00,Low,Onboarding,4,resolved
+506,135,2025-08-06 07:00:00,2025-08-06 22:00:00,High,Performance,2,resolved
+507,136,2024-11-25 17:00:00,,High,Integration,,open
+508,136,2025-05-03 21:00:00,2025-05-10 20:00:00,Low,Account Access,5,resolved
+509,137,2025-01-04 05:00:00,,Medium,Performance,,open
+510,137,2025-07-06 01:00:00,2025-07-06 17:00:00,High,Integration,4,resolved
+511,137,2026-04-02 09:00:00,2026-04-03 13:00:00,Medium,Billing,3,resolved
+512,137,2024-03-15 13:00:00,2024-03-21 03:00:00,Low,General Question,4,resolved
+513,138,2026-06-12 04:00:00,2026-06-12 18:00:00,High,Bug Report,1,resolved
+514,138,2026-04-27 08:00:00,,Low,Billing,,open
+515,138,2026-04-26 08:00:00,2026-04-27 08:00:00,Medium,Billing,5,resolved
+516,138,2025-11-20 14:00:00,2025-11-25 23:00:00,Low,Account Access,2,resolved
+517,138,2026-06-25 00:00:00,2026-06-25 12:00:00,Low,Onboarding,5,resolved
+518,138,2026-04-07 19:00:00,2026-04-09 17:00:00,Low,Performance,1,resolved
+519,139,2026-07-10 01:00:00,2026-07-12 04:00:00,Medium,Account Access,5,resolved
+520,139,2026-06-05 15:00:00,2026-06-06 21:00:00,Medium,Billing,1,resolved
+521,139,2026-06-19 20:00:00,2026-06-20 04:00:00,Medium,Feature Request,1,resolved
+522,139,2026-07-04 12:00:00,2026-07-05 12:00:00,High,Feature Request,3,resolved
+523,139,2026-05-29 02:00:00,2026-05-31 02:00:00,Medium,Performance,5,resolved
+524,140,2024-12-16 14:00:00,2024-12-19 05:00:00,Medium,Integration,4,resolved
+525,140,2025-06-21 03:00:00,,Low,Integration,,open
+526,140,2026-06-07 16:00:00,2026-06-13 08:00:00,Low,Onboarding,2,resolved
+527,140,2025-10-16 07:00:00,2025-10-16 22:00:00,Low,Performance,4,resolved
+528,140,2026-05-16 21:00:00,2026-05-17 18:00:00,High,Feature Request,2,resolved
+529,140,2025-08-21 23:00:00,,Low,Integration,,open
+530,141,2026-05-21 06:00:00,2026-05-21 07:00:00,High,General Question,3,resolved
+531,141,2026-04-13 03:00:00,2026-04-13 14:00:00,High,Feature Request,2,resolved
+532,141,2026-01-29 19:00:00,2026-01-30 04:00:00,Medium,Onboarding,5,resolved
+533,141,2025-11-16 15:00:00,2025-11-19 00:00:00,Low,Account Access,3,resolved
+534,141,2025-12-09 09:00:00,2025-12-09 12:00:00,Urgent,Bug Report,4,resolved
+535,141,2026-02-16 17:00:00,2026-02-17 03:00:00,Low,Billing,1,resolved
+536,142,2026-07-10 09:00:00,2026-07-10 13:00:00,Urgent,Bug Report,4,resolved
+537,143,2026-05-11 12:00:00,,Low,Bug Report,,open
+538,143,2026-03-12 10:00:00,,Urgent,Account Access,,open
+539,143,2026-05-18 05:00:00,2026-05-20 07:00:00,Medium,General Question,1,resolved
+540,144,2026-05-29 04:00:00,2026-05-31 19:00:00,Medium,Onboarding,1,resolved
+541,144,2025-12-08 00:00:00,2025-12-09 15:00:00,Medium,Bug Report,2,resolved
+542,145,2026-05-17 04:00:00,2026-05-18 04:00:00,High,Feature Request,1,resolved
+543,145,2025-04-18 10:00:00,,Low,Account Access,,open
+544,145,2024-07-02 20:00:00,2024-07-03 13:00:00,Medium,Billing,4,resolved
+545,145,2026-02-24 01:00:00,,Medium,Integration,,open
+546,145,2025-03-25 11:00:00,2025-03-25 23:00:00,High,Integration,3,resolved
+547,145,2025-02-19 03:00:00,2025-02-20 17:00:00,Medium,Billing,5,resolved
+548,145,2025-06-08 21:00:00,2025-06-13 18:00:00,Low,Onboarding,4,resolved
+549,146,2026-03-27 14:00:00,2026-03-28 23:00:00,Medium,Performance,3,resolved
+550,146,2026-06-04 06:00:00,2026-06-08 20:00:00,Low,Feature Request,3,resolved
+551,146,2025-06-01 05:00:00,2025-06-04 17:00:00,Low,Onboarding,4,resolved
+552,146,2026-04-03 06:00:00,2026-04-04 16:00:00,Medium,Account Access,4,resolved
+553,146,2025-07-04 02:00:00,2025-07-04 20:00:00,Medium,Account Access,5,resolved
+554,146,2024-12-09 08:00:00,2024-12-10 06:00:00,Medium,Account Access,4,resolved
+555,146,2025-04-16 13:00:00,2025-04-17 09:00:00,High,Bug Report,3,resolved
+556,146,2024-11-29 05:00:00,2024-12-03 21:00:00,Low,Account Access,1,resolved
+557,147,2026-04-14 12:00:00,2026-04-20 05:00:00,Low,Performance,5,resolved
+558,147,2026-04-05 23:00:00,2026-04-06 07:00:00,High,Onboarding,5,resolved
+559,147,2026-03-12 08:00:00,2026-03-13 04:00:00,High,Integration,1,resolved
+560,147,2026-06-14 00:00:00,2026-06-20 04:00:00,Low,Onboarding,5,resolved
+561,148,2026-02-11 11:00:00,2026-02-11 13:00:00,Low,Onboarding,1,resolved
+562,148,2023-12-16 19:00:00,2023-12-18 16:00:00,Medium,Billing,4,resolved
+563,150,2026-02-22 17:00:00,2026-02-23 02:00:00,Low,Billing,2,resolved
+564,150,2024-01-01 05:00:00,2024-01-01 09:00:00,Urgent,Billing,2,resolved
+565,151,2026-05-14 13:00:00,2026-05-15 11:00:00,Medium,Account Access,1,resolved
+566,151,2026-05-11 08:00:00,2026-05-12 03:00:00,High,Account Access,3,resolved
+567,151,2026-05-23 20:00:00,2026-05-27 05:00:00,Low,Onboarding,5,resolved
+568,151,2026-06-25 13:00:00,2026-06-26 01:00:00,High,Feature Request,5,resolved
+569,151,2026-06-24 07:00:00,2026-06-30 21:00:00,Low,Integration,3,resolved
+570,151,2026-06-03 00:00:00,2026-06-04 08:00:00,Low,Billing,5,resolved
+571,152,2023-08-12 03:00:00,2023-08-13 03:00:00,Low,Billing,5,resolved
+572,152,2024-07-01 07:00:00,2024-07-01 21:00:00,Medium,Account Access,1,resolved
+573,152,2025-01-29 17:00:00,2025-01-29 19:00:00,High,Feature Request,3,resolved
+574,152,2023-04-25 13:00:00,2023-04-25 17:00:00,Urgent,Onboarding,2,resolved
+575,152,2023-12-04 14:00:00,2023-12-06 11:00:00,Low,Bug Report,1,resolved
+576,152,2024-10-10 15:00:00,2024-10-11 07:00:00,High,Integration,3,resolved
+577,152,2023-11-19 23:00:00,2023-11-22 05:00:00,Medium,Integration,2,resolved
+578,152,2026-02-25 11:00:00,2026-02-25 12:00:00,High,Feature Request,4,resolved
+579,153,2026-02-23 19:00:00,2026-02-23 23:00:00,Urgent,Performance,2,resolved
+580,153,2025-06-25 23:00:00,,Medium,Feature Request,,open
+581,153,2025-11-25 16:00:00,2025-11-28 12:00:00,Medium,Bug Report,4,resolved
+582,154,2025-06-10 06:00:00,2025-06-11 06:00:00,Low,Onboarding,5,resolved
+583,154,2025-02-06 14:00:00,,Medium,Integration,,open
+584,154,2026-03-23 17:00:00,2026-03-24 07:00:00,High,Account Access,1,resolved
+585,154,2025-08-09 06:00:00,2025-08-10 15:00:00,Medium,Performance,5,resolved
+586,154,2026-03-22 22:00:00,2026-03-24 21:00:00,Medium,Performance,2,resolved
+587,155,2025-10-06 07:00:00,2025-10-07 06:00:00,High,Feature Request,3,resolved
+588,156,2025-08-02 00:00:00,2025-08-03 02:00:00,Medium,Account Access,1,resolved
+589,156,2026-03-26 10:00:00,2026-03-28 11:00:00,Low,Onboarding,4,resolved
+590,156,2026-05-17 09:00:00,2026-05-19 15:00:00,Low,General Question,5,resolved
+591,157,2026-07-12 04:00:00,2026-07-12 09:00:00,High,Account Access,1,resolved
+592,157,2026-07-09 13:00:00,,Low,Integration,,open
+593,157,2026-07-09 15:00:00,2026-07-12 21:00:00,Low,Performance,2,resolved
+594,157,2026-07-12 02:00:00,,Low,Onboarding,,open
+595,158,2025-02-03 07:00:00,2025-02-05 18:00:00,Medium,Performance,2,resolved
+596,158,2026-04-18 06:00:00,,Low,Integration,,open
+597,158,2023-12-24 23:00:00,,Low,Billing,,open
+598,158,2026-03-23 15:00:00,2026-03-26 15:00:00,Medium,Feature Request,4,resolved
+599,158,2023-11-02 02:00:00,2023-11-06 14:00:00,Low,Billing,2,resolved
+600,158,2024-02-13 22:00:00,2024-02-16 17:00:00,Low,Account Access,1,resolved
+601,159,2024-11-08 17:00:00,2024-11-12 18:00:00,Low,General Question,5,resolved
+602,159,2026-06-24 18:00:00,2026-06-27 22:00:00,Low,Bug Report,2,resolved
+603,159,2024-08-11 19:00:00,2024-08-11 23:00:00,Medium,Integration,5,resolved
+604,160,2025-10-13 15:00:00,2025-10-14 04:00:00,Medium,Bug Report,5,resolved
+605,160,2025-01-04 14:00:00,2025-01-05 00:00:00,Medium,Performance,5,resolved
+606,160,2025-11-17 06:00:00,2025-11-17 09:00:00,Medium,Integration,2,resolved
+607,160,2024-09-02 16:00:00,2024-09-07 17:00:00,Low,Billing,3,resolved
+608,161,2025-10-14 19:00:00,2025-10-15 18:00:00,High,Account Access,2,resolved
+609,161,2026-06-17 15:00:00,2026-06-18 21:00:00,Medium,Performance,1,resolved
+610,161,2025-10-28 11:00:00,2025-10-30 18:00:00,Medium,Onboarding,4,resolved
+611,161,2025-07-15 19:00:00,2025-07-16 18:00:00,High,Feature Request,3,resolved
+612,161,2025-11-05 20:00:00,2025-11-06 05:00:00,Medium,Account Access,5,resolved
+613,161,2025-04-26 10:00:00,2025-05-03 01:00:00,Low,General Question,1,resolved
+614,161,2026-05-27 23:00:00,2026-06-01 13:00:00,Low,Account Access,2,resolved
+615,161,2026-02-27 00:00:00,2026-02-27 04:00:00,High,Integration,1,resolved
+616,162,2025-09-15 06:00:00,2025-09-17 22:00:00,Medium,Account Access,3,resolved
+617,162,2025-03-31 01:00:00,2025-04-02 16:00:00,Low,Integration,5,resolved
+618,162,2025-09-05 10:00:00,2025-09-07 06:00:00,Medium,Billing,1,resolved
+619,162,2025-09-26 17:00:00,2025-09-27 03:00:00,Medium,Account Access,3,resolved
+620,162,2024-10-07 19:00:00,2024-10-08 02:00:00,Low,Bug Report,1,resolved
+621,163,2025-06-29 12:00:00,2025-06-29 17:00:00,Medium,Feature Request,1,resolved
+622,163,2025-03-29 18:00:00,2025-03-31 01:00:00,Medium,Feature Request,4,resolved
+623,164,2026-06-17 09:00:00,2026-06-20 00:00:00,Low,Account Access,5,resolved
+624,165,2025-02-06 09:00:00,2025-02-08 06:00:00,Medium,Performance,4,resolved
+625,166,2025-11-07 04:00:00,2025-11-09 01:00:00,Medium,Bug Report,3,resolved
+626,166,2025-09-09 01:00:00,,Medium,Onboarding,,open
+627,166,2025-05-25 19:00:00,2025-05-30 14:00:00,Low,Performance,2,resolved
+628,166,2025-05-14 03:00:00,2025-05-15 14:00:00,Medium,Account Access,5,resolved
+629,166,2025-12-10 13:00:00,2025-12-12 04:00:00,Low,Performance,5,resolved
+630,166,2025-03-16 12:00:00,2025-03-20 00:00:00,Low,Bug Report,4,resolved
+631,167,2026-03-03 06:00:00,2026-03-08 05:00:00,Low,Onboarding,3,resolved
+632,167,2026-06-16 12:00:00,2026-06-19 10:00:00,Medium,Integration,5,resolved
+633,167,2025-12-26 13:00:00,2025-12-31 10:00:00,Low,Billing,5,resolved
+634,167,2026-04-28 21:00:00,2026-04-29 06:00:00,Medium,Feature Request,3,resolved
+635,167,2026-05-14 08:00:00,,Medium,Bug Report,,open
+636,168,2024-02-02 15:00:00,,High,Billing,,open
+637,168,2024-06-05 09:00:00,2024-06-07 10:00:00,Low,Billing,3,resolved
+638,168,2026-07-12 19:00:00,2026-07-12 22:00:00,Urgent,Account Access,1,resolved
+639,168,2024-12-14 04:00:00,2024-12-15 01:00:00,High,Onboarding,1,resolved
+640,168,2024-05-10 03:00:00,2024-05-10 07:00:00,Medium,Feature Request,5,resolved
+641,169,2026-06-21 18:00:00,2026-06-26 16:00:00,Low,Performance,1,resolved
+642,170,2026-04-09 19:00:00,2026-04-10 01:00:00,High,General Question,3,resolved
+643,170,2025-01-23 18:00:00,2025-01-24 04:00:00,Low,Performance,2,resolved
+644,170,2025-02-01 09:00:00,2025-02-03 05:00:00,Low,Account Access,5,resolved
+645,170,2024-08-30 16:00:00,2024-08-30 17:00:00,Low,General Question,4,resolved
+646,170,2025-05-06 08:00:00,2025-05-06 17:00:00,Low,Bug Report,5,resolved
+647,170,2025-04-18 08:00:00,2025-04-19 01:00:00,Low,Onboarding,5,resolved
+648,170,2025-06-01 23:00:00,2025-06-02 14:00:00,Medium,Feature Request,4,resolved
+649,171,2026-04-05 11:00:00,2026-04-05 18:00:00,Medium,Integration,3,resolved
+650,171,2025-03-21 05:00:00,2025-03-21 17:00:00,High,Integration,5,resolved
+651,171,2024-06-05 21:00:00,2024-06-09 17:00:00,Low,Performance,5,resolved
+652,171,2026-04-29 22:00:00,2026-04-30 00:00:00,Medium,Bug Report,4,resolved
+653,171,2025-11-18 02:00:00,,Low,Performance,,open
+654,171,2025-05-03 10:00:00,2025-05-06 06:00:00,Medium,Feature Request,1,resolved
+655,171,2026-01-30 17:00:00,,Low,Onboarding,,open
+656,172,2026-05-28 01:00:00,2026-05-31 11:00:00,Low,Account Access,5,resolved
+657,172,2026-05-02 12:00:00,2026-05-02 20:00:00,Medium,Billing,4,resolved
+658,172,2026-05-07 14:00:00,2026-05-08 04:00:00,Low,Feature Request,5,resolved
+659,173,2025-07-08 23:00:00,2025-07-14 20:00:00,Low,Onboarding,1,resolved
+660,173,2025-09-29 07:00:00,2025-09-29 09:00:00,Urgent,Billing,5,resolved
+661,173,2024-07-04 02:00:00,2024-07-05 00:00:00,High,Account Access,3,resolved
+662,173,2025-05-13 04:00:00,2025-05-13 12:00:00,Medium,Performance,5,resolved
+663,174,2026-06-13 10:00:00,2026-06-19 22:00:00,Low,Integration,4,resolved
+664,174,2026-05-12 16:00:00,2026-05-12 23:00:00,Medium,Feature Request,5,resolved
+665,175,2026-06-04 11:00:00,2026-06-09 11:00:00,Low,General Question,1,resolved
+666,175,2026-05-05 01:00:00,2026-05-05 07:00:00,Medium,Feature Request,5,resolved
+667,175,2026-05-19 23:00:00,2026-05-21 05:00:00,Low,Bug Report,4,resolved
+668,175,2026-03-19 10:00:00,2026-03-19 14:00:00,Urgent,Integration,4,resolved
+669,175,2026-05-06 04:00:00,2026-05-06 16:00:00,Medium,Onboarding,3,resolved
+670,175,2026-06-08 23:00:00,2026-06-09 04:00:00,Medium,Billing,3,resolved
+671,175,2026-01-07 23:00:00,,Medium,Billing,,open
+672,175,2026-06-05 18:00:00,2026-06-08 03:00:00,Low,Performance,4,resolved
+673,176,2025-12-19 14:00:00,2025-12-20 16:00:00,Medium,Integration,1,resolved
+674,177,2025-12-02 23:00:00,2025-12-03 01:00:00,Medium,Account Access,3,resolved
+675,177,2025-09-30 22:00:00,2025-10-03 21:00:00,Medium,General Question,2,resolved
+676,177,2026-05-28 12:00:00,2026-05-31 01:00:00,Medium,Performance,1,resolved
+677,178,2026-05-03 23:00:00,2026-05-04 22:00:00,Medium,Feature Request,4,resolved
+678,179,2024-11-16 12:00:00,2024-11-19 06:00:00,Medium,Integration,4,resolved
+679,179,2026-01-12 20:00:00,2026-01-15 02:00:00,Medium,Account Access,4,resolved
+680,179,2025-09-15 01:00:00,2025-09-15 07:00:00,High,Integration,5,resolved
+681,180,2026-06-16 07:00:00,2026-06-17 03:00:00,Medium,Onboarding,3,resolved
+682,180,2026-06-23 15:00:00,,High,Feature Request,,open
+683,180,2026-05-28 12:00:00,2026-05-29 09:00:00,Medium,Integration,2,resolved
+684,180,2026-07-12 04:00:00,,Medium,Billing,,open
+685,180,2026-05-17 04:00:00,2026-05-24 00:00:00,Low,General Question,5,resolved
+686,181,2024-03-15 03:00:00,2024-03-19 18:00:00,Low,Account Access,5,resolved
+687,181,2026-03-24 17:00:00,2026-03-24 20:00:00,Low,Account Access,1,resolved
+688,181,2025-01-09 02:00:00,2025-01-10 05:00:00,Low,Performance,2,resolved
+689,181,2024-12-06 06:00:00,2024-12-12 09:00:00,Low,Billing,1,resolved
+690,181,2024-05-26 09:00:00,2024-05-27 19:00:00,Medium,Bug Report,3,resolved
+691,182,2026-06-03 12:00:00,2026-06-05 04:00:00,Medium,Account Access,1,resolved
+692,183,2023-05-20 20:00:00,2023-05-21 14:00:00,High,Onboarding,3,resolved
+693,183,2025-08-03 15:00:00,2025-08-04 08:00:00,Low,Account Access,4,resolved
+694,183,2024-08-08 05:00:00,2024-08-09 01:00:00,High,Billing,4,resolved
+695,183,2023-11-12 17:00:00,2023-11-14 23:00:00,Low,Onboarding,4,resolved
+696,183,2026-06-21 04:00:00,2026-06-24 06:00:00,Low,Feature Request,4,resolved
+697,183,2023-12-15 11:00:00,2023-12-22 07:00:00,Low,Onboarding,3,resolved
+698,184,2026-03-01 04:00:00,2026-03-04 21:00:00,Low,Feature Request,2,resolved
+699,184,2026-02-24 02:00:00,2026-02-24 13:00:00,Low,Feature Request,2,resolved
+700,184,2026-06-04 08:00:00,2026-06-09 02:00:00,Low,Onboarding,3,resolved
+701,184,2026-05-18 22:00:00,2026-05-19 08:00:00,High,Account Access,2,resolved
+702,184,2026-05-31 10:00:00,2026-06-07 04:00:00,Low,Performance,1,resolved
+703,184,2026-04-05 06:00:00,2026-04-10 03:00:00,Low,General Question,3,resolved
+704,184,2026-04-13 01:00:00,2026-04-16 11:00:00,Low,Bug Report,5,resolved
+705,186,2025-07-05 13:00:00,2025-07-09 04:00:00,Low,Feature Request,2,resolved
+706,186,2024-04-08 00:00:00,2024-04-08 06:00:00,Medium,Performance,4,resolved
+707,186,2026-03-17 08:00:00,2026-03-17 17:00:00,High,Integration,1,resolved
+708,186,2026-05-26 06:00:00,2026-05-28 15:00:00,Low,Bug Report,1,resolved
+709,186,2025-11-21 06:00:00,2025-11-21 23:00:00,Medium,Bug Report,4,resolved
+710,187,2025-11-15 12:00:00,2025-11-17 21:00:00,Medium,Account Access,2,resolved
+711,187,2026-06-03 00:00:00,2026-06-06 00:00:00,Medium,Feature Request,4,resolved
+712,189,2025-06-11 18:00:00,2025-06-13 08:00:00,Medium,Performance,2,resolved
+713,189,2026-01-09 17:00:00,2026-01-16 16:00:00,Low,Bug Report,2,resolved
+714,190,2025-03-25 13:00:00,2025-03-27 14:00:00,Medium,Bug Report,2,resolved
+715,190,2024-08-16 20:00:00,2024-08-17 01:00:00,Medium,General Question,5,resolved
+716,190,2026-03-14 11:00:00,,Low,Feature Request,,open
+717,190,2025-03-02 10:00:00,2025-03-03 06:00:00,High,Bug Report,1,resolved
+718,191,2026-05-08 11:00:00,2026-05-11 04:00:00,Low,Account Access,2,resolved
+719,192,2025-06-09 19:00:00,2025-06-11 12:00:00,Low,Bug Report,2,resolved
+720,192,2023-10-15 23:00:00,2023-10-18 07:00:00,Low,General Question,5,resolved
+721,192,2024-03-20 00:00:00,2024-03-23 00:00:00,Low,Account Access,3,resolved
+722,193,2026-01-25 16:00:00,2026-01-30 14:00:00,Low,Onboarding,1,resolved
+723,193,2026-01-07 23:00:00,2026-01-09 08:00:00,Medium,Billing,2,resolved
+724,193,2026-05-22 12:00:00,2026-05-25 02:00:00,Medium,Performance,4,resolved
+725,193,2026-01-27 23:00:00,2026-02-03 16:00:00,Low,Bug Report,3,resolved
+726,193,2026-05-16 12:00:00,,Low,Performance,,open
+727,195,2026-06-04 01:00:00,2026-06-09 14:00:00,Low,Integration,2,resolved
+728,195,2026-06-04 03:00:00,2026-06-05 00:00:00,Medium,Onboarding,2,resolved
+729,195,2026-05-24 10:00:00,2026-05-26 21:00:00,Medium,Account Access,2,resolved
+730,195,2026-07-02 02:00:00,2026-07-04 08:00:00,Low,Account Access,4,resolved
+731,197,2026-03-29 12:00:00,,Medium,Bug Report,,open
+732,197,2026-06-05 22:00:00,2026-06-06 01:00:00,Urgent,General Question,5,resolved
+733,197,2026-03-17 10:00:00,2026-03-20 04:00:00,Medium,General Question,5,resolved
+734,197,2026-07-02 00:00:00,2026-07-04 12:00:00,Medium,Account Access,4,resolved
+735,197,2026-03-20 04:00:00,2026-03-21 05:00:00,Medium,Integration,5,resolved
+736,198,2025-05-01 04:00:00,2025-05-01 06:00:00,Urgent,Bug Report,2,resolved
+737,198,2024-10-22 16:00:00,2024-10-23 14:00:00,High,Account Access,3,resolved
+738,198,2023-10-15 12:00:00,2023-10-21 08:00:00,Low,Integration,3,resolved
+739,198,2024-09-19 03:00:00,2024-09-19 05:00:00,Urgent,Integration,2,resolved
+740,198,2023-10-19 19:00:00,2023-10-19 23:00:00,Medium,Performance,4,resolved
+741,198,2024-06-25 06:00:00,2024-06-25 13:00:00,High,Onboarding,1,resolved
+742,198,2025-11-06 12:00:00,,Low,Bug Report,,open
+743,198,2023-03-22 03:00:00,2023-03-28 12:00:00,Low,Billing,1,resolved
+744,199,2025-10-13 14:00:00,,Low,Performance,,open
+745,199,2026-01-09 19:00:00,2026-01-11 04:00:00,Medium,Integration,5,resolved
+746,199,2025-10-25 20:00:00,2025-10-29 12:00:00,Low,Onboarding,1,resolved
+747,200,2026-03-31 04:00:00,,Medium,General Question,,open
+748,200,2024-04-26 11:00:00,2024-05-01 22:00:00,Low,Bug Report,5,resolved
+749,200,2025-10-15 13:00:00,2025-10-16 02:00:00,Medium,General Question,4,resolved
+750,200,2025-04-06 17:00:00,2025-04-07 16:00:00,Medium,General Question,5,resolved
+751,200,2024-07-17 20:00:00,2024-07-18 13:00:00,High,Onboarding,2,resolved
+752,200,2024-07-04 13:00:00,2024-07-09 23:00:00,Low,Integration,4,resolved
+753,200,2026-03-21 23:00:00,2026-03-22 20:00:00,Medium,Performance,4,resolved
+754,201,2024-12-13 00:00:00,2024-12-18 08:00:00,Low,Onboarding,3,resolved
+755,201,2026-02-23 21:00:00,2026-02-24 01:00:00,High,Onboarding,4,resolved
+756,201,2026-06-17 09:00:00,2026-06-18 00:00:00,High,Account Access,4,resolved
+757,202,2026-05-27 16:00:00,2026-05-28 10:00:00,Low,Performance,5,resolved
+758,202,2026-06-03 04:00:00,2026-06-03 20:00:00,Medium,Account Access,3,resolved
+759,202,2025-12-15 13:00:00,2025-12-21 09:00:00,Low,Performance,4,resolved
+760,202,2025-01-10 05:00:00,,Low,Feature Request,,open
+761,202,2025-09-14 17:00:00,,Medium,Feature Request,,open
+762,202,2026-06-21 01:00:00,,Low,Billing,,open
+763,203,2026-05-28 15:00:00,2026-05-29 09:00:00,Medium,Bug Report,3,resolved
+764,203,2024-12-18 05:00:00,,Low,Bug Report,,open
+765,203,2024-01-18 09:00:00,2024-01-19 03:00:00,High,Billing,2,resolved
+766,203,2025-10-17 00:00:00,2025-10-17 11:00:00,High,Bug Report,5,resolved
+767,203,2025-04-06 19:00:00,2025-04-06 20:00:00,Low,Bug Report,3,resolved
+768,203,2025-10-12 06:00:00,2025-10-12 16:00:00,Medium,Feature Request,4,resolved
+769,204,2026-07-10 09:00:00,,Low,Billing,,open
+770,206,2025-07-14 02:00:00,2025-07-20 13:00:00,Low,Account Access,4,resolved
+771,206,2025-01-22 02:00:00,2025-01-22 16:00:00,Low,Account Access,3,resolved
+772,206,2025-09-01 02:00:00,2025-09-01 16:00:00,Medium,General Question,3,resolved
+773,206,2026-06-18 20:00:00,2026-06-19 00:00:00,Urgent,Billing,1,resolved
+774,206,2026-05-19 22:00:00,,Low,Onboarding,,open
+775,206,2026-07-11 03:00:00,,Low,Feature Request,,open
+776,206,2026-05-26 10:00:00,2026-05-28 21:00:00,Low,Billing,1,resolved
+777,207,2026-04-25 18:00:00,2026-04-29 04:00:00,Low,Bug Report,2,resolved
+778,207,2026-04-19 05:00:00,2026-04-19 09:00:00,Urgent,General Question,4,resolved
+779,207,2026-05-08 16:00:00,2026-05-09 00:00:00,High,Feature Request,3,resolved
+780,207,2026-06-21 17:00:00,2026-06-28 05:00:00,Low,Feature Request,2,resolved
+781,208,2024-03-10 11:00:00,2024-03-12 05:00:00,Medium,Onboarding,1,resolved
+782,208,2024-02-19 23:00:00,2024-02-20 02:00:00,Urgent,Performance,4,resolved
+783,208,2026-03-06 17:00:00,2026-03-06 22:00:00,High,General Question,5,resolved
+784,208,2025-05-25 21:00:00,2025-05-28 15:00:00,Medium,General Question,3,resolved
+785,208,2025-02-09 13:00:00,2025-02-09 17:00:00,Medium,Account Access,5,resolved
+786,208,2024-08-21 10:00:00,2024-08-22 07:00:00,High,General Question,5,resolved
+787,208,2023-07-17 01:00:00,2023-07-17 22:00:00,High,Bug Report,2,resolved
+788,209,2025-06-24 06:00:00,2025-06-25 23:00:00,Medium,Account Access,5,resolved
+789,209,2024-06-02 17:00:00,,Medium,Feature Request,,open
+790,209,2024-10-13 14:00:00,2024-10-15 16:00:00,Low,Feature Request,5,resolved
+791,210,2026-01-18 03:00:00,2026-01-20 13:00:00,Medium,Feature Request,5,resolved
+792,211,2026-04-13 20:00:00,2026-04-17 22:00:00,Low,Integration,4,resolved
+793,211,2026-05-08 17:00:00,2026-05-15 01:00:00,Low,Integration,4,resolved
+794,211,2026-02-19 02:00:00,2026-02-22 03:00:00,Low,Billing,1,resolved
+795,211,2026-03-27 05:00:00,2026-03-27 07:00:00,Urgent,Feature Request,4,resolved
+796,212,2023-07-24 07:00:00,2023-07-25 20:00:00,Medium,Feature Request,4,resolved
+797,212,2024-04-21 00:00:00,2024-04-21 01:00:00,Urgent,Performance,4,resolved
+798,212,2026-03-04 21:00:00,2026-03-05 08:00:00,Medium,Billing,2,resolved
+799,212,2026-05-28 02:00:00,2026-05-28 17:00:00,High,General Question,2,resolved
+800,212,2025-04-06 14:00:00,2025-04-08 06:00:00,Medium,General Question,3,resolved
+801,213,2026-06-01 21:00:00,2026-06-01 22:00:00,Urgent,Integration,1,resolved
+802,213,2026-06-26 06:00:00,2026-06-28 15:00:00,Medium,Account Access,3,resolved
+803,213,2026-06-11 22:00:00,2026-06-12 11:00:00,Low,Onboarding,5,resolved
+804,213,2026-06-04 12:00:00,2026-06-04 20:00:00,High,Feature Request,4,resolved
+805,214,2025-12-13 03:00:00,2025-12-16 22:00:00,Low,Account Access,4,resolved
+806,214,2025-12-03 11:00:00,2025-12-03 13:00:00,Urgent,Integration,4,resolved
+807,214,2026-01-15 12:00:00,2026-01-19 15:00:00,Low,Account Access,3,resolved
+808,214,2026-04-02 22:00:00,2026-04-03 02:00:00,Medium,General Question,4,resolved
+809,214,2025-07-15 13:00:00,2025-07-16 13:00:00,Medium,Onboarding,2,resolved
+810,214,2026-02-05 12:00:00,2026-02-05 19:00:00,Medium,Feature Request,4,resolved
+811,215,2026-01-19 20:00:00,,Medium,Integration,,open
+812,215,2025-04-21 06:00:00,2025-04-21 11:00:00,Medium,Bug Report,1,resolved
+813,215,2025-08-28 07:00:00,2025-08-28 16:00:00,Medium,Feature Request,1,resolved
+814,217,2023-11-06 17:00:00,2023-11-08 06:00:00,Medium,Onboarding,1,resolved
+815,217,2025-06-17 14:00:00,2025-06-19 21:00:00,Medium,Performance,5,resolved
+816,217,2025-03-13 18:00:00,2025-03-16 00:00:00,Medium,Performance,1,resolved
+817,217,2024-06-29 06:00:00,2024-07-04 12:00:00,Low,Onboarding,2,resolved
+818,217,2025-04-02 00:00:00,,Low,Integration,,open
+819,217,2024-09-29 00:00:00,2024-10-01 08:00:00,Medium,Performance,2,resolved
+820,217,2026-03-15 06:00:00,2026-03-16 03:00:00,High,Bug Report,3,resolved
+821,217,2024-12-29 09:00:00,2025-01-01 04:00:00,Medium,Performance,4,resolved
+822,218,2025-04-12 15:00:00,2025-04-13 01:00:00,Medium,Integration,2,resolved
+823,218,2025-05-28 17:00:00,2025-05-30 15:00:00,Medium,Performance,1,resolved
+824,218,2025-03-27 15:00:00,2025-03-28 16:00:00,Medium,Bug Report,4,resolved
+825,218,2025-03-12 00:00:00,2025-03-13 13:00:00,Low,Feature Request,3,resolved
+826,218,2025-08-03 05:00:00,2025-08-08 11:00:00,Low,Feature Request,3,resolved
+827,218,2025-02-20 08:00:00,2025-02-21 23:00:00,Medium,Billing,5,resolved
+828,218,2025-03-04 10:00:00,2025-03-05 10:00:00,High,Account Access,5,resolved
+829,218,2025-01-24 13:00:00,2025-01-30 15:00:00,Low,Integration,5,resolved
+830,219,2025-02-21 05:00:00,2025-02-22 04:00:00,Low,Feature Request,2,resolved
+831,219,2026-01-02 20:00:00,2026-01-03 12:00:00,High,Billing,5,resolved
+832,219,2025-05-25 18:00:00,2025-05-27 17:00:00,Medium,Onboarding,5,resolved
+833,219,2025-02-24 23:00:00,2025-02-25 21:00:00,Medium,Bug Report,1,resolved
+834,219,2026-04-10 05:00:00,2026-04-10 13:00:00,Medium,Account Access,4,resolved
+835,220,2026-06-02 08:00:00,2026-06-02 16:00:00,High,Integration,5,resolved
+836,220,2026-06-18 11:00:00,2026-06-20 11:00:00,Medium,Performance,2,resolved
+837,220,2026-01-05 14:00:00,2026-01-06 04:00:00,High,Bug Report,1,resolved
+838,220,2026-02-13 14:00:00,2026-02-15 00:00:00,Medium,General Question,4,resolved
+839,220,2026-01-21 21:00:00,2026-01-23 07:00:00,Low,Performance,1,resolved
+840,220,2025-12-06 19:00:00,2025-12-11 17:00:00,Low,Bug Report,5,resolved
+841,220,2026-01-12 16:00:00,2026-01-14 19:00:00,Medium,Performance,5,resolved
+842,220,2026-01-22 17:00:00,2026-01-22 20:00:00,Medium,Feature Request,1,resolved
+843,221,2025-07-04 21:00:00,2025-07-05 08:00:00,High,Feature Request,4,resolved
+844,221,2025-06-15 20:00:00,2025-06-21 06:00:00,Low,Performance,3,resolved
+845,221,2025-12-25 17:00:00,,Low,General Question,,open
+846,221,2025-08-22 12:00:00,2025-08-26 01:00:00,Low,Feature Request,1,resolved
+847,222,2026-02-14 18:00:00,2026-02-16 08:00:00,Medium,Bug Report,3,resolved
+848,222,2025-11-05 09:00:00,2025-11-05 23:00:00,High,Integration,5,resolved
+849,222,2025-07-13 16:00:00,2025-07-14 12:00:00,High,General Question,1,resolved
+850,222,2024-11-27 06:00:00,2024-11-28 04:00:00,High,Billing,4,resolved
+851,223,2024-07-04 09:00:00,2024-07-04 16:00:00,High,Performance,4,resolved
+852,223,2025-10-23 17:00:00,2025-10-25 11:00:00,Medium,Integration,3,resolved
+853,223,2026-02-22 21:00:00,2026-02-22 23:00:00,Urgent,Billing,1,resolved
+854,223,2023-07-07 21:00:00,2023-07-13 20:00:00,Low,Performance,3,resolved
+855,223,2024-09-19 00:00:00,2024-09-19 14:00:00,Medium,Feature Request,2,resolved
+856,223,2026-06-15 07:00:00,2026-06-19 20:00:00,Low,Onboarding,1,resolved
+857,224,2026-07-05 13:00:00,2026-07-07 22:00:00,Low,Integration,5,resolved
+858,224,2026-06-18 14:00:00,2026-06-18 22:00:00,Medium,Performance,5,resolved
+859,224,2026-06-17 23:00:00,2026-06-18 11:00:00,Low,Bug Report,5,resolved
+860,224,2026-06-16 12:00:00,,Low,Bug Report,,open
+861,224,2026-06-25 22:00:00,2026-06-28 19:00:00,Medium,Account Access,3,resolved
+862,224,2026-06-18 16:00:00,2026-06-21 18:00:00,Low,General Question,3,resolved
+863,224,2026-07-06 23:00:00,2026-07-11 04:00:00,Low,General Question,4,resolved
+864,224,2026-06-14 17:00:00,2026-06-21 14:00:00,Low,Integration,3,resolved
+865,225,2023-12-06 19:00:00,2023-12-07 10:00:00,Medium,Onboarding,2,resolved
+866,225,2025-10-22 02:00:00,,Medium,Billing,,open
+867,226,2026-04-20 10:00:00,2026-04-24 00:00:00,Low,Account Access,4,resolved
+868,226,2026-05-28 17:00:00,2026-06-04 02:00:00,Low,Account Access,2,resolved
+869,227,2026-04-13 01:00:00,2026-04-14 06:00:00,Medium,Account Access,1,resolved
+870,227,2026-04-10 19:00:00,2026-04-12 21:00:00,Medium,Account Access,1,resolved
+871,227,2026-01-13 05:00:00,2026-01-19 00:00:00,Low,Integration,4,resolved
+872,227,2026-03-30 02:00:00,2026-04-01 12:00:00,Medium,Onboarding,4,resolved
+873,227,2026-03-25 11:00:00,2026-03-27 10:00:00,Medium,Feature Request,1,resolved
+874,227,2026-03-30 00:00:00,2026-04-01 12:00:00,Medium,General Question,3,resolved
+875,227,2026-01-23 02:00:00,,Medium,Integration,,open
+876,228,2026-06-28 05:00:00,2026-06-29 00:00:00,Low,Onboarding,4,resolved
+877,228,2026-04-27 08:00:00,,Medium,Feature Request,,open
+878,228,2026-07-07 17:00:00,,Low,Onboarding,,open
+879,229,2026-05-26 03:00:00,2026-05-30 00:00:00,Low,Integration,3,resolved
+880,229,2026-03-07 12:00:00,2026-03-10 02:00:00,Low,Billing,4,resolved
+881,230,2026-01-29 12:00:00,2026-02-04 08:00:00,Low,Billing,5,resolved
+882,230,2024-09-15 03:00:00,2024-09-15 14:00:00,High,Account Access,5,resolved
+883,230,2026-07-08 05:00:00,2026-07-08 20:00:00,Medium,Performance,3,resolved
+884,230,2023-10-04 21:00:00,2023-10-05 12:00:00,Low,Integration,3,resolved
+885,232,2024-08-11 09:00:00,,Low,General Question,,open
+886,232,2026-03-18 07:00:00,2026-03-18 23:00:00,Medium,Onboarding,2,resolved
+887,232,2024-01-15 06:00:00,2024-01-16 02:00:00,High,Bug Report,5,resolved
+888,233,2025-06-08 17:00:00,2025-06-10 18:00:00,Low,Integration,2,resolved
+889,233,2025-07-08 17:00:00,2025-07-10 06:00:00,Medium,Performance,3,resolved
+890,233,2024-11-01 07:00:00,2024-11-01 19:00:00,Low,Integration,2,resolved
+891,233,2025-08-23 18:00:00,2025-08-25 05:00:00,Medium,Onboarding,3,resolved
+892,233,2026-04-16 20:00:00,2026-04-18 07:00:00,Low,Performance,4,resolved
+893,233,2024-10-28 16:00:00,2024-10-29 02:00:00,Low,Account Access,4,resolved
+894,235,2024-11-28 02:00:00,,Medium,Billing,,open
+895,235,2026-05-24 08:00:00,2026-05-26 22:00:00,Medium,Feature Request,5,resolved
+896,235,2025-03-08 15:00:00,2025-03-08 20:00:00,Medium,Onboarding,3,resolved
+897,235,2025-02-24 06:00:00,2025-02-24 12:00:00,High,Account Access,3,resolved
+898,235,2025-01-24 11:00:00,2025-01-26 18:00:00,Medium,Bug Report,4,resolved
+899,236,2024-06-09 20:00:00,2024-06-16 17:00:00,Low,General Question,1,resolved
+900,236,2023-07-28 17:00:00,2023-07-29 00:00:00,Medium,Integration,3,resolved
+901,237,2025-12-18 10:00:00,2025-12-20 19:00:00,Medium,Performance,2,resolved
+902,237,2026-04-30 03:00:00,2026-05-04 17:00:00,Low,Onboarding,3,resolved
+903,237,2025-10-10 10:00:00,2025-10-12 15:00:00,Medium,General Question,4,resolved
+904,237,2025-03-03 17:00:00,2025-03-05 07:00:00,Medium,Feature Request,2,resolved
+905,237,2024-12-16 07:00:00,2024-12-18 14:00:00,Medium,Performance,5,resolved
+906,237,2026-04-23 10:00:00,2026-04-25 02:00:00,Low,Integration,4,resolved
+907,237,2026-05-02 13:00:00,2026-05-04 17:00:00,Low,Billing,3,resolved
+908,237,2025-01-09 10:00:00,2025-01-16 07:00:00,Low,Account Access,5,resolved
+909,238,2024-07-26 09:00:00,2024-07-26 17:00:00,Low,General Question,4,resolved
+910,238,2025-02-28 11:00:00,2025-03-01 11:00:00,High,Onboarding,5,resolved
+911,238,2024-09-12 15:00:00,2024-09-12 18:00:00,Urgent,Billing,2,resolved
+912,238,2026-06-12 08:00:00,,Medium,Billing,,open
+913,238,2026-01-07 17:00:00,2026-01-11 09:00:00,Low,Onboarding,3,resolved
+914,238,2025-07-08 17:00:00,2025-07-09 01:00:00,High,Billing,4,resolved
+915,238,2025-08-01 21:00:00,2025-08-02 09:00:00,Low,Performance,4,resolved
+916,239,2025-06-22 11:00:00,2025-06-24 03:00:00,Medium,Integration,2,resolved
+917,239,2026-02-26 23:00:00,2026-02-28 21:00:00,Medium,General Question,3,resolved
+918,239,2024-04-25 23:00:00,2024-04-26 18:00:00,High,Account Access,2,resolved
+919,240,2025-12-07 06:00:00,2025-12-08 19:00:00,Medium,Onboarding,4,resolved
+920,240,2026-01-13 07:00:00,2026-01-16 02:00:00,Medium,Integration,3,resolved
+921,240,2026-05-15 02:00:00,2026-05-15 14:00:00,Low,Onboarding,3,resolved
+922,240,2026-05-24 03:00:00,2026-05-27 09:00:00,Low,Feature Request,5,resolved
+923,240,2026-05-11 23:00:00,2026-05-14 22:00:00,Low,Performance,3,resolved
+924,240,2026-06-26 23:00:00,2026-06-29 11:00:00,Medium,Feature Request,4,resolved
+925,240,2026-03-03 02:00:00,2026-03-05 12:00:00,Low,Account Access,4,resolved
+926,242,2026-04-13 10:00:00,2026-04-19 07:00:00,Low,Onboarding,2,resolved
+927,242,2026-05-19 09:00:00,2026-05-19 11:00:00,High,Bug Report,5,resolved
+928,242,2026-04-11 17:00:00,2026-04-18 07:00:00,Low,General Question,2,resolved
+929,242,2024-12-07 20:00:00,2024-12-10 22:00:00,Low,Feature Request,1,resolved
+930,242,2024-12-20 09:00:00,2024-12-26 11:00:00,Low,Feature Request,1,resolved
+931,242,2026-01-24 08:00:00,2026-01-24 12:00:00,Medium,Bug Report,5,resolved
+932,243,2026-06-04 11:00:00,2026-06-04 23:00:00,High,Account Access,2,resolved
+933,243,2026-01-19 00:00:00,2026-01-19 15:00:00,Medium,Bug Report,5,resolved
+934,243,2026-01-07 19:00:00,2026-01-08 14:00:00,Medium,Billing,4,resolved
+935,243,2025-12-20 13:00:00,2025-12-20 17:00:00,Medium,Billing,2,resolved
+936,243,2025-12-20 02:00:00,2025-12-22 07:00:00,Medium,Account Access,2,resolved
+937,243,2026-04-10 06:00:00,2026-04-10 09:00:00,High,Account Access,3,resolved
+938,243,2025-08-23 07:00:00,2025-08-25 09:00:00,Low,Integration,2,resolved
+939,243,2025-11-01 04:00:00,2025-11-01 22:00:00,High,Account Access,3,resolved
+940,244,2025-10-07 03:00:00,2025-10-13 21:00:00,Low,Bug Report,3,resolved
+941,244,2025-11-05 19:00:00,,Low,Integration,,open
+942,244,2025-04-12 04:00:00,2025-04-12 07:00:00,High,Bug Report,5,resolved
+943,244,2024-11-19 05:00:00,2024-11-21 22:00:00,Medium,Feature Request,3,resolved
+944,244,2026-06-29 13:00:00,2026-06-29 14:00:00,Low,Bug Report,2,resolved
+945,244,2024-10-06 08:00:00,2024-10-06 09:00:00,Urgent,Integration,4,resolved
+946,245,2025-12-01 06:00:00,,Medium,Integration,,open
+947,245,2026-02-27 22:00:00,2026-03-02 00:00:00,Low,Performance,3,resolved
+948,245,2025-12-19 11:00:00,2025-12-21 23:00:00,Low,Bug Report,2,resolved
+949,245,2026-01-23 10:00:00,,Medium,Bug Report,,open
+950,245,2025-12-25 10:00:00,2025-12-31 16:00:00,Low,Performance,3,resolved
+951,245,2026-02-05 05:00:00,2026-02-09 18:00:00,Low,Billing,1,resolved
+952,246,2026-06-30 02:00:00,2026-06-30 04:00:00,Medium,Performance,2,resolved
+953,246,2026-06-21 18:00:00,2026-06-28 18:00:00,Low,Bug Report,2,resolved
+954,246,2026-07-04 10:00:00,2026-07-04 16:00:00,High,Integration,3,resolved
+955,246,2026-06-10 14:00:00,2026-06-11 17:00:00,Medium,Integration,5,resolved
+956,246,2026-06-22 09:00:00,2026-06-25 05:00:00,Low,Account Access,4,resolved
+957,246,2026-06-14 22:00:00,2026-06-15 00:00:00,Urgent,Bug Report,3,resolved
+958,246,2026-06-13 05:00:00,2026-06-18 16:00:00,Low,Bug Report,5,resolved
+959,246,2026-06-18 08:00:00,2026-06-23 05:00:00,Low,Account Access,1,resolved
+960,247,2026-06-04 00:00:00,2026-06-08 19:00:00,Low,Billing,5,resolved
+961,247,2026-06-15 17:00:00,2026-06-15 19:00:00,High,Bug Report,3,resolved
+962,247,2026-05-19 21:00:00,2026-05-20 21:00:00,Low,Performance,3,resolved
+963,247,2026-07-05 02:00:00,2026-07-10 11:00:00,Low,Bug Report,5,resolved
+964,247,2026-04-30 20:00:00,2026-05-02 03:00:00,Low,Onboarding,5,resolved
+965,247,2026-06-24 17:00:00,2026-06-27 17:00:00,Low,Feature Request,4,resolved
+966,247,2026-05-14 12:00:00,,High,General Question,,open
+967,247,2026-07-06 09:00:00,2026-07-06 12:00:00,Urgent,Performance,2,resolved
+968,248,2026-06-21 01:00:00,,High,General Question,,open
+969,248,2025-07-22 10:00:00,2025-07-22 16:00:00,High,Integration,2,resolved
+970,248,2025-09-05 07:00:00,2025-09-05 13:00:00,Low,Bug Report,2,resolved
+971,248,2025-04-09 10:00:00,,High,Billing,,open
+972,248,2025-03-11 00:00:00,2025-03-11 12:00:00,Medium,Integration,1,resolved
+973,249,2024-09-16 01:00:00,2024-09-16 11:00:00,High,Performance,4,resolved
+974,249,2026-06-08 19:00:00,,Low,Bug Report,,open
+975,249,2025-12-26 03:00:00,2026-01-01 18:00:00,Low,Performance,4,resolved
+976,249,2025-09-12 02:00:00,2025-09-17 16:00:00,Low,Account Access,5,resolved
+977,249,2025-08-17 08:00:00,2025-08-18 05:00:00,Low,Account Access,3,resolved
+978,249,2025-11-10 21:00:00,2025-11-11 08:00:00,Medium,Onboarding,4,resolved
+979,250,2026-02-26 23:00:00,,Medium,Onboarding,,open
+980,251,2024-10-05 06:00:00,2024-10-07 00:00:00,Low,Performance,1,resolved
+981,251,2025-08-20 14:00:00,2025-08-24 07:00:00,Low,Feature Request,5,resolved
+982,251,2025-11-08 21:00:00,2025-11-11 19:00:00,Medium,Performance,4,resolved
+983,251,2024-04-02 20:00:00,2024-04-04 13:00:00,Medium,General Question,3,resolved
+984,251,2026-06-27 01:00:00,2026-06-29 06:00:00,Medium,General Question,1,resolved
+985,251,2024-02-26 19:00:00,2024-02-26 22:00:00,Low,Account Access,1,resolved
+986,251,2026-05-28 11:00:00,2026-06-01 21:00:00,Low,Onboarding,5,resolved
+987,251,2025-03-01 12:00:00,2025-03-04 22:00:00,Low,Performance,4,resolved
+988,252,2025-03-15 13:00:00,2025-03-17 17:00:00,Medium,Bug Report,5,resolved
+989,252,2026-02-24 03:00:00,2026-02-25 15:00:00,Medium,Feature Request,3,resolved
+990,252,2024-02-08 06:00:00,2024-02-14 21:00:00,Low,General Question,4,resolved
+991,252,2025-01-04 04:00:00,2025-01-04 17:00:00,Medium,Bug Report,5,resolved
+992,252,2023-10-13 03:00:00,2023-10-13 20:00:00,High,Billing,5,resolved
+993,252,2025-02-02 17:00:00,2025-02-03 19:00:00,Medium,Integration,2,resolved
+994,252,2025-11-09 21:00:00,2025-11-10 10:00:00,Low,Billing,2,resolved
+995,253,2025-12-12 02:00:00,2025-12-13 15:00:00,Low,Integration,5,resolved
+996,253,2026-05-31 06:00:00,2026-05-31 07:00:00,Urgent,Billing,1,resolved
+997,253,2026-04-27 17:00:00,2026-05-03 16:00:00,Low,Feature Request,1,resolved
+998,253,2026-04-30 18:00:00,2026-05-01 10:00:00,High,Performance,5,resolved
+999,253,2026-01-25 14:00:00,2026-01-28 19:00:00,Low,Onboarding,4,resolved
+1000,253,2026-06-05 13:00:00,2026-06-05 17:00:00,High,Feature Request,5,resolved
+1001,253,2026-04-03 08:00:00,2026-04-09 12:00:00,Low,General Question,5,resolved
+1002,254,2025-12-28 16:00:00,2025-12-28 19:00:00,High,Bug Report,1,resolved
+1003,254,2025-08-28 11:00:00,2025-08-29 01:00:00,High,Performance,1,resolved
+1004,255,2025-08-31 21:00:00,2025-08-31 23:00:00,Urgent,Account Access,5,resolved
+1005,255,2025-03-29 20:00:00,2025-04-05 20:00:00,Low,General Question,5,resolved
+1006,256,2026-06-30 20:00:00,2026-07-06 15:00:00,Low,Onboarding,3,resolved
+1007,256,2025-12-21 02:00:00,,Low,Performance,,open
+1008,256,2026-01-09 21:00:00,2026-01-15 02:00:00,Low,Feature Request,5,resolved
+1009,256,2026-04-07 18:00:00,2026-04-10 17:00:00,Low,Performance,4,resolved
+1010,256,2025-09-10 02:00:00,,Low,Onboarding,,open
+1011,256,2026-04-22 04:00:00,2026-04-27 14:00:00,Low,Billing,5,resolved
+1012,257,2024-06-04 08:00:00,2024-06-06 03:00:00,Medium,Account Access,4,resolved
+1013,258,2026-01-07 02:00:00,2026-01-09 05:00:00,Medium,General Question,1,resolved
+1014,258,2025-11-09 22:00:00,,Medium,Account Access,,open
+1015,258,2026-05-02 18:00:00,2026-05-03 08:00:00,High,Integration,2,resolved
+1016,258,2026-01-04 13:00:00,2026-01-10 17:00:00,Low,Billing,4,resolved
+1017,258,2025-12-02 03:00:00,2025-12-02 07:00:00,High,General Question,2,resolved
+1018,259,2023-07-25 08:00:00,2023-07-28 00:00:00,Low,Integration,1,resolved
+1019,259,2024-09-01 02:00:00,2024-09-01 14:00:00,Medium,Billing,3,resolved
+1020,259,2025-03-12 02:00:00,2025-03-14 12:00:00,Low,Feature Request,1,resolved
+1021,259,2024-03-01 13:00:00,2024-03-01 14:00:00,Urgent,Onboarding,2,resolved
+1022,260,2024-01-10 20:00:00,2024-01-12 14:00:00,Medium,Feature Request,5,resolved
+1023,261,2026-06-10 15:00:00,2026-06-11 16:00:00,Medium,Integration,3,resolved
+1024,261,2026-03-22 05:00:00,2026-03-23 04:00:00,High,Bug Report,3,resolved
+1025,261,2026-05-04 20:00:00,2026-05-07 06:00:00,Medium,Billing,2,resolved
+1026,261,2026-03-02 19:00:00,2026-03-05 09:00:00,Low,Feature Request,4,resolved
+1027,261,2026-03-10 09:00:00,,Low,Account Access,,open
+1028,261,2026-02-25 15:00:00,2026-02-27 17:00:00,Medium,Onboarding,2,resolved
+1029,262,2024-04-02 17:00:00,2024-04-03 20:00:00,Medium,General Question,4,resolved
+1030,262,2025-02-16 22:00:00,,Low,Bug Report,,open
+1031,262,2024-01-12 08:00:00,2024-01-15 05:00:00,Medium,Integration,4,resolved
+1032,263,2025-06-16 13:00:00,2025-06-17 06:00:00,High,Account Access,1,resolved
+1033,263,2025-09-26 03:00:00,2025-09-26 13:00:00,High,Performance,4,resolved
+1034,263,2025-09-30 12:00:00,2025-10-01 08:00:00,Medium,Billing,2,resolved
+1035,263,2025-04-19 05:00:00,,High,Bug Report,,open
+1036,264,2026-03-06 22:00:00,2026-03-10 22:00:00,Low,Performance,4,resolved
+1037,264,2026-05-24 02:00:00,2026-05-29 02:00:00,Low,Integration,1,resolved
+1038,264,2025-04-18 05:00:00,2025-04-18 08:00:00,Urgent,Billing,3,resolved
+1039,264,2026-05-13 10:00:00,,High,Onboarding,,open
+1040,264,2025-10-18 06:00:00,2025-10-19 10:00:00,Low,Billing,1,resolved
+1041,264,2026-02-08 01:00:00,2026-02-10 13:00:00,Medium,Billing,4,resolved
+1042,264,2025-05-12 13:00:00,2025-05-18 11:00:00,Low,Integration,2,resolved
+1043,265,2026-03-29 04:00:00,2026-03-29 17:00:00,Low,Feature Request,3,resolved
+1044,265,2026-05-26 18:00:00,2026-05-31 17:00:00,Low,Account Access,1,resolved
+1045,265,2026-04-04 10:00:00,2026-04-06 22:00:00,Medium,Integration,1,resolved
+1046,265,2026-02-26 15:00:00,2026-03-05 12:00:00,Low,Feature Request,5,resolved
+1047,265,2026-03-04 12:00:00,2026-03-04 14:00:00,High,Bug Report,2,resolved
+1048,265,2026-06-22 13:00:00,2026-06-26 15:00:00,Low,Bug Report,4,resolved
+1049,265,2026-04-05 13:00:00,2026-04-07 03:00:00,Low,General Question,5,resolved
+1050,265,2026-03-10 03:00:00,2026-03-12 11:00:00,Medium,Account Access,2,resolved
+1051,266,2026-02-28 02:00:00,2026-02-28 17:00:00,Medium,Billing,3,resolved
+1052,266,2025-12-02 15:00:00,2025-12-04 13:00:00,Low,General Question,2,resolved
+1053,266,2026-01-26 00:00:00,2026-01-26 01:00:00,Urgent,Integration,1,resolved
+1054,266,2025-04-26 09:00:00,,Medium,Account Access,,open
+1055,268,2025-09-08 01:00:00,2025-09-08 12:00:00,High,Account Access,5,resolved
+1056,268,2023-02-19 02:00:00,2023-02-21 19:00:00,Medium,Performance,1,resolved
+1057,268,2024-10-07 06:00:00,2024-10-07 23:00:00,Low,Performance,4,resolved
+1058,268,2023-04-29 01:00:00,2023-04-29 04:00:00,Medium,Account Access,2,resolved
+1059,268,2023-10-31 21:00:00,2023-11-02 17:00:00,Medium,General Question,2,resolved
+1060,268,2024-10-29 11:00:00,2024-11-02 13:00:00,Low,Integration,2,resolved
+1061,269,2026-05-21 05:00:00,2026-05-22 04:00:00,High,Performance,5,resolved
+1062,269,2025-08-27 03:00:00,2025-08-29 20:00:00,Low,Account Access,2,resolved
+1063,270,2026-04-07 04:00:00,2026-04-07 12:00:00,High,Onboarding,3,resolved
+1064,270,2025-02-14 10:00:00,2025-02-19 22:00:00,Low,Account Access,5,resolved
+1065,270,2025-12-24 07:00:00,2025-12-24 09:00:00,High,Feature Request,1,resolved
+1066,270,2026-03-24 14:00:00,2026-03-29 09:00:00,Low,Bug Report,3,resolved
+1067,270,2025-04-30 02:00:00,2025-05-05 20:00:00,Low,Integration,1,resolved
+1068,270,2026-04-30 04:00:00,2026-05-01 11:00:00,Low,Bug Report,5,resolved
+1069,270,2026-02-16 04:00:00,2026-02-17 03:00:00,Medium,Performance,1,resolved
+1070,272,2026-06-17 23:00:00,2026-06-19 17:00:00,Low,Integration,5,resolved
+1071,272,2026-03-17 11:00:00,2026-03-18 10:00:00,High,Feature Request,5,resolved
+1072,272,2025-10-21 23:00:00,,Low,Account Access,,open
+1073,272,2025-11-25 23:00:00,,Low,General Question,,open
+1074,273,2024-10-23 03:00:00,2024-10-23 12:00:00,Medium,Billing,1,resolved
+1075,273,2025-03-14 00:00:00,,Medium,Feature Request,,open
+1076,273,2024-05-01 12:00:00,2024-05-03 11:00:00,Medium,Account Access,3,resolved
+1077,273,2026-03-10 00:00:00,,Low,Billing,,open
+1078,274,2026-04-09 10:00:00,2026-04-09 19:00:00,Medium,Performance,3,resolved
+1079,275,2026-05-05 04:00:00,2026-05-11 10:00:00,Low,Bug Report,1,resolved
+1080,276,2024-01-06 12:00:00,2024-01-09 22:00:00,Low,Account Access,5,resolved
+1081,276,2025-03-03 14:00:00,2025-03-08 20:00:00,Low,Performance,3,resolved
+1082,277,2025-02-15 04:00:00,2025-02-18 05:00:00,Low,Integration,5,resolved
+1083,277,2026-05-26 01:00:00,2026-05-27 04:00:00,Medium,Feature Request,3,resolved
+1084,277,2023-05-02 21:00:00,2023-05-04 14:00:00,Medium,Feature Request,5,resolved
+1085,277,2025-05-31 08:00:00,2025-06-04 00:00:00,Low,Performance,3,resolved
+1086,278,2025-12-11 12:00:00,2025-12-12 03:00:00,High,Performance,5,resolved
+1087,278,2026-05-15 07:00:00,2026-05-15 09:00:00,Medium,Feature Request,5,resolved
+1088,278,2026-03-30 08:00:00,2026-03-30 22:00:00,High,Billing,4,resolved
+1089,278,2025-09-13 08:00:00,2025-09-14 04:00:00,Medium,General Question,2,resolved
+1090,279,2025-06-16 15:00:00,2025-06-21 21:00:00,Low,Feature Request,4,resolved
+1091,279,2025-07-05 23:00:00,2025-07-08 20:00:00,Medium,Bug Report,4,resolved
+1092,279,2025-06-24 12:00:00,2025-06-24 19:00:00,High,Onboarding,2,resolved
+1093,279,2025-12-26 09:00:00,2025-12-27 02:00:00,High,Onboarding,2,resolved
+1094,280,2026-03-31 13:00:00,2026-04-05 01:00:00,Low,General Question,4,resolved
+1095,280,2025-11-18 21:00:00,2025-11-20 00:00:00,Medium,Account Access,4,resolved
+1096,280,2024-07-11 08:00:00,,Low,Performance,,open
+1097,280,2024-01-19 11:00:00,2024-01-20 00:00:00,Medium,Integration,5,resolved
+1098,281,2024-08-04 08:00:00,2024-08-08 15:00:00,Low,Performance,2,resolved
+1099,282,2024-08-22 09:00:00,2024-08-29 02:00:00,Low,Feature Request,2,resolved
+1100,282,2024-07-25 02:00:00,2024-07-31 18:00:00,Low,Performance,5,resolved
+1101,282,2025-09-26 04:00:00,,Medium,General Question,,open
+1102,282,2024-12-27 01:00:00,2024-12-29 09:00:00,Low,Integration,3,resolved
+1103,283,2026-02-28 02:00:00,2026-02-28 17:00:00,Medium,Integration,2,resolved
+1104,283,2023-12-25 08:00:00,2023-12-26 03:00:00,High,Performance,1,resolved
+1105,283,2024-05-05 15:00:00,,Medium,Account Access,,open
+1106,283,2024-12-04 11:00:00,2024-12-05 08:00:00,High,Performance,1,resolved
+1107,283,2026-03-16 05:00:00,2026-03-21 16:00:00,Low,Account Access,4,resolved
+1108,283,2025-07-05 04:00:00,2025-07-06 11:00:00,Medium,Feature Request,5,resolved
+1109,284,2025-06-25 04:00:00,2025-06-25 22:00:00,High,Billing,5,resolved
+1110,284,2025-07-21 06:00:00,,Low,Bug Report,,open
+1111,284,2025-11-28 20:00:00,2025-11-29 08:00:00,Low,Account Access,4,resolved
+1112,284,2025-10-06 19:00:00,,Low,Onboarding,,open
+1113,284,2025-08-30 10:00:00,2025-08-31 02:00:00,High,Onboarding,4,resolved
+1114,284,2026-05-25 14:00:00,2026-05-25 20:00:00,Medium,Feature Request,2,resolved
+1115,284,2026-01-08 07:00:00,2026-01-09 03:00:00,High,Integration,1,resolved
+1116,285,2026-05-01 11:00:00,2026-05-01 13:00:00,Medium,Account Access,5,resolved
+1117,285,2026-04-12 02:00:00,2026-04-15 10:00:00,Low,Integration,5,resolved
+1118,285,2025-12-28 22:00:00,2025-12-30 21:00:00,Low,Billing,3,resolved
+1119,285,2026-06-10 20:00:00,2026-06-11 15:00:00,High,Integration,5,resolved
+1120,285,2026-03-10 22:00:00,2026-03-16 00:00:00,Low,Onboarding,1,resolved
+1121,286,2024-01-12 15:00:00,2024-01-14 03:00:00,Medium,Integration,2,resolved
+1122,286,2025-12-06 08:00:00,2025-12-10 14:00:00,Low,Billing,4,resolved
+1123,286,2024-03-01 20:00:00,2024-03-04 13:00:00,Medium,Performance,3,resolved
+1124,286,2024-10-26 23:00:00,2024-10-28 02:00:00,Medium,Performance,4,resolved
+1125,286,2025-07-20 02:00:00,2025-07-21 20:00:00,Medium,Performance,3,resolved
+1126,287,2024-03-12 00:00:00,,Low,Feature Request,,open
+1127,288,2026-01-25 19:00:00,2026-01-25 20:00:00,Urgent,General Question,3,resolved
+1128,288,2025-12-25 22:00:00,,Medium,Performance,,open
+1129,289,2024-12-31 09:00:00,2025-01-01 05:00:00,High,Onboarding,3,resolved
+1130,289,2023-07-01 10:00:00,2023-07-06 06:00:00,Low,Account Access,2,resolved
+1131,289,2024-02-05 06:00:00,2024-02-10 11:00:00,Low,General Question,1,resolved
+1132,289,2025-07-22 03:00:00,2025-07-24 19:00:00,Low,Bug Report,2,resolved
+1133,289,2024-07-23 19:00:00,2024-07-24 05:00:00,Medium,Performance,2,resolved
+1134,289,2023-12-17 03:00:00,2023-12-18 15:00:00,Medium,Onboarding,3,resolved
+1135,289,2025-06-02 21:00:00,2025-06-03 19:00:00,Medium,Performance,4,resolved
+1136,289,2025-02-19 08:00:00,2025-02-19 11:00:00,High,Integration,1,resolved
+1137,290,2025-09-01 14:00:00,,Low,Integration,,open
+1138,290,2025-11-10 03:00:00,2025-11-16 22:00:00,Low,Account Access,3,resolved
+1139,290,2026-02-03 12:00:00,2026-02-07 02:00:00,Low,General Question,4,resolved
+1140,290,2025-04-04 00:00:00,2025-04-05 02:00:00,Medium,Integration,1,resolved
+1141,291,2026-05-31 09:00:00,,High,General Question,,open
+1142,291,2025-07-04 03:00:00,2025-07-06 02:00:00,Medium,Account Access,1,resolved
+1143,292,2025-07-03 20:00:00,2025-07-06 02:00:00,Medium,Account Access,4,resolved
+1144,292,2026-03-05 07:00:00,,Low,Account Access,,open
+1145,292,2025-09-14 03:00:00,2025-09-14 22:00:00,High,Integration,1,resolved
+1146,293,2026-03-05 04:00:00,2026-03-05 16:00:00,Low,Feature Request,2,resolved
+1147,293,2024-05-24 18:00:00,2024-05-27 13:00:00,Low,Integration,4,resolved
+1148,293,2025-02-13 06:00:00,2025-02-13 13:00:00,High,Billing,4,resolved
+1149,294,2026-01-02 10:00:00,2026-01-04 16:00:00,Low,Feature Request,2,resolved
+1150,294,2024-02-25 08:00:00,2024-02-26 04:00:00,High,Onboarding,4,resolved
+1151,294,2023-05-15 15:00:00,,High,Feature Request,,open
+1152,294,2024-08-16 14:00:00,2024-08-19 19:00:00,Low,General Question,3,resolved
+1153,294,2025-05-24 05:00:00,2025-05-27 10:00:00,Low,Account Access,2,resolved
+1154,294,2024-12-10 23:00:00,2024-12-11 02:00:00,High,Bug Report,4,resolved
+1155,295,2025-11-20 08:00:00,2025-11-20 17:00:00,Low,Onboarding,3,resolved
+1156,295,2025-04-28 20:00:00,2025-05-04 17:00:00,Low,Bug Report,2,resolved
+1157,295,2025-06-08 07:00:00,2025-06-09 06:00:00,Medium,Performance,3,resolved
+1158,295,2024-11-21 22:00:00,2024-11-23 16:00:00,Medium,Billing,4,resolved
+1159,296,2026-05-11 16:00:00,2026-05-13 07:00:00,Medium,Integration,5,resolved
+1160,297,2024-09-17 06:00:00,2024-09-18 14:00:00,Low,Integration,2,resolved
+1161,297,2025-02-08 11:00:00,2025-02-09 02:00:00,Low,Feature Request,1,resolved
+1162,297,2025-07-15 23:00:00,2025-07-16 08:00:00,High,Feature Request,5,resolved
+1163,297,2026-02-18 11:00:00,2026-02-20 16:00:00,Low,General Question,3,resolved
+1164,298,2026-06-19 06:00:00,2026-06-20 05:00:00,High,Account Access,2,resolved
+1165,298,2026-04-19 02:00:00,2026-04-20 17:00:00,Low,General Question,2,resolved
+1166,298,2026-06-04 07:00:00,2026-06-04 09:00:00,High,Performance,5,resolved
+1167,299,2024-11-25 02:00:00,2024-11-25 15:00:00,High,Integration,5,resolved
+1168,299,2025-03-14 21:00:00,2025-03-17 04:00:00,Medium,Integration,4,resolved
+1169,300,2026-07-07 22:00:00,2026-07-12 10:00:00,Low,Feature Request,1,resolved
+1170,300,2025-04-14 00:00:00,2025-04-14 06:00:00,Low,Performance,5,resolved
+1171,300,2025-03-25 13:00:00,2025-03-26 13:00:00,High,Integration,5,resolved
+1172,300,2024-01-31 18:00:00,2024-02-01 03:00:00,Low,Performance,3,resolved
+1173,300,2023-12-24 19:00:00,2023-12-29 16:00:00,Low,Bug Report,1,resolved
+1174,300,2026-06-08 02:00:00,2026-06-10 03:00:00,Medium,Billing,4,resolved
+1175,300,2023-09-05 18:00:00,,Urgent,General Question,,open
+1176,301,2026-05-11 05:00:00,2026-05-11 16:00:00,High,Integration,5,resolved
+1177,301,2026-06-07 14:00:00,2026-06-07 17:00:00,High,Account Access,1,resolved
+1178,301,2026-01-11 03:00:00,2026-01-11 14:00:00,High,Account Access,1,resolved
+1179,301,2025-10-18 19:00:00,2025-10-20 15:00:00,Medium,General Question,2,resolved
+1180,301,2026-05-29 12:00:00,,High,Account Access,,open
+1181,301,2026-03-25 21:00:00,2026-03-26 09:00:00,Low,Billing,2,resolved
+1182,301,2025-11-27 22:00:00,2025-11-28 16:00:00,Medium,Feature Request,4,resolved
+1183,301,2025-10-10 12:00:00,2025-10-11 02:00:00,High,Integration,4,resolved
+1184,303,2026-04-01 01:00:00,,High,Onboarding,,open
+1185,303,2025-10-29 22:00:00,2025-10-30 14:00:00,High,General Question,3,resolved
+1186,303,2025-09-05 07:00:00,,Medium,Account Access,,open
+1187,304,2026-01-04 01:00:00,2026-01-04 16:00:00,Low,Integration,3,resolved
+1188,304,2025-01-15 14:00:00,,Medium,Account Access,,open
+1189,304,2026-03-24 23:00:00,2026-03-25 18:00:00,Low,General Question,4,resolved
+1190,304,2025-06-16 10:00:00,2025-06-18 11:00:00,Medium,Account Access,2,resolved
+1191,304,2025-09-10 13:00:00,2025-09-13 09:00:00,Low,Onboarding,3,resolved
+1192,305,2026-04-03 21:00:00,2026-04-05 12:00:00,Medium,Performance,5,resolved
+1193,305,2026-06-24 16:00:00,2026-06-24 20:00:00,Urgent,General Question,2,resolved
+1194,305,2026-04-28 23:00:00,2026-04-30 02:00:00,Medium,Onboarding,3,resolved
+1195,305,2026-03-06 08:00:00,2026-03-12 13:00:00,Low,Onboarding,3,resolved
+1196,305,2026-05-20 17:00:00,2026-05-20 19:00:00,Low,Feature Request,2,resolved
+1197,306,2025-05-27 14:00:00,2025-05-27 16:00:00,Urgent,Account Access,1,resolved
+1198,306,2026-04-07 13:00:00,2026-04-07 14:00:00,Urgent,Billing,3,resolved
+1199,306,2025-11-09 12:00:00,2025-11-10 08:00:00,Medium,Billing,3,resolved
+1200,306,2025-12-25 01:00:00,2025-12-25 20:00:00,Medium,Billing,3,resolved
+1201,306,2024-05-16 12:00:00,2024-05-17 06:00:00,High,Feature Request,2,resolved
+1202,308,2026-04-11 14:00:00,2026-04-13 09:00:00,Medium,Integration,3,resolved
+1203,308,2026-02-08 20:00:00,2026-02-09 08:00:00,High,Bug Report,2,resolved
+1204,308,2026-01-18 05:00:00,2026-01-18 22:00:00,Low,Billing,3,resolved
+1205,308,2026-03-15 12:00:00,,Low,Feature Request,,open
+1206,308,2026-04-06 23:00:00,2026-04-09 15:00:00,Medium,Bug Report,3,resolved
+1207,308,2026-02-18 19:00:00,2026-02-21 14:00:00,Medium,Integration,2,resolved
+1208,308,2026-04-15 20:00:00,2026-04-16 16:00:00,Medium,Feature Request,3,resolved
+1209,308,2026-05-08 15:00:00,2026-05-15 11:00:00,Low,Onboarding,5,resolved
+1210,309,2025-12-09 17:00:00,,Medium,Onboarding,,open
+1211,309,2024-01-06 15:00:00,2024-01-08 17:00:00,Medium,Bug Report,2,resolved
+1212,309,2024-08-01 03:00:00,2024-08-02 01:00:00,High,Account Access,3,resolved
+1213,309,2024-12-06 22:00:00,2024-12-08 13:00:00,Low,Performance,5,resolved
+1214,309,2024-04-26 02:00:00,2024-05-02 21:00:00,Low,Bug Report,3,resolved
+1215,309,2026-06-08 04:00:00,2026-06-08 17:00:00,High,Integration,4,resolved
+1216,310,2024-10-10 07:00:00,2024-10-10 20:00:00,Medium,Feature Request,4,resolved
+1217,310,2025-03-15 19:00:00,2025-03-16 06:00:00,Medium,Billing,5,resolved
+1218,310,2025-12-31 21:00:00,2026-01-06 18:00:00,Low,Account Access,3,resolved
+1219,310,2023-12-20 23:00:00,2023-12-23 09:00:00,Medium,General Question,1,resolved
+1220,310,2025-11-01 22:00:00,,Urgent,Performance,,open
+1221,311,2023-06-01 12:00:00,2023-06-06 12:00:00,Low,Account Access,3,resolved
+1222,311,2026-02-14 13:00:00,2026-02-18 20:00:00,Low,Feature Request,3,resolved
+1223,311,2025-02-05 19:00:00,2025-02-07 18:00:00,Low,Onboarding,4,resolved
+1224,311,2023-04-23 23:00:00,2023-04-27 20:00:00,Low,Bug Report,5,resolved
+1225,311,2024-12-12 15:00:00,2024-12-13 01:00:00,High,Feature Request,4,resolved
+1226,311,2024-02-23 06:00:00,2024-02-26 10:00:00,Low,Billing,1,resolved
+1227,312,2025-10-17 20:00:00,2025-10-23 04:00:00,Low,Onboarding,1,resolved
+1228,312,2025-08-15 10:00:00,2025-08-17 02:00:00,Low,Bug Report,4,resolved
+1229,312,2024-06-07 12:00:00,2024-06-08 00:00:00,Medium,Feature Request,2,resolved
+1230,312,2026-06-15 11:00:00,2026-06-16 12:00:00,Medium,Account Access,5,resolved
+1231,312,2025-02-12 20:00:00,2025-02-13 18:00:00,High,Bug Report,5,resolved
+1232,312,2025-08-24 06:00:00,2025-08-24 19:00:00,Medium,Billing,5,resolved
+1233,313,2024-11-06 05:00:00,2024-11-08 16:00:00,Medium,Performance,3,resolved
+1234,313,2024-12-21 10:00:00,2024-12-21 18:00:00,Low,Onboarding,4,resolved
+1235,313,2025-07-03 11:00:00,2025-07-03 13:00:00,Urgent,Onboarding,3,resolved
+1236,313,2026-07-07 18:00:00,2026-07-09 00:00:00,Medium,Onboarding,4,resolved
+1237,313,2025-05-31 19:00:00,2025-05-31 21:00:00,High,Performance,4,resolved
+1238,313,2025-12-31 09:00:00,2026-01-04 09:00:00,Low,Onboarding,1,resolved
+1239,313,2025-01-05 15:00:00,2025-01-07 08:00:00,Medium,Performance,1,resolved
+1240,313,2025-04-22 01:00:00,2025-04-26 02:00:00,Low,Onboarding,4,resolved
+1241,314,2024-06-02 22:00:00,2024-06-06 09:00:00,Low,Account Access,5,resolved
+1242,316,2026-03-03 16:00:00,2026-03-10 07:00:00,Low,Billing,5,resolved
+1243,316,2025-04-05 06:00:00,2025-04-07 18:00:00,Medium,Billing,2,resolved
+1244,316,2025-04-12 04:00:00,2025-04-15 03:00:00,Low,Performance,1,resolved
+1245,316,2026-06-24 18:00:00,,Low,Bug Report,,open
+1246,316,2025-07-02 15:00:00,,Low,Billing,,open
+1247,316,2026-02-22 18:00:00,2026-02-23 09:00:00,Medium,Feature Request,3,resolved
+1248,316,2025-07-14 10:00:00,2025-07-16 05:00:00,Medium,Integration,4,resolved
+1249,316,2025-10-15 23:00:00,2025-10-18 14:00:00,Medium,Performance,2,resolved
+1250,317,2025-04-14 03:00:00,2025-04-14 06:00:00,Urgent,Onboarding,5,resolved
+1251,317,2025-04-27 00:00:00,2025-04-28 12:00:00,Medium,Performance,3,resolved
+1252,318,2026-02-04 12:00:00,2026-02-06 20:00:00,Medium,Billing,5,resolved
+1253,318,2025-07-23 19:00:00,2025-07-30 15:00:00,Low,Feature Request,4,resolved
+1254,318,2025-01-27 13:00:00,,High,Feature Request,,open
+1255,318,2025-06-19 09:00:00,2025-06-19 17:00:00,High,Account Access,3,resolved
+1256,318,2024-06-27 10:00:00,2024-06-27 18:00:00,Medium,Onboarding,5,resolved
+1257,318,2025-08-06 20:00:00,,Medium,Feature Request,,open
+1258,318,2024-03-26 00:00:00,2024-03-31 16:00:00,Low,Onboarding,3,resolved
+1259,319,2026-05-07 03:00:00,2026-05-07 13:00:00,Medium,Feature Request,2,resolved
+1260,320,2024-09-18 08:00:00,,High,General Question,,open
+1261,320,2025-05-28 07:00:00,2025-05-30 20:00:00,Medium,General Question,5,resolved
+1262,320,2026-05-19 15:00:00,,High,Integration,,open
+1263,320,2025-12-06 05:00:00,2025-12-06 08:00:00,Urgent,Feature Request,1,resolved
+1264,320,2025-10-01 20:00:00,2025-10-03 11:00:00,Low,Performance,2,resolved
+1265,321,2025-03-14 05:00:00,2025-03-15 05:00:00,Medium,Integration,3,resolved
+1266,321,2026-02-06 13:00:00,2026-02-06 21:00:00,Medium,Account Access,3,resolved
+1267,321,2025-06-21 16:00:00,2025-06-23 22:00:00,Medium,Bug Report,3,resolved
+1268,321,2026-06-06 21:00:00,2026-06-07 14:00:00,High,Integration,5,resolved
+1269,321,2026-03-31 07:00:00,2026-04-01 23:00:00,Low,Feature Request,2,resolved
+1270,322,2026-04-01 13:00:00,2026-04-05 14:00:00,Low,Performance,1,resolved
+1271,322,2026-03-20 15:00:00,,Low,Onboarding,,open
+1272,322,2026-03-15 08:00:00,2026-03-17 03:00:00,Low,Feature Request,3,resolved
+1273,322,2026-04-15 07:00:00,2026-04-15 08:00:00,Urgent,Feature Request,3,resolved
+1274,322,2026-04-20 10:00:00,,High,General Question,,open
+1275,322,2026-02-28 15:00:00,2026-03-01 04:00:00,Medium,Account Access,1,resolved
+1276,322,2026-05-16 08:00:00,2026-05-18 05:00:00,Medium,Feature Request,2,resolved
+1277,322,2026-04-05 17:00:00,2026-04-09 13:00:00,Low,Billing,5,resolved
+1278,323,2026-05-02 14:00:00,2026-05-08 20:00:00,Low,Onboarding,1,resolved
+1279,323,2026-02-27 05:00:00,,Medium,Account Access,,open
+1280,323,2025-08-07 15:00:00,2025-08-10 10:00:00,Medium,Integration,5,resolved
+1281,323,2026-06-16 06:00:00,2026-06-16 16:00:00,Medium,Feature Request,5,resolved
+1282,323,2025-04-07 21:00:00,2025-04-08 13:00:00,Low,Billing,1,resolved
+1283,323,2025-11-23 21:00:00,2025-11-24 03:00:00,High,Performance,5,resolved
+1284,323,2025-03-05 16:00:00,,Low,Onboarding,,open
+1285,324,2025-07-17 04:00:00,2025-07-20 02:00:00,Medium,Performance,1,resolved
+1286,324,2026-05-22 11:00:00,2026-05-22 18:00:00,High,Integration,1,resolved
+1287,324,2026-05-22 06:00:00,2026-05-23 00:00:00,High,Billing,4,resolved
+1288,324,2025-08-20 04:00:00,2025-08-20 15:00:00,Low,Bug Report,3,resolved
+1289,324,2025-08-16 22:00:00,2025-08-18 07:00:00,Medium,Account Access,5,resolved
+1290,324,2025-08-22 11:00:00,,High,Bug Report,,open
+1291,324,2025-12-22 00:00:00,2025-12-22 02:00:00,Urgent,Account Access,5,resolved
+1292,324,2025-11-07 21:00:00,2025-11-10 20:00:00,Medium,Performance,2,resolved
+1293,325,2025-11-10 17:00:00,2025-11-17 12:00:00,Low,Performance,3,resolved
+1294,325,2025-08-04 20:00:00,2025-08-10 09:00:00,Low,General Question,5,resolved
+1295,325,2024-06-06 15:00:00,2024-06-06 23:00:00,Medium,Feature Request,2,resolved
+1296,325,2024-03-02 07:00:00,2024-03-08 08:00:00,Low,Integration,2,resolved
+1297,326,2025-03-04 14:00:00,,Medium,Billing,,open
+1298,326,2025-06-24 02:00:00,2025-06-26 14:00:00,Medium,Integration,2,resolved
+1299,326,2025-02-24 06:00:00,2025-02-24 10:00:00,High,Feature Request,3,resolved
+1300,326,2024-09-23 15:00:00,,Medium,General Question,,open
+1301,326,2025-05-16 19:00:00,2025-05-20 07:00:00,Low,Feature Request,5,resolved
+1302,326,2025-08-05 13:00:00,2025-08-10 15:00:00,Low,Performance,4,resolved
+1303,326,2025-04-28 11:00:00,2025-05-01 20:00:00,Low,Billing,3,resolved
+1304,327,2023-11-07 10:00:00,2023-11-07 11:00:00,Medium,Performance,2,resolved
+1305,327,2023-12-01 14:00:00,2023-12-03 11:00:00,Medium,Feature Request,1,resolved
+1306,327,2025-06-11 13:00:00,,Low,Performance,,open
+1307,327,2025-08-12 21:00:00,2025-08-15 00:00:00,Medium,Feature Request,5,resolved
+1308,328,2026-06-11 18:00:00,2026-06-15 18:00:00,Low,General Question,4,resolved
+1309,328,2026-06-13 21:00:00,2026-06-14 09:00:00,High,Billing,1,resolved
+1310,328,2026-06-26 07:00:00,2026-06-27 01:00:00,High,Integration,3,resolved
+1311,328,2026-06-13 20:00:00,2026-06-14 18:00:00,Medium,Feature Request,4,resolved
+1312,328,2026-06-09 06:00:00,2026-06-12 05:00:00,Medium,Onboarding,3,resolved
+1313,328,2026-06-25 07:00:00,2026-06-28 07:00:00,Low,Bug Report,1,resolved
+1314,329,2026-04-12 03:00:00,2026-04-18 22:00:00,Low,Performance,5,resolved
+1315,329,2026-02-10 22:00:00,2026-02-13 04:00:00,Medium,General Question,2,resolved
+1316,330,2025-10-18 00:00:00,2025-10-19 13:00:00,Low,Feature Request,5,resolved
+1317,330,2025-10-07 09:00:00,2025-10-08 02:00:00,Medium,Performance,4,resolved
+1318,330,2026-04-06 16:00:00,2026-04-11 17:00:00,Low,Performance,3,resolved
+1319,330,2025-10-16 20:00:00,2025-10-17 13:00:00,Low,Feature Request,1,resolved
+1320,330,2026-02-28 08:00:00,2026-02-28 16:00:00,Medium,Feature Request,1,resolved
+1321,330,2026-02-14 12:00:00,2026-02-15 09:00:00,High,General Question,1,resolved
+1322,331,2026-06-26 19:00:00,2026-06-28 17:00:00,Medium,Billing,3,resolved
+1323,331,2026-05-29 03:00:00,2026-05-30 03:00:00,High,Onboarding,3,resolved
+1324,331,2026-06-29 06:00:00,,Low,Onboarding,,open
+1325,331,2024-10-31 21:00:00,,Low,Integration,,open
+1326,331,2024-11-05 16:00:00,2024-11-07 02:00:00,Medium,Onboarding,1,resolved
+1327,331,2024-05-17 10:00:00,2024-05-19 04:00:00,Medium,Bug Report,5,resolved
+1328,331,2024-09-07 09:00:00,2024-09-08 02:00:00,Medium,Bug Report,2,resolved
+1329,331,2024-10-05 23:00:00,2024-10-06 12:00:00,Medium,Onboarding,3,resolved
+1330,332,2024-11-28 01:00:00,2024-11-30 17:00:00,Low,Performance,3,resolved
+1331,332,2024-07-08 11:00:00,2024-07-09 21:00:00,Low,Bug Report,5,resolved
+1332,332,2026-01-10 08:00:00,,Low,Performance,,open
+1333,332,2023-09-09 11:00:00,2023-09-10 21:00:00,Medium,Account Access,3,resolved
+1334,333,2026-02-03 12:00:00,2026-02-04 10:00:00,High,Account Access,1,resolved
+1335,333,2026-02-17 04:00:00,2026-02-18 22:00:00,Medium,Billing,2,resolved
+1336,333,2026-02-08 06:00:00,2026-02-10 09:00:00,Medium,Performance,4,resolved
+1337,334,2024-01-23 18:00:00,2024-01-26 15:00:00,Medium,Bug Report,3,resolved
+1338,334,2025-01-29 21:00:00,2025-02-01 17:00:00,Low,Bug Report,2,resolved
+1339,334,2023-09-29 15:00:00,2023-09-30 05:00:00,High,Feature Request,1,resolved
+1340,334,2025-08-02 10:00:00,2025-08-03 23:00:00,Medium,Integration,3,resolved
+1341,335,2026-07-11 03:00:00,2026-07-11 11:00:00,High,General Question,3,resolved
+1342,335,2026-07-11 04:00:00,2026-07-11 10:00:00,Low,General Question,5,resolved
+1343,335,2026-07-11 14:00:00,,Low,Bug Report,,open
+1344,335,2026-07-12 11:00:00,,Medium,Bug Report,,open
+1345,335,2026-07-11 01:00:00,,Medium,Account Access,,open
+1346,336,2026-06-05 02:00:00,,Low,Bug Report,,open
+1347,336,2024-01-26 09:00:00,2024-01-26 21:00:00,Medium,Account Access,5,resolved
+1348,336,2023-10-28 13:00:00,2023-11-02 08:00:00,Low,Bug Report,4,resolved
+1349,336,2024-03-31 04:00:00,2024-04-02 11:00:00,Medium,Onboarding,1,resolved
+1350,336,2024-09-26 10:00:00,2024-09-26 14:00:00,Medium,Feature Request,5,resolved
+1351,336,2024-07-17 02:00:00,2024-07-22 02:00:00,Low,Performance,2,resolved
+1352,336,2025-12-03 11:00:00,,Low,Onboarding,,open
+1353,336,2026-06-14 19:00:00,,Low,Account Access,,open
+1354,337,2026-05-18 19:00:00,2026-05-23 11:00:00,Low,Integration,2,resolved
+1355,337,2026-01-22 01:00:00,2026-01-24 16:00:00,Medium,Billing,5,resolved
+1356,337,2026-03-07 15:00:00,2026-03-08 07:00:00,High,General Question,4,resolved
+1357,337,2025-05-25 04:00:00,2025-05-25 08:00:00,Urgent,Billing,2,resolved
+1358,337,2026-05-25 20:00:00,2026-05-27 09:00:00,Medium,Account Access,3,resolved
+1359,337,2025-04-12 14:00:00,,Medium,Integration,,open
+1360,337,2025-07-12 23:00:00,2025-07-13 21:00:00,Medium,Feature Request,2,resolved
+1361,338,2026-02-11 19:00:00,2026-02-11 20:00:00,Urgent,Feature Request,4,resolved
+1362,338,2025-11-25 06:00:00,2025-11-25 18:00:00,High,Onboarding,5,resolved
+1363,338,2026-01-20 03:00:00,2026-01-22 02:00:00,Medium,Billing,4,resolved
+1364,338,2025-08-25 09:00:00,2025-08-26 02:00:00,Medium,Billing,5,resolved
+1365,338,2026-05-13 15:00:00,2026-05-18 19:00:00,Low,Integration,1,resolved
+1366,338,2026-06-07 02:00:00,2026-06-07 17:00:00,High,Integration,3,resolved
+1367,338,2026-04-07 02:00:00,2026-04-07 13:00:00,Low,Feature Request,5,resolved
+1368,339,2025-12-21 08:00:00,2025-12-21 15:00:00,Medium,Integration,3,resolved
+1369,339,2026-06-11 21:00:00,2026-06-14 23:00:00,Low,Feature Request,1,resolved
+1370,339,2025-03-03 17:00:00,,Low,Billing,,open
+1371,339,2025-05-11 00:00:00,,Medium,Onboarding,,open
+1372,339,2023-07-23 19:00:00,2023-07-24 07:00:00,High,Billing,4,resolved
+1373,340,2024-02-11 01:00:00,,High,Performance,,open
+1374,340,2026-02-10 21:00:00,2026-02-11 03:00:00,Low,Performance,2,resolved
+1375,340,2024-06-02 00:00:00,2024-06-02 02:00:00,High,Billing,4,resolved
+1376,340,2025-02-18 23:00:00,2025-02-20 16:00:00,Medium,General Question,2,resolved
+1377,340,2024-07-06 14:00:00,2024-07-06 15:00:00,High,Onboarding,4,resolved
+1378,340,2025-12-21 06:00:00,2025-12-22 00:00:00,High,Integration,3,resolved
+1379,340,2025-04-10 16:00:00,2025-04-11 21:00:00,Medium,Onboarding,5,resolved
+1380,341,2025-12-11 16:00:00,2025-12-17 13:00:00,Low,Bug Report,4,resolved
+1381,341,2026-07-04 22:00:00,,Low,Account Access,,open
+1382,341,2025-10-06 18:00:00,2025-10-06 19:00:00,Medium,Account Access,1,resolved
+1383,341,2026-06-12 15:00:00,2026-06-13 09:00:00,Medium,Performance,3,resolved
+1384,342,2026-02-26 16:00:00,2026-02-27 12:00:00,Low,Bug Report,2,resolved
+1385,342,2026-01-04 15:00:00,,High,Bug Report,,open
+1386,342,2026-05-22 14:00:00,2026-05-24 21:00:00,Low,Account Access,1,resolved
+1387,344,2025-07-31 23:00:00,2025-08-01 01:00:00,Low,Bug Report,2,resolved
+1388,344,2025-07-25 10:00:00,2025-07-29 15:00:00,Low,Billing,2,resolved
+1389,344,2026-04-25 18:00:00,2026-04-25 19:00:00,Low,Billing,5,resolved
+1390,344,2026-03-29 09:00:00,2026-03-29 12:00:00,Urgent,Billing,1,resolved
+1391,345,2023-11-02 12:00:00,,High,Account Access,,open
+1392,345,2025-04-03 19:00:00,2025-04-05 07:00:00,Low,Account Access,1,resolved
+1393,345,2024-05-17 07:00:00,2024-05-18 15:00:00,Medium,Performance,1,resolved
+1394,345,2025-05-09 05:00:00,2025-05-12 01:00:00,Medium,Feature Request,3,resolved
+1395,345,2025-06-12 09:00:00,2025-06-14 12:00:00,Low,Billing,3,resolved
+1396,345,2023-07-10 19:00:00,2023-07-11 09:00:00,High,Bug Report,4,resolved
+1397,345,2024-04-02 12:00:00,2024-04-02 19:00:00,Medium,Onboarding,5,resolved
+1398,345,2025-02-01 00:00:00,2025-02-01 14:00:00,High,Feature Request,3,resolved
+1399,346,2025-07-13 14:00:00,2025-07-13 19:00:00,High,Account Access,1,resolved
+1400,346,2025-03-21 07:00:00,2025-03-23 09:00:00,Medium,Billing,5,resolved
+1401,346,2024-12-20 19:00:00,2024-12-26 13:00:00,Low,Billing,2,resolved
+1402,347,2025-05-09 14:00:00,,High,Performance,,open
+1403,347,2025-07-06 01:00:00,2025-07-08 04:00:00,Low,Onboarding,5,resolved
+1404,347,2025-05-28 21:00:00,2025-06-02 11:00:00,Low,General Question,1,resolved
+1405,347,2025-04-17 21:00:00,,Low,Bug Report,,open
+1406,347,2025-09-08 17:00:00,2025-09-13 22:00:00,Low,Performance,2,resolved
+1407,347,2026-02-17 16:00:00,2026-02-17 17:00:00,Urgent,Performance,2,resolved
+1408,347,2025-05-02 07:00:00,,High,Billing,,open
+1409,347,2026-01-11 08:00:00,2026-01-17 13:00:00,Low,Bug Report,1,resolved
+1410,350,2026-03-06 00:00:00,2026-03-07 01:00:00,Low,Account Access,5,resolved
+1411,350,2026-04-29 03:00:00,,High,General Question,,open
+1412,350,2025-04-05 22:00:00,2025-04-08 04:00:00,Medium,Onboarding,1,resolved
+1413,350,2025-09-14 23:00:00,2025-09-16 16:00:00,Medium,Integration,1,resolved
+1414,351,2026-05-22 16:00:00,,Low,Performance,,open
+1415,352,2025-03-25 07:00:00,2025-03-25 09:00:00,Urgent,Account Access,5,resolved
+1416,353,2026-05-04 02:00:00,2026-05-05 03:00:00,Medium,Onboarding,4,resolved
+1417,353,2026-06-07 10:00:00,,Low,Performance,,open
+1418,353,2026-07-09 21:00:00,2026-07-12 12:00:00,Medium,Account Access,5,resolved
+1419,354,2025-11-07 08:00:00,2025-11-07 19:00:00,High,Integration,2,resolved
+1420,354,2025-07-30 22:00:00,2025-07-31 23:00:00,Medium,Integration,2,resolved
+1421,354,2026-02-28 04:00:00,2026-03-02 01:00:00,Medium,Performance,1,resolved
+1422,355,2026-01-09 20:00:00,2026-01-14 00:00:00,Low,Billing,3,resolved
+1423,355,2025-10-24 00:00:00,2025-10-27 11:00:00,Low,Account Access,1,resolved
+1424,355,2026-04-28 19:00:00,2026-05-03 21:00:00,Low,Account Access,3,resolved
+1425,355,2025-10-19 17:00:00,2025-10-20 08:00:00,High,Onboarding,1,resolved
+1426,355,2026-06-04 00:00:00,2026-06-08 12:00:00,Low,Bug Report,2,resolved
+1427,355,2026-03-16 13:00:00,2026-03-17 10:00:00,Medium,Onboarding,1,resolved
+1428,356,2023-12-09 22:00:00,,High,Bug Report,,open
+1429,357,2024-10-12 00:00:00,2024-10-15 10:00:00,Low,Feature Request,1,resolved
+1430,357,2023-11-09 04:00:00,2023-11-11 22:00:00,Medium,Feature Request,3,resolved
+1431,358,2026-02-20 22:00:00,2026-02-23 18:00:00,Medium,General Question,3,resolved
+1432,358,2026-06-30 16:00:00,2026-06-30 23:00:00,Medium,Integration,3,resolved
+1433,358,2026-04-09 23:00:00,2026-04-13 05:00:00,Low,Account Access,3,resolved
+1434,359,2026-04-11 19:00:00,2026-04-12 06:00:00,High,Integration,4,resolved
+1435,359,2025-06-02 18:00:00,2025-06-02 21:00:00,Urgent,Billing,3,resolved
+1436,359,2025-07-15 21:00:00,2025-07-19 17:00:00,Low,Integration,2,resolved
+1437,360,2024-10-16 07:00:00,,Medium,Onboarding,,open
+1438,360,2026-01-19 18:00:00,,High,Billing,,open
+1439,361,2026-07-04 08:00:00,2026-07-05 23:00:00,Medium,Billing,2,resolved
+1440,361,2025-03-26 22:00:00,2025-03-30 21:00:00,Low,Integration,1,resolved
+1441,361,2025-10-30 02:00:00,2025-11-02 21:00:00,Low,Billing,3,resolved
+1442,361,2025-08-28 11:00:00,2025-08-31 09:00:00,Medium,Billing,5,resolved
+1443,362,2026-02-26 06:00:00,,Medium,Integration,,open
+1444,362,2025-11-28 15:00:00,2025-12-01 00:00:00,Low,Integration,2,resolved
+1445,362,2026-06-08 02:00:00,2026-06-10 20:00:00,Medium,Bug Report,2,resolved
+1446,362,2026-01-09 13:00:00,2026-01-09 18:00:00,Low,Onboarding,2,resolved
+1447,362,2025-10-14 03:00:00,2025-10-18 04:00:00,Low,Billing,5,resolved
+1448,362,2026-04-05 19:00:00,,Low,Performance,,open
+1449,362,2025-09-29 07:00:00,2025-10-04 12:00:00,Low,Bug Report,5,resolved
+1450,362,2025-03-15 21:00:00,2025-03-16 17:00:00,High,Bug Report,3,resolved
+1451,363,2025-03-20 00:00:00,2025-03-22 07:00:00,Medium,Onboarding,1,resolved
+1452,364,2026-03-16 17:00:00,2026-03-22 01:00:00,Low,Billing,3,resolved
+1453,364,2026-03-14 11:00:00,2026-03-19 23:00:00,Low,Account Access,2,resolved
+1454,364,2026-05-29 10:00:00,2026-05-30 20:00:00,Medium,Onboarding,3,resolved
+1455,364,2026-02-08 16:00:00,2026-02-10 11:00:00,Medium,General Question,3,resolved
+1456,364,2025-12-08 02:00:00,2025-12-08 09:00:00,High,Performance,4,resolved
+1457,364,2026-05-21 01:00:00,2026-05-22 05:00:00,Low,Onboarding,1,resolved
+1458,364,2026-02-22 11:00:00,2026-02-23 11:00:00,High,Performance,4,resolved
+1459,364,2025-09-16 13:00:00,2025-09-17 12:00:00,High,Onboarding,1,resolved
+1460,367,2026-05-07 07:00:00,2026-05-09 23:00:00,Medium,Billing,5,resolved
+1461,367,2025-12-06 01:00:00,2025-12-08 18:00:00,Medium,Account Access,4,resolved
+1462,367,2026-03-27 21:00:00,2026-03-30 12:00:00,Medium,Feature Request,3,resolved
+1463,367,2025-08-18 06:00:00,2025-08-20 02:00:00,Medium,Billing,3,resolved
+1464,368,2026-05-29 09:00:00,,Medium,Feature Request,,open
+1465,368,2024-12-24 23:00:00,2024-12-25 17:00:00,High,Bug Report,4,resolved
+1466,369,2026-07-09 00:00:00,2026-07-11 12:00:00,Low,Integration,4,resolved
+1467,371,2025-07-22 19:00:00,2025-07-25 18:00:00,Low,Integration,5,resolved
+1468,371,2023-11-15 02:00:00,2023-11-17 17:00:00,Low,Feature Request,1,resolved
+1469,371,2023-06-12 04:00:00,2023-06-17 03:00:00,Low,Performance,2,resolved
+1470,371,2023-04-11 21:00:00,2023-04-12 06:00:00,Low,Billing,3,resolved
+1471,372,2025-10-21 01:00:00,,Medium,Performance,,open
+1472,372,2023-08-08 20:00:00,2023-08-12 03:00:00,Low,Account Access,3,resolved
+1473,372,2024-01-05 07:00:00,2024-01-06 05:00:00,Medium,Account Access,2,resolved
+1474,372,2023-09-06 12:00:00,2023-09-09 05:00:00,Low,Onboarding,4,resolved
+1475,372,2024-01-11 18:00:00,2024-01-12 00:00:00,Low,Feature Request,5,resolved
+1476,372,2025-12-10 17:00:00,2025-12-11 03:00:00,High,General Question,2,resolved
+1477,373,2026-06-14 13:00:00,2026-06-15 11:00:00,Medium,Account Access,5,resolved
+1478,373,2026-03-08 20:00:00,2026-03-13 07:00:00,Low,Feature Request,4,resolved
+1479,373,2026-02-01 15:00:00,2026-02-02 08:00:00,High,Bug Report,1,resolved
+1480,374,2024-04-17 07:00:00,2024-04-21 07:00:00,Low,Bug Report,4,resolved
+1481,374,2024-07-27 18:00:00,2024-07-27 19:00:00,Urgent,Bug Report,1,resolved
+1482,374,2024-06-25 11:00:00,2024-06-25 13:00:00,Medium,Bug Report,1,resolved
+1483,374,2026-06-19 06:00:00,2026-06-21 16:00:00,Low,Account Access,5,resolved
+1484,374,2025-01-16 20:00:00,2025-01-19 03:00:00,Medium,Bug Report,5,resolved
+1485,374,2025-12-06 13:00:00,,Low,Bug Report,,open
+1486,374,2025-09-28 09:00:00,2025-10-02 08:00:00,Low,Performance,5,resolved
+1487,374,2024-06-27 02:00:00,2024-06-27 04:00:00,Urgent,Onboarding,1,resolved
+1488,375,2026-06-06 02:00:00,,High,Performance,,open
+1489,375,2025-03-05 11:00:00,2025-03-12 02:00:00,Low,Billing,5,resolved
+1490,375,2025-02-18 05:00:00,,Medium,General Question,,open
+1491,375,2025-08-27 16:00:00,,Medium,Performance,,open
+1492,375,2026-04-22 00:00:00,2026-04-22 23:00:00,High,Account Access,1,resolved
+1493,376,2025-04-08 00:00:00,2025-04-12 00:00:00,Low,General Question,4,resolved
+1494,376,2025-02-23 21:00:00,2025-02-25 18:00:00,Medium,Account Access,3,resolved
+1495,376,2026-06-04 03:00:00,2026-06-04 07:00:00,Urgent,Performance,5,resolved
+1496,376,2025-06-02 00:00:00,2025-06-05 00:00:00,Medium,Bug Report,2,resolved
+1497,376,2025-11-24 21:00:00,2025-11-24 22:00:00,Low,Feature Request,3,resolved
+1498,376,2025-08-28 08:00:00,2025-08-31 01:00:00,Medium,Integration,5,resolved
+1499,377,2026-01-07 09:00:00,2026-01-08 18:00:00,Medium,Billing,5,resolved
+1500,377,2026-04-20 14:00:00,2026-04-22 06:00:00,Medium,Billing,1,resolved
+1501,377,2026-06-27 01:00:00,,High,Account Access,,open
+1502,377,2024-12-07 18:00:00,2024-12-08 04:00:00,High,Integration,2,resolved
+1503,377,2026-01-13 08:00:00,2026-01-20 02:00:00,Low,Account Access,5,resolved
+1504,378,2026-04-23 23:00:00,2026-04-24 01:00:00,Urgent,Integration,1,resolved
+1505,378,2026-01-18 03:00:00,2026-01-21 20:00:00,Low,Billing,5,resolved
+1506,378,2026-01-24 06:00:00,2026-01-25 15:00:00,Medium,Onboarding,3,resolved
+1507,378,2026-01-14 23:00:00,2026-01-17 09:00:00,Low,Bug Report,4,resolved
+1508,378,2025-12-19 09:00:00,2025-12-21 10:00:00,Medium,Performance,2,resolved
+1509,378,2026-03-29 12:00:00,2026-03-29 13:00:00,Medium,General Question,5,resolved
+1510,378,2026-05-26 21:00:00,2026-05-27 21:00:00,Medium,General Question,2,resolved
+1511,379,2023-07-17 22:00:00,2023-07-18 00:00:00,High,Billing,3,resolved
+1512,379,2025-05-26 00:00:00,2025-05-30 11:00:00,Low,Integration,3,resolved
+1513,379,2025-10-02 22:00:00,2025-10-03 23:00:00,Medium,Integration,5,resolved
+1514,379,2024-05-01 16:00:00,2024-05-06 23:00:00,Low,Bug Report,5,resolved
+1515,379,2024-04-05 13:00:00,2024-04-10 20:00:00,Low,Account Access,4,resolved
+1516,379,2025-08-11 17:00:00,2025-08-16 12:00:00,Low,Billing,3,resolved
+1517,380,2026-06-28 13:00:00,2026-06-30 16:00:00,Medium,Account Access,2,resolved
+1518,380,2025-09-03 11:00:00,2025-09-03 14:00:00,Urgent,Performance,1,resolved
+1519,380,2025-09-06 15:00:00,2025-09-07 06:00:00,High,General Question,4,resolved
+1520,380,2025-12-18 15:00:00,2025-12-22 06:00:00,Low,Account Access,2,resolved
+1521,381,2025-12-22 05:00:00,2025-12-22 06:00:00,Urgent,Feature Request,4,resolved
+1522,381,2024-02-22 17:00:00,,High,Billing,,open
+1523,381,2024-03-03 22:00:00,2024-03-07 12:00:00,Low,Account Access,2,resolved
+1524,381,2024-01-12 15:00:00,,Medium,General Question,,open
+1525,381,2025-07-28 21:00:00,2025-07-30 03:00:00,Medium,Billing,4,resolved
+1526,381,2026-03-14 16:00:00,2026-03-15 12:00:00,High,Billing,4,resolved
+1527,381,2023-11-10 07:00:00,2023-11-13 06:00:00,Low,Billing,5,resolved
+1528,382,2026-07-10 07:00:00,,Low,General Question,,open
+1529,382,2026-05-23 13:00:00,2026-05-25 18:00:00,Medium,Integration,1,resolved
+1530,382,2026-06-27 08:00:00,2026-06-27 20:00:00,Medium,Integration,4,resolved
+1531,382,2026-06-09 01:00:00,2026-06-09 12:00:00,High,Bug Report,4,resolved
+1532,382,2026-05-20 02:00:00,2026-05-20 15:00:00,High,Feature Request,4,resolved
+1533,383,2025-09-16 07:00:00,2025-09-21 00:00:00,Low,Integration,3,resolved
+1534,383,2025-11-27 23:00:00,2025-11-29 04:00:00,Medium,Integration,5,resolved
+1535,383,2026-06-13 12:00:00,2026-06-14 06:00:00,Medium,Onboarding,4,resolved
+1536,384,2024-09-29 11:00:00,2024-10-01 16:00:00,Medium,Account Access,2,resolved
+1537,384,2025-01-11 09:00:00,2025-01-12 00:00:00,Medium,Bug Report,5,resolved
+1538,384,2026-04-28 14:00:00,2026-04-29 06:00:00,High,Billing,1,resolved
+1539,385,2025-08-26 19:00:00,2025-09-01 05:00:00,Low,Account Access,5,resolved
+1540,385,2025-10-28 04:00:00,,Urgent,Integration,,open
+1541,385,2026-03-06 08:00:00,,High,General Question,,open
+1542,385,2025-12-08 23:00:00,2025-12-15 21:00:00,Low,Bug Report,5,resolved
+1543,385,2026-01-20 12:00:00,2026-01-22 18:00:00,Medium,Performance,3,resolved
+1544,385,2025-08-11 11:00:00,2025-08-11 15:00:00,Medium,Performance,3,resolved
+1545,385,2026-06-01 05:00:00,,Low,Billing,,open
+1546,385,2026-05-03 19:00:00,,Low,Bug Report,,open
+1547,386,2024-05-30 03:00:00,2024-05-30 20:00:00,High,Feature Request,5,resolved
+1548,386,2026-05-25 23:00:00,2026-05-28 00:00:00,Low,Account Access,3,resolved
+1549,386,2023-12-31 05:00:00,2024-01-01 12:00:00,Medium,Bug Report,2,resolved
+1550,386,2024-02-22 17:00:00,2024-02-28 03:00:00,Low,Account Access,3,resolved
+1551,386,2024-06-07 22:00:00,2024-06-10 02:00:00,Medium,Performance,3,resolved
+1552,387,2026-05-14 09:00:00,,Low,Bug Report,,open
+1553,387,2026-03-21 01:00:00,2026-03-22 13:00:00,Low,Onboarding,5,resolved
+1554,388,2025-07-17 06:00:00,2025-07-17 22:00:00,Medium,Billing,2,resolved
+1555,388,2025-05-05 11:00:00,2025-05-09 08:00:00,Low,Performance,1,resolved
+1556,388,2023-11-11 12:00:00,2023-11-11 14:00:00,High,Performance,2,resolved
+1557,389,2023-08-01 06:00:00,2023-08-07 08:00:00,Low,Account Access,5,resolved
+1558,389,2026-01-03 01:00:00,2026-01-04 01:00:00,High,Onboarding,2,resolved
+1559,390,2025-12-25 23:00:00,2025-12-26 23:00:00,High,Bug Report,3,resolved
+1560,390,2026-01-31 22:00:00,2026-02-01 22:00:00,Low,General Question,3,resolved
+1561,390,2025-09-07 12:00:00,2025-09-08 09:00:00,Medium,Bug Report,1,resolved
+1562,390,2026-04-09 08:00:00,2026-04-11 00:00:00,Medium,Integration,5,resolved
+1563,391,2024-10-11 17:00:00,2024-10-15 18:00:00,Low,Onboarding,4,resolved
+1564,395,2023-06-07 18:00:00,2023-06-07 21:00:00,Urgent,Integration,3,resolved
+1565,395,2026-06-22 16:00:00,2026-06-24 04:00:00,Medium,Integration,3,resolved
+1566,395,2024-05-09 06:00:00,2024-05-09 08:00:00,High,Bug Report,5,resolved
+1567,395,2024-02-13 06:00:00,2024-02-15 05:00:00,Medium,Billing,1,resolved
+1568,396,2025-09-20 14:00:00,2025-09-21 12:00:00,Medium,Onboarding,1,resolved
+1569,396,2026-04-30 19:00:00,2026-05-07 00:00:00,Low,Feature Request,2,resolved
+1570,396,2025-12-09 05:00:00,2025-12-10 05:00:00,High,Bug Report,3,resolved
+1571,396,2025-09-01 00:00:00,2025-09-01 03:00:00,Low,Billing,4,resolved
+1572,397,2026-06-02 13:00:00,2026-06-03 15:00:00,Low,Onboarding,2,resolved
+1573,398,2025-11-02 15:00:00,2025-11-02 23:00:00,Medium,Performance,1,resolved
+1574,398,2025-08-26 06:00:00,2025-08-27 14:00:00,Medium,Integration,5,resolved
+1575,398,2025-07-19 23:00:00,2025-07-20 11:00:00,High,Bug Report,3,resolved
+1576,398,2024-05-03 21:00:00,2024-05-04 07:00:00,Low,General Question,2,resolved
+1577,398,2024-07-23 08:00:00,,High,Integration,,open
+1578,398,2024-05-11 07:00:00,2024-05-11 09:00:00,Urgent,Account Access,4,resolved
+1579,398,2023-07-05 00:00:00,2023-07-05 02:00:00,Medium,Onboarding,5,resolved
+1580,398,2023-09-09 12:00:00,2023-09-10 05:00:00,High,Billing,3,resolved
+1581,399,2025-06-23 14:00:00,,Low,Billing,,open
+1582,399,2024-04-19 09:00:00,2024-04-21 23:00:00,Medium,Onboarding,2,resolved
+1583,399,2024-11-17 08:00:00,2024-11-18 20:00:00,Medium,Billing,4,resolved
+1584,399,2025-12-30 08:00:00,2026-01-02 07:00:00,Medium,Account Access,2,resolved
+1585,399,2026-01-19 00:00:00,2026-01-20 20:00:00,Medium,Performance,4,resolved
+1586,399,2024-06-27 16:00:00,2024-07-04 00:00:00,Low,Onboarding,5,resolved
+1587,400,2025-01-24 13:00:00,2025-01-26 11:00:00,Medium,Bug Report,2,resolved
+1588,400,2025-08-12 05:00:00,2025-08-12 23:00:00,Medium,Account Access,2,resolved
+1589,401,2025-01-28 00:00:00,2025-01-29 13:00:00,Medium,Onboarding,4,resolved
+1590,401,2025-10-21 04:00:00,,Low,Billing,,open
+1591,401,2025-08-17 08:00:00,,Low,Bug Report,,open
+1592,402,2024-11-10 12:00:00,2024-11-10 16:00:00,Medium,Bug Report,3,resolved
+1593,402,2024-11-05 18:00:00,2024-11-06 04:00:00,High,Feature Request,3,resolved
+1594,402,2025-06-14 13:00:00,2025-06-21 05:00:00,Low,General Question,1,resolved
+1595,403,2024-05-05 05:00:00,2024-05-06 18:00:00,Low,Onboarding,1,resolved
+1596,403,2025-10-23 06:00:00,2025-10-24 18:00:00,Medium,Integration,5,resolved
+1597,404,2026-01-05 22:00:00,2026-01-06 13:00:00,High,Billing,4,resolved
+1598,404,2025-07-16 06:00:00,2025-07-19 01:00:00,Medium,Integration,4,resolved
+1599,404,2025-12-10 23:00:00,2025-12-13 06:00:00,Medium,General Question,1,resolved
+1600,405,2023-09-14 21:00:00,,Medium,Bug Report,,open
+1601,406,2026-07-10 00:00:00,2026-07-10 02:00:00,Urgent,Feature Request,3,resolved
+1602,406,2026-07-12 13:00:00,,Low,Onboarding,,open
+1603,406,2026-07-11 09:00:00,,Low,Onboarding,,open
+1604,406,2026-07-11 07:00:00,2026-07-13 00:00:00,Medium,General Question,3,resolved
+1605,406,2026-07-09 05:00:00,2026-07-09 18:00:00,High,Bug Report,4,resolved
+1606,406,2026-07-12 10:00:00,,Low,Account Access,,open
+1607,407,2026-01-25 02:00:00,2026-01-25 11:00:00,Medium,Bug Report,1,resolved
+1608,407,2026-04-13 20:00:00,2026-04-14 03:00:00,Medium,General Question,3,resolved
+1609,408,2025-09-11 16:00:00,2025-09-13 11:00:00,Low,Integration,4,resolved
+1610,409,2025-07-29 11:00:00,2025-07-30 20:00:00,Low,Onboarding,5,resolved
+1611,409,2026-04-22 01:00:00,2026-04-25 16:00:00,Low,Onboarding,3,resolved
+1612,409,2025-12-04 22:00:00,,Low,Feature Request,,open
+1613,409,2025-10-14 04:00:00,2025-10-16 17:00:00,Medium,Integration,5,resolved
+1614,409,2026-04-02 00:00:00,2026-04-02 19:00:00,High,Billing,2,resolved
+1615,409,2025-08-29 13:00:00,2025-09-05 09:00:00,Low,Bug Report,2,resolved
+1616,410,2025-04-01 13:00:00,2025-04-05 07:00:00,Low,Account Access,5,resolved
+1617,410,2025-08-17 09:00:00,,Medium,Performance,,open
+1618,410,2026-02-11 21:00:00,2026-02-14 08:00:00,Medium,Onboarding,1,resolved
+1619,410,2025-11-06 11:00:00,2025-11-07 03:00:00,Low,Bug Report,5,resolved
+1620,410,2026-05-02 01:00:00,2026-05-03 09:00:00,Low,Billing,4,resolved
+1621,410,2025-10-22 05:00:00,2025-10-22 20:00:00,High,Billing,3,resolved
+1622,410,2023-06-18 06:00:00,2023-06-19 00:00:00,High,Bug Report,1,resolved
+1623,410,2024-10-25 10:00:00,2024-10-30 02:00:00,Low,Onboarding,3,resolved
+1624,411,2024-02-19 06:00:00,2024-02-21 18:00:00,Medium,Account Access,1,resolved
+1625,411,2026-05-28 22:00:00,2026-05-31 08:00:00,Medium,General Question,1,resolved
+1626,411,2023-09-08 05:00:00,2023-09-14 05:00:00,Low,Integration,4,resolved
+1627,411,2024-05-10 12:00:00,2024-05-10 22:00:00,High,Bug Report,5,resolved
+1628,411,2026-04-19 08:00:00,2026-04-19 21:00:00,Low,Performance,3,resolved
+1629,412,2026-05-19 20:00:00,,Low,Bug Report,,open
+1630,412,2026-05-28 11:00:00,,Low,Feature Request,,open
+1631,412,2026-05-12 03:00:00,2026-05-16 23:00:00,Low,Integration,1,resolved
+1632,412,2026-05-13 02:00:00,2026-05-13 17:00:00,High,Billing,3,resolved
+1633,412,2026-05-10 00:00:00,2026-05-15 17:00:00,Low,Feature Request,5,resolved
+1634,413,2025-04-30 22:00:00,2025-05-03 13:00:00,Medium,Onboarding,3,resolved
+1635,413,2025-10-20 13:00:00,2025-10-21 01:00:00,High,Onboarding,5,resolved
+1636,413,2025-10-25 23:00:00,,Low,Feature Request,,open
+1637,414,2026-03-12 15:00:00,2026-03-15 11:00:00,Medium,Onboarding,2,resolved
+1638,414,2026-05-09 12:00:00,2026-05-10 16:00:00,Medium,Onboarding,4,resolved
+1639,414,2025-10-22 05:00:00,,High,Integration,,open
+1640,414,2025-12-22 22:00:00,2025-12-24 11:00:00,Low,Account Access,2,resolved
+1641,414,2025-05-15 17:00:00,2025-05-21 10:00:00,Low,Feature Request,2,resolved
+1642,415,2024-12-17 05:00:00,2024-12-17 12:00:00,High,Integration,3,resolved
+1643,415,2024-11-12 16:00:00,2024-11-13 17:00:00,Low,Integration,3,resolved
+1644,415,2024-11-28 22:00:00,2024-11-29 14:00:00,High,Account Access,3,resolved
+1645,415,2025-06-09 06:00:00,2025-06-10 23:00:00,Low,Bug Report,3,resolved
+1646,415,2025-06-28 06:00:00,2025-07-01 00:00:00,Low,General Question,4,resolved
+1647,415,2026-02-06 08:00:00,,Low,Billing,,open
+1648,415,2025-03-19 18:00:00,2025-03-24 20:00:00,Low,Feature Request,4,resolved
+1649,415,2025-01-11 04:00:00,2025-01-13 12:00:00,Low,Bug Report,1,resolved
+1650,416,2026-07-01 21:00:00,2026-07-03 10:00:00,Medium,Bug Report,5,resolved
+1651,417,2026-04-21 14:00:00,2026-04-23 02:00:00,Medium,Bug Report,2,resolved
+1652,417,2024-07-10 16:00:00,2024-07-16 22:00:00,Low,Onboarding,3,resolved
+1653,417,2025-03-10 15:00:00,2025-03-10 19:00:00,Urgent,Onboarding,1,resolved
+1654,417,2023-09-10 17:00:00,2023-09-13 16:00:00,Low,Account Access,2,resolved
+1655,417,2025-12-28 10:00:00,2025-12-28 18:00:00,High,Feature Request,3,resolved
+1656,417,2023-09-01 03:00:00,2023-09-02 05:00:00,Medium,Integration,5,resolved
+1657,418,2026-07-02 11:00:00,2026-07-02 15:00:00,High,Bug Report,1,resolved
+1658,418,2026-04-27 19:00:00,2026-05-01 15:00:00,Low,Performance,3,resolved
+1659,418,2026-07-04 23:00:00,,Medium,Feature Request,,open
+1660,418,2026-03-25 11:00:00,2026-03-29 04:00:00,Low,Account Access,5,resolved
+1661,418,2026-05-10 06:00:00,2026-05-10 13:00:00,High,Bug Report,1,resolved
+1662,418,2026-04-25 03:00:00,2026-04-25 16:00:00,High,Performance,2,resolved
+1663,419,2024-09-24 08:00:00,2024-09-27 16:00:00,Low,Bug Report,1,resolved
+1664,419,2024-12-08 19:00:00,2024-12-11 09:00:00,Low,Onboarding,3,resolved
+1665,419,2024-08-15 03:00:00,2024-08-15 07:00:00,High,Account Access,4,resolved
+1666,419,2024-09-27 00:00:00,2024-10-02 00:00:00,Low,Billing,5,resolved
+1667,420,2025-11-23 14:00:00,2025-11-24 06:00:00,Medium,Integration,3,resolved
+1668,420,2025-10-13 17:00:00,,Medium,Onboarding,,open
+1669,421,2026-07-12 01:00:00,,Low,Onboarding,,open
+1670,421,2026-07-10 18:00:00,,Low,Billing,,open
+1671,423,2026-04-15 12:00:00,2026-04-17 01:00:00,Medium,Performance,4,resolved
+1672,423,2025-09-29 07:00:00,2025-10-04 17:00:00,Low,Feature Request,3,resolved
+1673,423,2025-10-31 05:00:00,,Medium,Account Access,,open
+1674,423,2025-06-14 14:00:00,2025-06-19 18:00:00,Low,Integration,5,resolved
+1675,423,2025-09-19 05:00:00,2025-09-19 21:00:00,High,General Question,4,resolved
+1676,423,2025-10-12 12:00:00,2025-10-12 23:00:00,High,Billing,3,resolved
+1677,423,2026-05-17 15:00:00,2026-05-24 06:00:00,Low,Integration,1,resolved
+1678,423,2026-01-21 10:00:00,2026-01-28 06:00:00,Low,Bug Report,3,resolved
+1679,424,2026-06-21 07:00:00,2026-06-21 12:00:00,Medium,Account Access,3,resolved
+1680,425,2026-04-20 18:00:00,,Medium,Integration,,open
+1681,425,2026-05-11 12:00:00,2026-05-13 17:00:00,Medium,Onboarding,5,resolved
+1682,425,2026-02-11 15:00:00,2026-02-14 07:00:00,Low,Bug Report,4,resolved
+1683,426,2026-07-03 08:00:00,2026-07-04 20:00:00,Low,Billing,4,resolved
+1684,426,2026-06-30 11:00:00,2026-07-02 23:00:00,Low,General Question,5,resolved
+1685,426,2026-06-28 06:00:00,2026-07-03 18:00:00,Low,Onboarding,5,resolved
+1686,426,2026-06-13 22:00:00,2026-06-13 23:00:00,Low,Account Access,2,resolved
+1687,426,2026-06-18 11:00:00,,Low,General Question,,open
+1688,426,2026-06-21 18:00:00,2026-06-22 15:00:00,Medium,Account Access,3,resolved
+1689,426,2026-07-04 06:00:00,2026-07-04 10:00:00,High,Bug Report,2,resolved
+1690,426,2026-06-16 17:00:00,,Medium,Onboarding,,open
+1691,427,2025-08-04 20:00:00,2025-08-05 12:00:00,High,Account Access,4,resolved
+1692,427,2025-02-09 10:00:00,2025-02-09 16:00:00,Medium,Onboarding,4,resolved
+1693,427,2026-03-02 08:00:00,2026-03-03 11:00:00,Low,Bug Report,1,resolved
+1694,427,2025-04-24 22:00:00,2025-04-29 18:00:00,Low,Integration,3,resolved
+1695,427,2024-06-03 15:00:00,2024-06-04 17:00:00,Medium,Account Access,1,resolved
+1696,427,2024-04-03 16:00:00,2024-04-07 22:00:00,Low,Performance,4,resolved
+1697,428,2026-05-25 01:00:00,,High,Onboarding,,open
+1698,428,2026-04-25 17:00:00,2026-04-27 16:00:00,Low,Integration,1,resolved
+1699,428,2026-06-23 19:00:00,2026-06-24 06:00:00,High,Account Access,1,resolved
+1700,428,2026-05-04 08:00:00,2026-05-05 17:00:00,Medium,Billing,1,resolved
+1701,429,2025-07-25 20:00:00,2025-07-26 13:00:00,High,Integration,2,resolved
+1702,429,2025-09-16 22:00:00,2025-09-20 02:00:00,Low,Integration,5,resolved
+1703,429,2025-05-20 08:00:00,2025-05-20 23:00:00,Low,Integration,4,resolved
+1704,429,2025-08-20 02:00:00,2025-08-20 04:00:00,Urgent,Performance,2,resolved
+1705,429,2025-06-06 13:00:00,2025-06-11 16:00:00,Low,Integration,4,resolved
+1706,429,2026-02-20 02:00:00,2026-02-20 07:00:00,Low,Account Access,4,resolved
+1707,429,2026-07-01 11:00:00,2026-07-04 09:00:00,Low,Bug Report,4,resolved
+1708,429,2025-08-22 21:00:00,2025-08-24 20:00:00,Low,Feature Request,1,resolved
+1709,430,2025-12-01 06:00:00,2025-12-01 10:00:00,High,Performance,3,resolved
+1710,430,2025-05-16 10:00:00,2025-05-21 03:00:00,Low,Integration,2,resolved
+1711,430,2025-07-22 16:00:00,2025-07-23 07:00:00,Medium,Bug Report,4,resolved
+1712,430,2025-10-15 10:00:00,2025-10-21 18:00:00,Low,Integration,3,resolved
+1713,430,2025-05-28 10:00:00,2025-05-30 13:00:00,Medium,Integration,2,resolved
+1714,430,2026-03-06 21:00:00,2026-03-07 00:00:00,Urgent,Feature Request,5,resolved
+1715,431,2026-06-30 18:00:00,2026-07-01 07:00:00,High,Billing,5,resolved
+1716,431,2024-04-05 23:00:00,2024-04-06 14:00:00,Medium,General Question,5,resolved
+1717,431,2026-05-14 05:00:00,2026-05-17 00:00:00,Medium,Integration,5,resolved
+1718,431,2025-11-09 23:00:00,2025-11-11 06:00:00,Low,Account Access,2,resolved
+1719,431,2025-03-06 04:00:00,2025-03-06 13:00:00,High,Integration,2,resolved
+1720,431,2024-11-22 09:00:00,2024-11-24 18:00:00,Medium,Onboarding,2,resolved
+1721,432,2026-06-22 03:00:00,2026-06-24 04:00:00,Low,General Question,4,resolved
+1722,433,2026-05-22 20:00:00,2026-05-25 16:00:00,Medium,Feature Request,3,resolved
+1723,433,2026-06-12 22:00:00,,Low,Bug Report,,open
+1724,433,2026-05-24 19:00:00,2026-05-24 22:00:00,High,Performance,1,resolved
+1725,434,2025-08-06 02:00:00,,Medium,Bug Report,,open
+1726,434,2025-11-04 03:00:00,,Medium,Billing,,open
+1727,434,2025-11-10 13:00:00,2025-11-12 13:00:00,Medium,Billing,3,resolved
+1728,434,2025-09-25 00:00:00,2025-09-27 18:00:00,Low,Performance,2,resolved
+1729,434,2026-02-04 23:00:00,2026-02-06 14:00:00,Medium,General Question,3,resolved
+1730,434,2025-09-20 03:00:00,2025-09-24 00:00:00,Low,Account Access,1,resolved
+1731,434,2026-03-03 16:00:00,2026-03-07 02:00:00,Low,Bug Report,2,resolved
+1732,434,2026-05-02 05:00:00,2026-05-03 05:00:00,Medium,Bug Report,5,resolved
+1733,435,2026-02-28 12:00:00,2026-03-02 17:00:00,Medium,General Question,4,resolved
+1734,436,2026-01-21 11:00:00,2026-01-28 03:00:00,Low,Bug Report,4,resolved
+1735,437,2025-04-14 23:00:00,2025-04-15 05:00:00,High,Bug Report,5,resolved
+1736,437,2025-11-25 00:00:00,2025-11-25 07:00:00,Medium,Billing,5,resolved
+1737,437,2026-06-15 07:00:00,2026-06-15 11:00:00,Urgent,Account Access,2,resolved
+1738,437,2025-08-02 20:00:00,2025-08-07 10:00:00,Low,Account Access,4,resolved
+1739,437,2025-01-07 13:00:00,2025-01-10 02:00:00,Low,Feature Request,2,resolved
+1740,438,2024-12-22 08:00:00,2024-12-22 14:00:00,High,General Question,4,resolved
+1741,438,2026-05-17 07:00:00,2026-05-20 03:00:00,Low,Performance,5,resolved
+1742,438,2024-12-01 01:00:00,2024-12-04 00:00:00,Medium,Integration,5,resolved
+1743,438,2025-11-19 19:00:00,2025-11-25 01:00:00,Low,Integration,1,resolved
+1744,439,2024-06-04 07:00:00,2024-06-05 02:00:00,Medium,Feature Request,4,resolved
+1745,439,2026-06-15 17:00:00,2026-06-19 04:00:00,Low,Integration,2,resolved
+1746,439,2025-03-25 08:00:00,2025-03-27 03:00:00,Medium,Onboarding,1,resolved
+1747,440,2026-01-16 03:00:00,,High,Onboarding,,open
+1748,440,2024-10-18 01:00:00,2024-10-23 08:00:00,Low,Performance,2,resolved
+1749,440,2026-03-26 06:00:00,2026-04-01 09:00:00,Low,Performance,3,resolved
+1750,440,2024-05-21 21:00:00,2024-05-24 02:00:00,Medium,Account Access,2,resolved
+1751,440,2026-04-16 17:00:00,2026-04-18 03:00:00,Medium,Integration,4,resolved
+1752,441,2024-08-05 21:00:00,2024-08-07 08:00:00,Medium,Bug Report,5,resolved
+1753,441,2025-12-16 16:00:00,,Low,Feature Request,,open
+1754,441,2025-09-14 11:00:00,2025-09-21 05:00:00,Low,Account Access,4,resolved
+1755,441,2025-10-30 19:00:00,2025-11-06 01:00:00,Low,Bug Report,1,resolved
+1756,442,2026-06-03 04:00:00,2026-06-05 15:00:00,Medium,Bug Report,4,resolved
+1757,442,2025-03-07 18:00:00,2025-03-09 06:00:00,Medium,Performance,5,resolved
+1758,442,2024-11-12 17:00:00,,Medium,Account Access,,open
+1759,442,2026-03-22 08:00:00,,Urgent,Performance,,open
+1760,442,2023-06-21 21:00:00,2023-06-26 08:00:00,Low,Billing,5,resolved
+1761,443,2026-03-29 14:00:00,2026-03-29 21:00:00,High,Integration,2,resolved
+1762,443,2025-09-30 10:00:00,2025-10-02 22:00:00,Medium,Billing,2,resolved
+1763,443,2024-11-05 22:00:00,2024-11-06 17:00:00,High,Performance,3,resolved
+1764,443,2025-10-20 15:00:00,2025-10-21 00:00:00,High,Performance,5,resolved
+1765,444,2026-05-08 21:00:00,2026-05-09 13:00:00,High,Billing,4,resolved
+1766,444,2026-06-06 18:00:00,2026-06-11 09:00:00,Low,Bug Report,3,resolved
+1767,444,2024-09-05 05:00:00,2024-09-06 00:00:00,High,Billing,5,resolved
+1768,445,2026-03-03 10:00:00,2026-03-04 06:00:00,High,Feature Request,3,resolved
+1769,445,2023-12-22 07:00:00,,Medium,Onboarding,,open
+1770,447,2026-04-21 10:00:00,2026-04-22 22:00:00,Medium,Bug Report,2,resolved
+1771,447,2026-05-17 14:00:00,2026-05-18 11:00:00,High,Integration,1,resolved
+1772,447,2025-12-01 06:00:00,,Medium,Performance,,open
+1773,447,2025-12-16 04:00:00,2025-12-16 06:00:00,Urgent,Performance,3,resolved
+1774,447,2026-04-15 09:00:00,2026-04-15 18:00:00,Medium,Billing,3,resolved
+1775,448,2026-06-09 13:00:00,2026-06-10 23:00:00,Medium,Integration,3,resolved
+1776,448,2025-05-19 04:00:00,2025-05-19 06:00:00,Low,Billing,3,resolved
+1777,448,2025-10-20 15:00:00,,Low,Integration,,open
+1778,448,2025-05-13 17:00:00,2025-05-13 18:00:00,Urgent,Feature Request,2,resolved
+1779,448,2025-11-19 21:00:00,2025-11-20 09:00:00,High,General Question,2,resolved
+1780,449,2026-05-17 06:00:00,2026-05-18 05:00:00,Medium,Feature Request,5,resolved
+1781,449,2024-08-08 01:00:00,,Medium,Feature Request,,open
+1782,450,2026-03-08 09:00:00,2026-03-09 16:00:00,Medium,General Question,3,resolved
+1783,451,2025-04-16 06:00:00,2025-04-18 03:00:00,Low,Performance,2,resolved
+1784,452,2025-12-12 00:00:00,,Medium,General Question,,open
+1785,452,2026-05-27 14:00:00,,High,General Question,,open
+1786,452,2025-05-25 18:00:00,2025-05-30 13:00:00,Low,Performance,5,resolved
+1787,452,2025-05-24 11:00:00,2025-05-27 10:00:00,Medium,Performance,2,resolved
+1788,452,2026-01-12 19:00:00,2026-01-18 01:00:00,Low,Bug Report,3,resolved
+1789,453,2026-05-29 02:00:00,2026-05-29 22:00:00,High,Bug Report,1,resolved
+1790,453,2025-05-24 01:00:00,2025-05-24 10:00:00,High,Performance,2,resolved
+1791,453,2025-08-12 12:00:00,2025-08-14 13:00:00,Medium,Account Access,3,resolved
+1792,453,2026-05-24 21:00:00,2026-05-25 06:00:00,Medium,General Question,2,resolved
+1793,453,2025-08-03 05:00:00,2025-08-03 09:00:00,Low,Integration,5,resolved
+1794,453,2026-06-14 09:00:00,,Medium,Bug Report,,open
+1795,454,2025-11-28 00:00:00,2025-12-03 04:00:00,Low,Performance,5,resolved
+1796,454,2024-01-12 06:00:00,,Medium,Billing,,open
+1797,454,2026-03-11 07:00:00,2026-03-16 21:00:00,Low,Onboarding,4,resolved
+1798,454,2025-12-23 10:00:00,2025-12-23 11:00:00,Urgent,General Question,4,resolved
+1799,454,2024-09-30 23:00:00,,Medium,Integration,,open
+1800,454,2025-06-29 14:00:00,2025-06-30 09:00:00,High,Performance,5,resolved
+1801,455,2026-04-04 09:00:00,2026-04-04 13:00:00,Urgent,General Question,4,resolved
+1802,455,2026-01-24 14:00:00,2026-01-27 06:00:00,Medium,Billing,3,resolved
+1803,456,2026-06-01 13:00:00,2026-06-01 20:00:00,High,Performance,3,resolved
+1804,456,2026-06-19 02:00:00,2026-06-25 04:00:00,Low,Performance,4,resolved
+1805,457,2025-04-25 13:00:00,2025-04-26 10:00:00,High,Bug Report,1,resolved
+1806,457,2023-08-08 19:00:00,2023-08-09 03:00:00,High,Bug Report,3,resolved
+1807,457,2025-04-06 05:00:00,2025-04-07 08:00:00,Medium,Feature Request,1,resolved
+1808,457,2024-08-23 22:00:00,2024-08-24 18:00:00,High,Performance,3,resolved
+1809,458,2025-11-16 17:00:00,2025-11-18 03:00:00,Medium,Billing,5,resolved
+1810,458,2026-06-27 09:00:00,2026-06-30 15:00:00,Low,Performance,1,resolved
+1811,458,2026-04-07 08:00:00,,Low,Bug Report,,open
+1812,458,2024-11-13 11:00:00,2024-11-14 15:00:00,Low,Billing,3,resolved
+1813,458,2025-06-17 05:00:00,2025-06-20 06:00:00,Low,Account Access,3,resolved
+1814,458,2026-03-13 23:00:00,,Low,General Question,,open
+1815,458,2026-01-14 08:00:00,2026-01-14 13:00:00,High,Account Access,3,resolved
+1816,460,2025-02-17 15:00:00,2025-02-21 08:00:00,Low,Account Access,1,resolved
+1817,461,2026-01-30 23:00:00,2026-02-01 10:00:00,Medium,Billing,1,resolved
+1818,462,2025-10-31 04:00:00,2025-11-01 00:00:00,Medium,Account Access,3,resolved
+1819,462,2025-05-06 01:00:00,2025-05-06 18:00:00,Medium,Billing,5,resolved
+1820,462,2024-04-27 12:00:00,2024-04-28 12:00:00,Low,Onboarding,2,resolved
+1821,462,2026-01-18 19:00:00,2026-01-25 09:00:00,Low,Integration,3,resolved
+1822,462,2024-12-28 12:00:00,2024-12-29 06:00:00,High,Integration,4,resolved
+1823,462,2025-04-14 18:00:00,2025-04-15 12:00:00,Medium,Onboarding,3,resolved
+1824,462,2025-06-08 01:00:00,2025-06-08 19:00:00,Medium,General Question,4,resolved
+1825,463,2024-01-07 05:00:00,2024-01-07 15:00:00,High,General Question,4,resolved
+1826,463,2023-12-03 05:00:00,2023-12-09 01:00:00,Low,Performance,5,resolved
+1827,463,2025-08-14 00:00:00,2025-08-14 10:00:00,Medium,Account Access,5,resolved
+1828,463,2024-10-15 10:00:00,2024-10-17 22:00:00,Medium,Performance,4,resolved
+1829,463,2026-04-08 02:00:00,2026-04-14 15:00:00,Low,Integration,2,resolved
+1830,463,2025-08-08 15:00:00,2025-08-09 10:00:00,Low,Integration,1,resolved
+1831,463,2024-06-09 00:00:00,2024-06-11 17:00:00,Medium,Onboarding,5,resolved
+1832,463,2025-09-16 10:00:00,2025-09-19 09:00:00,Medium,Integration,1,resolved
+1833,465,2025-12-27 08:00:00,2025-12-28 06:00:00,Medium,Integration,5,resolved
+1834,465,2026-07-07 22:00:00,2026-07-10 11:00:00,Medium,Performance,2,resolved
+1835,465,2026-03-30 03:00:00,2026-04-03 09:00:00,Low,Billing,5,resolved
+1836,465,2025-10-13 19:00:00,2025-10-13 22:00:00,High,Performance,2,resolved
+1837,465,2025-04-17 05:00:00,2025-04-21 12:00:00,Low,Account Access,2,resolved
+1838,465,2025-07-24 05:00:00,2025-07-26 08:00:00,Low,General Question,1,resolved
+1839,466,2025-10-05 05:00:00,2025-10-09 19:00:00,Low,Bug Report,3,resolved
+1840,466,2025-08-19 23:00:00,2025-08-22 18:00:00,Low,Performance,3,resolved
+1841,467,2025-07-20 17:00:00,2025-07-23 04:00:00,Low,Onboarding,5,resolved
+1842,467,2026-03-30 20:00:00,2026-03-31 09:00:00,High,Performance,1,resolved
+1843,467,2025-04-12 14:00:00,2025-04-13 14:00:00,High,Feature Request,3,resolved
+1844,467,2026-02-08 14:00:00,2026-02-08 19:00:00,Medium,Performance,1,resolved
+1845,467,2026-05-17 19:00:00,2026-05-20 05:00:00,Medium,Account Access,2,resolved
+1846,467,2025-03-02 23:00:00,2025-03-08 14:00:00,Low,Billing,3,resolved
+1847,467,2024-01-19 22:00:00,2024-01-22 08:00:00,Medium,Performance,5,resolved
+1848,467,2024-09-28 03:00:00,2024-09-30 18:00:00,Medium,Billing,5,resolved
+1849,468,2026-01-20 23:00:00,2026-01-26 14:00:00,Low,Account Access,2,resolved
+1850,468,2024-04-29 07:00:00,2024-05-02 23:00:00,Low,Feature Request,5,resolved
+1851,468,2026-03-02 11:00:00,2026-03-03 10:00:00,High,Feature Request,2,resolved
+1852,468,2026-07-02 15:00:00,2026-07-07 07:00:00,Low,Billing,2,resolved
+1853,468,2024-12-08 14:00:00,2024-12-08 15:00:00,Medium,Billing,1,resolved
+1854,469,2025-09-16 04:00:00,2025-09-21 00:00:00,Low,Bug Report,5,resolved
+1855,469,2025-11-26 04:00:00,2025-11-26 16:00:00,High,Billing,5,resolved
+1856,469,2025-07-31 08:00:00,2025-08-01 23:00:00,Medium,Feature Request,3,resolved
+1857,470,2026-01-18 14:00:00,2026-01-21 19:00:00,Low,Bug Report,3,resolved
+1858,471,2024-12-06 20:00:00,2024-12-09 06:00:00,Low,Feature Request,3,resolved
+1859,471,2025-05-09 23:00:00,,Low,Integration,,open
+1860,471,2025-10-02 20:00:00,2025-10-05 03:00:00,Low,Bug Report,4,resolved
+1861,471,2024-10-24 19:00:00,2024-10-26 10:00:00,Low,Performance,2,resolved
+1862,471,2025-11-29 22:00:00,,Medium,Account Access,,open
+1863,471,2025-12-20 00:00:00,2025-12-21 16:00:00,Medium,Account Access,1,resolved
+1864,471,2026-06-09 20:00:00,2026-06-10 10:00:00,High,Account Access,3,resolved
+1865,471,2026-03-31 04:00:00,2026-03-31 17:00:00,Medium,Bug Report,1,resolved
+1866,472,2024-01-07 06:00:00,2024-01-09 00:00:00,Low,Integration,3,resolved
+1867,475,2025-04-15 17:00:00,2025-04-17 19:00:00,Medium,Integration,3,resolved
+1868,475,2026-05-20 05:00:00,2026-05-22 00:00:00,Medium,Onboarding,5,resolved
+1869,475,2024-10-11 04:00:00,2024-10-11 14:00:00,High,Billing,3,resolved
+1870,475,2024-02-23 09:00:00,2024-02-24 05:00:00,High,Integration,5,resolved
+1871,475,2025-08-22 16:00:00,2025-08-25 14:00:00,Medium,Performance,4,resolved
+1872,477,2026-07-10 03:00:00,2026-07-10 21:00:00,High,General Question,4,resolved
+1873,477,2026-07-02 14:00:00,2026-07-04 19:00:00,Low,Performance,1,resolved
+1874,477,2026-05-11 08:00:00,2026-05-12 16:00:00,Low,Billing,5,resolved
+1875,477,2026-05-29 16:00:00,2026-06-01 10:00:00,Medium,Billing,4,resolved
+1876,478,2025-11-08 22:00:00,2025-11-11 17:00:00,Medium,Integration,3,resolved
+1877,478,2025-11-02 15:00:00,2025-11-03 05:00:00,High,Account Access,5,resolved
+1878,478,2026-03-03 16:00:00,2026-03-03 21:00:00,Medium,General Question,3,resolved
+1879,479,2024-05-23 17:00:00,2024-05-25 18:00:00,Medium,Bug Report,2,resolved
+1880,479,2026-01-10 04:00:00,2026-01-10 05:00:00,Urgent,Integration,3,resolved
+1881,479,2024-08-26 07:00:00,2024-09-01 09:00:00,Low,General Question,4,resolved
+1882,479,2025-01-09 22:00:00,2025-01-09 23:00:00,Low,Bug Report,4,resolved
+1883,479,2026-05-14 11:00:00,2026-05-20 00:00:00,Low,Bug Report,1,resolved
+1884,479,2026-03-04 22:00:00,2026-03-08 04:00:00,Low,General Question,1,resolved
+1885,479,2024-01-08 04:00:00,2024-01-08 18:00:00,Medium,Bug Report,3,resolved
+1886,480,2026-02-16 05:00:00,2026-02-16 07:00:00,Urgent,Onboarding,4,resolved
+1887,480,2025-05-28 23:00:00,2025-05-30 01:00:00,Low,Billing,1,resolved
+1888,480,2025-05-28 08:00:00,,Medium,Performance,,open
+1889,480,2025-11-02 21:00:00,2025-11-05 11:00:00,Low,Billing,5,resolved
+1890,480,2025-04-12 04:00:00,2025-04-12 10:00:00,Medium,Billing,3,resolved
+1891,480,2025-09-22 06:00:00,2025-09-27 08:00:00,Low,Bug Report,1,resolved
+1892,480,2025-10-17 06:00:00,2025-10-17 08:00:00,High,Performance,4,resolved
+1893,481,2025-05-15 06:00:00,2025-05-16 15:00:00,Low,Account Access,2,resolved
+1894,481,2025-10-03 20:00:00,2025-10-08 04:00:00,Low,Account Access,2,resolved
+1895,481,2026-05-18 10:00:00,2026-05-24 17:00:00,Low,Bug Report,5,resolved
+1896,482,2026-01-18 08:00:00,2026-01-20 20:00:00,Medium,Onboarding,4,resolved
+1897,482,2025-10-23 10:00:00,2025-10-25 11:00:00,Low,Feature Request,5,resolved
+1898,482,2026-04-17 17:00:00,,Low,Feature Request,,open
+1899,482,2025-12-22 20:00:00,2025-12-22 22:00:00,Low,General Question,3,resolved
+1900,482,2026-02-24 19:00:00,2026-02-25 15:00:00,High,Feature Request,3,resolved
+1901,483,2025-11-06 17:00:00,,High,Bug Report,,open
+1902,483,2026-05-23 07:00:00,2026-05-23 13:00:00,Medium,Account Access,3,resolved
+1903,483,2025-11-01 16:00:00,2025-11-04 10:00:00,Medium,Bug Report,2,resolved
+1904,483,2025-06-17 14:00:00,2025-06-17 16:00:00,Medium,Performance,1,resolved
+1905,483,2026-04-12 07:00:00,2026-04-14 18:00:00,Medium,Feature Request,3,resolved
+1906,483,2025-10-28 17:00:00,2025-10-28 21:00:00,Low,Feature Request,1,resolved
+1907,485,2024-09-13 03:00:00,2024-09-13 05:00:00,Medium,Account Access,1,resolved
+1908,485,2024-07-25 14:00:00,2024-07-27 03:00:00,Medium,General Question,4,resolved
+1909,485,2025-06-23 00:00:00,2025-06-25 13:00:00,Medium,Bug Report,3,resolved
+1910,486,2026-05-16 03:00:00,2026-05-17 07:00:00,Medium,Performance,1,resolved
+1911,486,2026-05-29 15:00:00,2026-06-01 03:00:00,Low,General Question,3,resolved
+1912,487,2026-07-01 11:00:00,2026-07-04 14:00:00,Low,Feature Request,5,resolved
+1913,487,2025-08-31 23:00:00,2025-09-01 03:00:00,Medium,Billing,2,resolved
+1914,488,2025-07-28 18:00:00,2025-08-02 09:00:00,Low,Bug Report,1,resolved
+1915,488,2026-04-25 22:00:00,2026-04-26 20:00:00,Medium,Performance,3,resolved
+1916,490,2026-05-01 07:00:00,2026-05-04 05:00:00,Medium,General Question,4,resolved
+1917,491,2025-08-14 04:00:00,2025-08-20 11:00:00,Low,Feature Request,2,resolved
+1918,491,2025-11-01 11:00:00,2025-11-02 09:00:00,High,Bug Report,5,resolved
+1919,491,2025-08-04 03:00:00,2025-08-09 03:00:00,Low,General Question,1,resolved
+1920,491,2025-09-16 20:00:00,2025-09-17 15:00:00,High,Feature Request,5,resolved
+1921,491,2025-11-21 22:00:00,2025-11-23 10:00:00,Medium,Bug Report,2,resolved
+1922,491,2025-04-26 11:00:00,,Medium,Onboarding,,open
+1923,491,2026-03-12 16:00:00,2026-03-13 03:00:00,High,Billing,5,resolved
+1924,491,2025-09-01 17:00:00,2025-09-02 12:00:00,High,Performance,3,resolved
+1925,492,2026-07-03 19:00:00,2026-07-10 18:00:00,Low,General Question,2,resolved
+1926,495,2026-04-16 17:00:00,2026-04-23 17:00:00,Low,Bug Report,3,resolved
+1927,495,2026-03-04 06:00:00,2026-03-05 20:00:00,Medium,Onboarding,3,resolved
+1928,495,2025-11-08 21:00:00,2025-11-08 22:00:00,Urgent,Integration,4,resolved
+1929,495,2025-10-09 12:00:00,2025-10-10 01:00:00,Medium,General Question,2,resolved
+1930,495,2026-03-16 23:00:00,2026-03-17 01:00:00,Urgent,General Question,5,resolved
+1931,496,2026-06-28 14:00:00,2026-06-29 12:00:00,Medium,Feature Request,4,resolved
+1932,496,2024-06-29 01:00:00,2024-06-30 17:00:00,Medium,Onboarding,1,resolved
+1933,496,2024-05-24 20:00:00,2024-05-25 23:00:00,Medium,Integration,5,resolved
+1934,496,2026-04-03 20:00:00,2026-04-04 03:00:00,Medium,Onboarding,5,resolved
+1935,496,2025-04-09 05:00:00,2025-04-10 06:00:00,Medium,Bug Report,2,resolved
+1936,498,2025-08-22 04:00:00,2025-08-22 20:00:00,High,Performance,3,resolved
+1937,498,2025-01-06 20:00:00,2025-01-11 07:00:00,Low,Performance,4,resolved
+1938,498,2025-03-31 19:00:00,2025-04-01 22:00:00,Low,Bug Report,3,resolved
+1939,498,2025-03-18 18:00:00,2025-03-22 19:00:00,Low,Bug Report,1,resolved
+1940,498,2026-05-14 14:00:00,2026-05-15 08:00:00,Low,General Question,5,resolved
+1941,498,2026-02-03 16:00:00,2026-02-03 19:00:00,High,General Question,1,resolved
+1942,498,2025-01-15 17:00:00,2025-01-18 08:00:00,Medium,Account Access,3,resolved
+1943,499,2024-11-30 19:00:00,2024-12-06 07:00:00,Low,Onboarding,5,resolved
+1944,499,2025-04-27 10:00:00,2025-04-28 04:00:00,Medium,Billing,4,resolved
+1945,500,2026-06-14 22:00:00,2026-06-17 16:00:00,Low,Integration,3,resolved
+1946,500,2026-06-23 18:00:00,2026-06-24 07:00:00,High,Feature Request,5,resolved
+1947,500,2024-11-13 13:00:00,2024-11-17 09:00:00,Low,Bug Report,3,resolved

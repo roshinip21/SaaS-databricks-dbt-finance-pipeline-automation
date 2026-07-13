@@ -1,0 +1,37 @@
+# Example dbt profile for this project.
+#
+# Copy this to ~/.dbt/profiles.yml (dbt's default profile location) and fill
+# in your own values, or export the equivalent SAAS_ANALYTICS_* env vars and
+# leave the env_var() calls as-is.
+#
+# See snowflake_setup.sql for the matching CREATE WAREHOUSE/DATABASE/ROLE
+# statements to run in Snowflake before your first `dbt run`.
+
+saas_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('SAAS_ANALYTICS_SF_ACCOUNT') }}"        # e.g. xy12345.us-east-1
+      user: "{{ env_var('SAAS_ANALYTICS_SF_USER') }}"
+      authenticator: "{{ env_var('SAAS_ANALYTICS_SF_AUTHENTICATOR', 'snowflake') }}"
+      password: "{{ env_var('SAAS_ANALYTICS_SF_PASSWORD', '') }}"
+      role: "{{ env_var('SAAS_ANALYTICS_SF_ROLE', 'SAAS_ANALYTICS_ROLE') }}"
+      warehouse: "{{ env_var('SAAS_ANALYTICS_SF_WAREHOUSE', 'SAAS_ANALYTICS_WH') }}"
+      database: "{{ env_var('SAAS_ANALYTICS_SF_DATABASE', 'SAAS_ANALYTICS') }}"
+      schema: "{{ env_var('SAAS_ANALYTICS_SF_SCHEMA', 'DBT_DEV') }}"
+      threads: 4
+      client_session_keep_alive: false
+
+    prod:
+      type: snowflake
+      account: "{{ env_var('SAAS_ANALYTICS_SF_ACCOUNT') }}"
+      user: "{{ env_var('SAAS_ANALYTICS_SF_USER') }}"
+      authenticator: "{{ env_var('SAAS_ANALYTICS_SF_AUTHENTICATOR', 'snowflake') }}"
+      password: "{{ env_var('SAAS_ANALYTICS_SF_PASSWORD', '') }}"
+      role: "{{ env_var('SAAS_ANALYTICS_SF_ROLE', 'SAAS_ANALYTICS_ROLE') }}"
+      warehouse: "{{ env_var('SAAS_ANALYTICS_SF_WAREHOUSE', 'SAAS_ANALYTICS_WH') }}"
+      database: "{{ env_var('SAAS_ANALYTICS_SF_DATABASE', 'SAAS_ANALYTICS') }}"
+      schema: "{{ env_var('SAAS_ANALYTICS_SF_SCHEMA', 'DBT_PROD') }}"
+      threads: 8
+      client_session_keep_alive: false

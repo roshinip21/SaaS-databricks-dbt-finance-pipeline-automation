@@ -1,0 +1,138 @@
+version: 2
+
+models:
+  - name: stg_saas__plans
+    description: One row per pricing plan (tier x billing interval).
+    columns:
+      - name: plan_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_saas__customers
+    description: One row per customer account.
+    columns:
+      - name: customer_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_saas__subscriptions
+    description: >
+      One row per subscription "stint" - a customer gets a new row each time
+      they upgrade, downgrade, cancel, or reactivate.
+    columns:
+      - name: subscription_id
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_saas__customers')
+                field: customer_id
+      - name: plan_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_saas__plans')
+                field: plan_id
+      - name: status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['active', 'canceled']
+
+  - name: stg_saas__subscription_events
+    description: Event log of subscription lifecycle changes (created/upgraded/downgraded/canceled/reactivated).
+    columns:
+      - name: event_id
+        data_tests:
+          - unique
+          - not_null
+      - name: subscription_id
+        data_tests:
+          - not_null
+      - name: event_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['created', 'upgraded', 'downgraded', 'canceled', 'reactivated']
+
+  - name: stg_saas__invoices
+    description: One row per billing-period invoice generated for a subscription.
+    columns:
+      - name: invoice_id
+        data_tests:
+          - unique
+          - not_null
+      - name: subscription_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_saas__subscriptions')
+                field: subscription_id
+      - name: invoice_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['paid', 'pending', 'failed', 'refunded']
+
+  - name: stg_saas__payments
+    description: One row per payment attempt against an invoice.
+    columns:
+      - name: payment_id
+        data_tests:
+          - unique
+          - not_null
+      - name: invoice_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_saas__invoices')
+                field: invoice_id
+      - name: payment_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['succeeded', 'failed', 'refunded']
+
+  - name: stg_saas__usage_events
+    description: Product usage / feature-engagement event stream.
+    columns:
+      - name: event_id
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_saas__customers')
+                field: customer_id
+
+  - name: stg_saas__support_tickets
+    description: Customer support ticket log.
+    columns:
+      - name: ticket_id
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_saas__customers')
+                field: customer_id
+      - name: ticket_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['open', 'resolved']

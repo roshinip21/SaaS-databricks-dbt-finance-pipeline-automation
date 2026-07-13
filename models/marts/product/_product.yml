@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: fct_usage_events
+    description: Product usage/feature-engagement event stream, enriched with the customer's current tier.
+    columns:
+      - name: event_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: fct_usage_daily
+    description: Daily active-user and event-volume rollup per customer.
+    columns:
+      - name: customer_id
+        data_tests:
+          - not_null
+      - name: event_date
+        data_tests:
+          - not_null

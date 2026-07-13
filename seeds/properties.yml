@@ -1,0 +1,19 @@
+version: 2
+
+seeds:
+  - name: plans
+    description: Static pricing catalog (tier x billing interval).
+  - name: customers
+    description: Synthetic SaaS customer accounts.
+  - name: subscriptions
+    description: Subscription "stints" per customer, one row per plan/status period.
+  - name: subscription_events
+    description: Lifecycle event log for subscriptions (created/upgraded/downgraded/canceled/reactivated).
+  - name: invoices
+    description: Monthly billing invoices generated per subscription.
+  - name: payments
+    description: Payment attempts against invoices.
+  - name: usage_events
+    description: Product usage / feature-engagement event stream.
+  - name: support_tickets
+    description: Customer support ticket log.

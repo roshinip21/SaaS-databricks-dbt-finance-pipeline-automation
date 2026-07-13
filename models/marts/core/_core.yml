@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: One row per customer with current plan, lifetime billing/usage/support rollups.
+    columns:
+      - name: customer_id
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['active', 'churned']
+
+  - name: dim_plans
+    description: One row per pricing plan with current active-subscriber count.
+    columns:
+      - name: plan_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: fct_subscriptions
+    description: One row per subscription stint (grain = subscription_id), enriched with plan attributes.
+    columns:
+      - name: subscription_id
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_id
+        data_tests:
+          - not_null

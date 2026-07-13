@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: fct_support_tickets
+    description: One row per support ticket, enriched with the customer's current tier.
+    columns:
+      - name: ticket_id
+        data_tests:
+          - unique
+          - not_null

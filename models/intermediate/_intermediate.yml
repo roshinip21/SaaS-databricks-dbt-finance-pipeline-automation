@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: int_month_spine
+    description: Ephemeral calendar-month spine from 2023-01 through the current month.
+
+  - name: int_subscriptions_by_month
+    description: >
+      One row per customer per month, carrying the subscription stint that
+      was active on that month's last calendar day (an end-of-month MRR
+      snapshot). Feeds fct_mrr_monthly.
+    columns:
+      - name: customer_id
+        data_tests:
+          - not_null
+      - name: month
+        data_tests:
+          - not_null
