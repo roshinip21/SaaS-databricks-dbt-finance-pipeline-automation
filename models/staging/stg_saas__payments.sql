@@ -7,8 +7,8 @@ renamed as (
         payment_id,
         invoice_id,
         customer_id,
-        payment_date::date as payment_date,
-        amount_usd::number(10, 2) as amount_usd,
+        cast(payment_date as date) as payment_date,
+        cast(amount_usd as decimal(10, 2)) as amount_usd,
         payment_method,
         status as payment_status
     from source

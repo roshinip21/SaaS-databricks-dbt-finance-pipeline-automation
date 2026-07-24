@@ -8,9 +8,9 @@ renamed as (
         company_name,
         industry,
         country,
-        employee_count::number as employee_count,
+        cast(employee_count as int) as employee_count,
         acquisition_channel,
-        signup_date::date as signup_date
+        cast(signup_date as date) as signup_date
     from source
 )
 

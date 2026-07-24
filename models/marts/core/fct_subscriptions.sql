@@ -18,6 +18,6 @@ select
     s.status,
     s.is_current,
     s.mrr_usd,
-    datediff('day', s.start_date, coalesce(s.end_date, current_date())) as duration_days
+    datediff(coalesce(s.end_date, current_date()), s.start_date) as duration_days
 from subscriptions s
 left join plans p on s.plan_id = p.plan_id

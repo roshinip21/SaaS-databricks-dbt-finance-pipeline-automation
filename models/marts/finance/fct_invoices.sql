@@ -23,6 +23,6 @@ select
     i.invoice_status,
     coalesce(p.amount_collected_usd, 0) as amount_collected_usd,
     p.last_payment_date,
-    datediff('day', i.due_date, coalesce(p.last_payment_date, current_date())) as days_past_due
+    datediff(coalesce(p.last_payment_date, current_date()), i.due_date) as days_past_due
 from invoices i
 left join payments p on i.invoice_id = p.invoice_id

@@ -1,37 +1,38 @@
-# Example dbt profile for this project.
+# Example dbt profile for this project (Databricks / Unity Catalog).
 #
 # Copy this to ~/.dbt/profiles.yml (dbt's default profile location) and fill
-# in your own values, or export the equivalent SAAS_ANALYTICS_* env vars and
-# leave the env_var() calls as-is.
+# in your own values, or export the equivalent SAAS_ANALYTICS_DBX_* env vars
+# and leave the env_var() calls as-is.
 #
-# See snowflake_setup.sql for the matching CREATE WAREHOUSE/DATABASE/ROLE
-# statements to run in Snowflake before your first `dbt run`.
+# Where each value comes from in Databricks:
+#   host       -> SQL Warehouse > Connection details > "Server hostname"
+#                 (e.g. dbc-abc12345-6789.cloud.databricks.com  -- no https://)
+#   http_path  -> SQL Warehouse > Connection details > "HTTP path"
+#                 (e.g. /sql/1.0/warehouses/abcd1234efgh5678)
+#   token      -> Settings > Developer > Access tokens > Generate new token
+#   catalog    -> the Unity Catalog catalog you created (see databricks_setup.sql)
+#   schema     -> the default schema dbt writes models into
+#
+# See databricks_setup.sql for the CREATE CATALOG / CREATE SCHEMA statements
+# to run once in your workspace before your first `dbt build`.
 
 saas_analytics:
   target: dev
   outputs:
     dev:
-      type: snowflake
-      account: "{{ env_var('SAAS_ANALYTICS_SF_ACCOUNT') }}"        # e.g. xy12345.us-east-1
-      user: "{{ env_var('SAAS_ANALYTICS_SF_USER') }}"
-      authenticator: "{{ env_var('SAAS_ANALYTICS_SF_AUTHENTICATOR', 'snowflake') }}"
-      password: "{{ env_var('SAAS_ANALYTICS_SF_PASSWORD', '') }}"
-      role: "{{ env_var('SAAS_ANALYTICS_SF_ROLE', 'SAAS_ANALYTICS_ROLE') }}"
-      warehouse: "{{ env_var('SAAS_ANALYTICS_SF_WAREHOUSE', 'SAAS_ANALYTICS_WH') }}"
-      database: "{{ env_var('SAAS_ANALYTICS_SF_DATABASE', 'SAAS_ANALYTICS') }}"
-      schema: "{{ env_var('SAAS_ANALYTICS_SF_SCHEMA', 'DBT_DEV') }}"
+      type: databricks
+      host: "{{ env_var('SAAS_ANALYTICS_DBX_HOST') }}"
+      http_path: "{{ env_var('SAAS_ANALYTICS_DBX_HTTP_PATH') }}"
+      token: "{{ env_var('SAAS_ANALYTICS_DBX_TOKEN') }}"
+      catalog: "{{ env_var('SAAS_ANALYTICS_DBX_CATALOG', 'saas_analytics') }}"
+      schema: "{{ env_var('SAAS_ANALYTICS_DBX_SCHEMA', 'dbt_dev') }}"
       threads: 4
-      client_session_keep_alive: false
 
     prod:
-      type: snowflake
-      account: "{{ env_var('SAAS_ANALYTICS_SF_ACCOUNT') }}"
-      user: "{{ env_var('SAAS_ANALYTICS_SF_USER') }}"
-      authenticator: "{{ env_var('SAAS_ANALYTICS_SF_AUTHENTICATOR', 'snowflake') }}"
-      password: "{{ env_var('SAAS_ANALYTICS_SF_PASSWORD', '') }}"
-      role: "{{ env_var('SAAS_ANALYTICS_SF_ROLE', 'SAAS_ANALYTICS_ROLE') }}"
-      warehouse: "{{ env_var('SAAS_ANALYTICS_SF_WAREHOUSE', 'SAAS_ANALYTICS_WH') }}"
-      database: "{{ env_var('SAAS_ANALYTICS_SF_DATABASE', 'SAAS_ANALYTICS') }}"
-      schema: "{{ env_var('SAAS_ANALYTICS_SF_SCHEMA', 'DBT_PROD') }}"
-      threads: 8
-      client_session_keep_alive: false
+      type: databricks
+      host: "{{ env_var('SAAS_ANALYTICS_DBX_HOST') }}"
+      http_path: "{{ env_var('SAAS_ANALYTICS_DBX_HTTP_PATH') }}"
+      token: "{{ env_var('SAAS_ANALYTICS_DBX_TOKEN') }}"
+      catalog: "{{ env_var('SAAS_ANALYTICS_DBX_CATALOG', 'saas_analytics') }}"
+      schema: "{{ env_var('SAAS_ANALYTICS_DBX_SCHEMA_PROD', 'dbt_prod') }}"
+      threads: 4

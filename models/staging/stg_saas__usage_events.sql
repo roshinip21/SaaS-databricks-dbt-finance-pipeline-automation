@@ -9,8 +9,8 @@ renamed as (
         user_id,
         event_name,
         feature_area,
-        event_timestamp::timestamp_ntz as event_timestamp,
-        date(event_timestamp::timestamp_ntz) as event_date
+        cast(event_timestamp as timestamp) as event_timestamp,
+        cast(event_timestamp as date) as event_date
     from source
 )
 

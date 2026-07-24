@@ -7,11 +7,11 @@ renamed as (
         invoice_id,
         customer_id,
         subscription_id,
-        invoice_date::date as invoice_date,
-        due_date::date as due_date,
-        period_start::date as period_start,
-        period_end::date as period_end,
-        amount_usd::number(10, 2) as amount_usd,
+        cast(invoice_date as date) as invoice_date,
+        cast(due_date as date) as due_date,
+        cast(period_start as date) as period_start,
+        cast(period_end as date) as period_end,
+        cast(amount_usd as decimal(10, 2)) as amount_usd,
         status as invoice_status
     from source
 )

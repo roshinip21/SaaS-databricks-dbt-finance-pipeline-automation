@@ -6,13 +6,13 @@ renamed as (
     select
         ticket_id,
         customer_id,
-        created_at::timestamp_ntz as created_at,
-        resolved_at::timestamp_ntz as resolved_at,
+        cast(created_at as timestamp) as created_at,
+        cast(resolved_at as timestamp) as resolved_at,
         priority,
         category,
-        satisfaction_score::number as satisfaction_score,
+        cast(satisfaction_score as int) as satisfaction_score,
         status as ticket_status,
-        datediff('hour', created_at::timestamp_ntz, resolved_at::timestamp_ntz) as resolution_hours
+        timestampdiff(hour, cast(created_at as timestamp), cast(resolved_at as timestamp)) as resolution_hours
     from source
 )
 

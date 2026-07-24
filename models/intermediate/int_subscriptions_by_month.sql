@@ -16,7 +16,7 @@ spined as (
         s.customer_id,
         s.plan_id,
         s.mrr_usd,
-        m.date_month::date as month
+        m.date_month as month
     from subscriptions s
     inner join months m
         on s.start_date <= last_day(m.date_month)

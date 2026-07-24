@@ -27,27 +27,27 @@ seeds:
         signup_date: date
     plans:
       +column_types:
-        price_usd: number(10,2)
+        price_usd: decimal(10,2)
     subscriptions:
       +column_types:
         start_date: date
         end_date: date
-        mrr_usd: number(10,2)
+        mrr_usd: decimal(10,2)
     subscription_events:
       +column_types:
         event_date: date
-        mrr_delta_usd: number(10,2)
+        mrr_delta_usd: decimal(10,2)
     invoices:
       +column_types:
         invoice_date: date
         due_date: date
         period_start: date
         period_end: date
-        amount_usd: number(10,2)
+        amount_usd: decimal(10,2)
     payments:
       +column_types:
         payment_date: date
-        amount_usd: number(10,2)
+        amount_usd: decimal(10,2)
     usage_events:
       +column_types:
         event_timestamp: timestamp

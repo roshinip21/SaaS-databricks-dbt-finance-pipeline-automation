@@ -12,7 +12,7 @@ customers as (
 customer_months as (
     select
         c.customer_id,
-        m.date_month::date as month
+        m.date_month as month
     from customers c
     inner join months m
         on m.date_month >= date_trunc('month', c.signup_date)
