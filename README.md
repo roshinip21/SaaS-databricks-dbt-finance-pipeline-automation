@@ -99,6 +99,44 @@ Once built, the marts worth starting with (all under `saas_analytics.marts`):
 - `fct_usage_daily` - daily active users / event volume per customer
 - `fct_support_tickets` - ticket volume, resolution time, satisfaction
 
+## Roadmap (planned — not yet built)
+
+The pieces below are the next phases of the project. They're documented here
+as the intended design; the workflow files and the `fct_ar_aging` mart they
+reference are being added in later checkpoints.
+
+### CI/CD pipeline (GitHub Actions) — finance metrics in CI
+
+Three workflows, so the pipeline both *protects* the project and *reports* on it:
+
+- **Pull-request checks (free, no warehouse spend):** `sqlfluff` lint →
+  `dbt parse`/`compile` → **Slim CI** (`dbt build --select state:modified+`),
+  so only the models a PR actually changed get built and tested. Every PR gets
+  a green/red check before merge.
+- **Merge to `main`:** full `dbt build` + `dbt test` against Databricks, then
+  `dbt docs generate` published to GitHub Pages (browsable model lineage + docs).
+- **Nightly scheduled run + finance-metrics summary:** after the nightly
+  build, a CI step queries the Gold marts (`fct_mrr_monthly`, `fct_ar_aging`)
+  and writes a **finance KPI summary straight into the GitHub Actions run
+  summary** — current total MRR, net-new MRR, total AR outstanding, and % of
+  invoices 90+ days overdue. So every pipeline run visibly reports the
+  headline finance numbers, not just a pass/fail.
+
+### n8n automation — Overdue-Invoice Dunning / Payment Reminder
+
+A scheduled n8n workflow (or one triggered by the nightly dbt build) queries
+the Databricks SQL warehouse for invoices that have just crossed into a
+**30 / 60 / 90-day overdue bucket**, or whose payment **failed** (sourced from
+the planned `fct_ar_aging` mart). For each one it sends a **templated
+email/Slack alert** to the responsible party (the account's billing contact
+plus the finance/collections team) containing the invoice number, amount, days
+overdue, and a payment link.
+
+> The same workflow pattern extends to an **Accounts-Payable** variant —
+> supplier/vendor bill due-date reminders — once a vendor-bills table is added.
+> (Today's data models subscription revenue, i.e. Accounts *Receivable*, so the
+> alert currently targets customer invoices.)
+
 ## Regenerating the seed data
 
 The seeds are produced by `scripts/generate_seed_data.py`, a dependency-free
