@@ -1,0 +1,21 @@
+campaign_id,campaign_name,campaign_type,partner_account_id,start_date,status
+CMP-0001,Accolade Consulting Co-Sell,Partner,PRT-0001,2026-03-15,Completed
+CMP-0002,BlueSky Cloud Partners Co-Sell,Partner,PRT-0002,2024-04-24,Completed
+CMP-0003,Convergent SI Co-Sell,Partner,PRT-0003,2023-06-21,Completed
+CMP-0004,Datawave Advisory Co-Sell,Partner,PRT-0004,2026-05-20,Completed
+CMP-0005,Elevate Digital Co-Sell,Partner,PRT-0005,2025-06-02,Completed
+CMP-0006,Fulcrum Integrations Co-Sell,Partner,PRT-0006,2024-05-07,Completed
+CMP-0007,Greenlight Partners Co-Sell,Partner,PRT-0007,2023-02-11,Completed
+CMP-0008,Horizon Cloud Group Co-Sell,Partner,PRT-0008,2024-04-26,Completed
+CMP-0009,Insight GSI Co-Sell,Partner,PRT-0009,2026-06-20,Completed
+CMP-0010,Junction Consulting Co-Sell,Partner,PRT-0010,2026-05-09,Completed
+CMP-0011,Keystone Advisors Co-Sell,Partner,PRT-0011,2024-11-19,Completed
+CMP-0012,Lumina Partners Co-Sell,Partner,PRT-0012,2023-06-01,Completed
+CMP-0013,Momentum SI Co-Sell,Partner,PRT-0013,2025-06-11,Completed
+CMP-0014,Northstar Cloud Co-Sell,Partner,PRT-0014,2025-10-08,Completed
+CMP-0015,Optima Consulting Co-Sell,Partner,PRT-0015,2023-05-02,Completed
+CMP-0016,Enterprise AI Webinar,Marketing,,2024-09-28,Completed
+CMP-0017,GenAI Roadshow,Marketing,,2024-11-18,Completed
+CMP-0018,Analyst Briefing,Marketing,,2023-03-08,Completed
+CMP-0019,Product Launch,Marketing,,2024-11-06,Completed
+CMP-0020,Field Event - Summit,Marketing,,2026-06-14,Completed

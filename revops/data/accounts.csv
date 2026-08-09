@@ -1,0 +1,216 @@
+account_id,account_name,account_type,industry,region,segment,employee_count,annual_revenue,csm_owner,created_date
+PRT-0001,Accolade Consulting,Partner,Professional Services,EMEA,Partner,,,,2023-02-21
+PRT-0002,BlueSky Cloud Partners,Partner,Professional Services,EMEA,Partner,,,,2024-05-16
+PRT-0003,Convergent SI,Partner,Professional Services,NA,Partner,,,,2023-07-29
+PRT-0004,Datawave Advisory,Partner,Professional Services,EMEA,Partner,,,,2026-01-21
+PRT-0005,Elevate Digital,Partner,Professional Services,NA,Partner,,,,2025-05-14
+PRT-0006,Fulcrum Integrations,Partner,Professional Services,NA,Partner,,,,2023-07-11
+PRT-0007,Greenlight Partners,Partner,Professional Services,NA,Partner,,,,2025-10-31
+PRT-0008,Horizon Cloud Group,Partner,Professional Services,EMEA,Partner,,,,2026-02-23
+PRT-0009,Insight GSI,Partner,Professional Services,NA,Partner,,,,2026-01-21
+PRT-0010,Junction Consulting,Partner,Professional Services,NA,Partner,,,,2025-07-08
+PRT-0011,Keystone Advisors,Partner,Professional Services,EMEA,Partner,,,,2023-01-14
+PRT-0012,Lumina Partners,Partner,Professional Services,EMEA,Partner,,,,2023-11-23
+PRT-0013,Momentum SI,Partner,Professional Services,EMEA,Partner,,,,2024-11-27
+PRT-0014,Northstar Cloud,Partner,Professional Services,NA,Partner,,,,2024-03-16
+PRT-0015,Optima Consulting,Partner,Professional Services,LATAM,Partner,,,,2024-11-20
+ACC-0001,Bluepeak Technologies,Customer,Financial Services,NA,Enterprise,2500,646712500,Liam O'Brien,2023-03-30
+ACC-0002,Clearwater Technologies,Customer,Manufacturing,APAC,Enterprise,10000,2208140000,Liam O'Brien,2023-05-23
+ACC-0003,Harborview Technologies,Customer,Financial Services,NA,Mid-Market,250,77819250,Nadia Haddad,2023-11-30
+ACC-0004,Granite Industries,Customer,Insurance,EMEA,SMB,50,10283450,Diego Alvarez,2025-08-04
+ACC-0005,Dovetail Solutions,Customer,Software,NA,Mid-Market,1000,285388000,Ava Chen,2025-04-01
+ACC-0006,Cobalt Solutions,Customer,Telecommunications,APAC,Enterprise,5000,974525000,Nadia Haddad,2024-06-26
+ACC-0007,Cinder Group,Customer,Insurance,NA,Enterprise,2500,481312500,Diego Alvarez,2025-11-09
+ACC-0008,Redwood Systems,Customer,Logistics,NA,SMB,100,32172800,Marcus Reed,2025-02-20
+ACC-0009,Orbital Digital,Customer,Logistics,EMEA,SMB,25,7458725,Sofia Rossi,2023-08-17
+ACC-0010,Brightline Industries,Customer,Professional Services,EMEA,Mid-Market,500,138235500,Marcus Reed,2025-11-05
+ACC-0011,Crestpoint Digital,Customer,Software,EMEA,Enterprise,10000,1302110000,Nadia Haddad,2023-08-18
+ACC-0012,Sterling Solutions,Customer,Retail,APAC,SMB,25,4122675,Marcus Reed,2025-09-22
+ACC-0013,Cinder Systems,Customer,Logistics,NA,SMB,100,25896600,Priya Nair,2025-12-16
+ACC-0014,Fieldstone Digital,Customer,Education,NA,Mid-Market,250,87422500,Liam O'Brien,2025-11-25
+ACC-0015,Summit Works,Customer,Insurance,EMEA,SMB,25,3094250,Diego Alvarez,2023-05-26
+ACC-0016,Summit Labs,Customer,Financial Services,EMEA,Mid-Market,1000,374496000,Sofia Rossi,2024-03-14
+ACC-0017,Kestrel Solutions,Customer,Telecommunications,NA,Enterprise,5000,1729970000,Marcus Reed,2024-12-26
+ACC-0018,Cascade Holdings,Customer,Software,NA,SMB,50,8864400,Liam O'Brien,2024-05-24
+ACC-0019,Silverline Analytics,Customer,Manufacturing,NA,SMB,100,35232800,Marcus Reed,2026-02-01
+ACC-0020,Cinder Labs,Customer,Retail,NA,SMB,50,18618500,Nadia Haddad,2024-03-13
+ACC-0021,Crestpoint Analytics,Customer,Telecommunications,NA,SMB,25,6738800,Nadia Haddad,2025-05-16
+ACC-0022,Dovetail Holdings,Customer,Healthcare,NA,Enterprise,5000,753310000,Diego Alvarez,2026-04-01
+ACC-0023,Cobalt Labs,Customer,Insurance,NA,SMB,25,3745525,Priya Nair,2025-11-06
+ACC-0024,Summit Holdings,Customer,Telecommunications,NA,Mid-Market,250,35209000,Diego Alvarez,2023-06-17
+ACC-0025,Bramble Works,Customer,Retail,EMEA,Mid-Market,500,122570000,Liam O'Brien,2024-06-27
+ACC-0026,Sterling Software,Customer,Financial Services,NA,Mid-Market,1000,158409000,Marcus Reed,2026-01-06
+ACC-0027,Wavefront Technologies,Customer,Media & Entertainment,NA,Mid-Market,250,69651500,Nadia Haddad,2025-12-19
+ACC-0028,Sterling Holdings,Customer,Healthcare,NA,SMB,50,10074950,Marcus Reed,2024-07-11
+ACC-0029,Junction Solutions,Customer,Professional Services,NA,Mid-Market,500,84195000,Ava Chen,2025-05-17
+ACC-0030,Junction Systems,Customer,Healthcare,EMEA,Mid-Market,500,62534500,Yuki Tanaka,2023-08-18
+ACC-0031,Nova Digital,Customer,Media & Entertainment,EMEA,SMB,25,8633300,Priya Nair,2023-09-19
+ACC-0032,Vertex Works,Customer,Logistics,NA,Mid-Market,250,76357250,Marcus Reed,2026-02-20
+ACC-0033,Nova Solutions,Customer,Healthcare,APAC,SMB,100,21403600,Ava Chen,2024-11-11
+ACC-0034,Trailhead Group,Customer,Education,NA,SMB,100,36677700,Ava Chen,2024-03-31
+ACC-0035,Wavefront Group,Customer,Retail,NA,Mid-Market,250,82227500,Diego Alvarez,2024-11-03
+ACC-0036,Granite Works,Customer,Telecommunications,EMEA,Enterprise,10000,1344700000,Liam O'Brien,2023-08-25
+ACC-0037,Orbital Labs,Customer,Insurance,NA,SMB,50,17439800,Liam O'Brien,2026-05-26
+ACC-0038,Anchor Group,Customer,Education,NA,SMB,25,7773900,Diego Alvarez,2025-06-02
+ACC-0039,Junction Networks,Customer,Logistics,APAC,Mid-Market,1000,385878000,Sofia Rossi,2024-09-25
+ACC-0040,Harborview Digital,Customer,Retail,NA,SMB,100,21124000,Yuki Tanaka,2026-03-11
+ACC-0041,Brightline Group,Customer,Retail,NA,Mid-Market,500,181893500,Liam O'Brien,2025-06-23
+ACC-0042,Kestrel Industries,Customer,Logistics,NA,SMB,100,16896100,Liam O'Brien,2024-04-26
+ACC-0043,Anchor Systems,Customer,Software,NA,SMB,25,3954550,Nadia Haddad,2025-07-21
+ACC-0044,Anchor Industries,Customer,Public Sector,NA,Enterprise,2500,307267500,Priya Nair,2023-08-07
+ACC-0045,Bramble Software,Customer,Professional Services,NA,SMB,25,8982925,Marcus Reed,2023-10-01
+ACC-0046,Dovetail Networks,Customer,Public Sector,EMEA,Mid-Market,1000,353787000,Yuki Tanaka,2023-11-22
+ACC-0047,Orbital Solutions,Customer,Professional Services,NA,Mid-Market,500,131984000,Diego Alvarez,2025-06-19
+ACC-0048,Cobalt Digital,Customer,Healthcare,NA,SMB,50,10005650,Yuki Tanaka,2024-03-14
+ACC-0049,Cinder Software,Customer,Software,NA,Enterprise,2500,810495000,Yuki Tanaka,2026-04-11
+ACC-0050,Clearwater Software,Customer,Media & Entertainment,NA,SMB,25,8492175,Yuki Tanaka,2026-01-07
+ACC-0051,Lighthouse Software,Customer,Manufacturing,NA,Mid-Market,250,80968250,Ava Chen,2024-11-19
+ACC-0052,Crestpoint Software,Customer,Insurance,EMEA,SMB,100,13420900,Yuki Tanaka,2023-06-21
+ACC-0053,Catalyst Systems,Customer,Manufacturing,NA,SMB,25,8959825,Diego Alvarez,2024-10-31
+ACC-0054,Granite Analytics,Customer,Financial Services,NA,Mid-Market,500,151740000,Ava Chen,2024-04-04
+ACC-0055,Vertex Labs,Customer,Retail,APAC,Mid-Market,250,61266500,Priya Nair,2023-09-16
+ACC-0056,Fieldstone Software,Customer,Media & Entertainment,NA,Mid-Market,500,102930000,Marcus Reed,2024-09-29
+ACC-0057,Sterling Networks,Customer,Telecommunications,LATAM,Enterprise,2500,399610000,Diego Alvarez,2026-04-27
+ACC-0058,Bluepeak Industries,Customer,Logistics,EMEA,Mid-Market,500,70766000,Marcus Reed,2024-12-12
+ACC-0059,Summit Digital,Customer,Software,APAC,Mid-Market,1000,175332000,Nadia Haddad,2025-06-06
+ACC-0060,Catalyst Industries,Customer,Telecommunications,NA,SMB,100,37349100,Sofia Rossi,2025-08-10
+ACC-0061,Trailhead Technologies,Customer,Public Sector,NA,Mid-Market,500,159349500,Nadia Haddad,2024-11-19
+ACC-0062,Meridian Software,Customer,Media & Entertainment,APAC,Mid-Market,250,66655250,Liam O'Brien,2026-05-05
+ACC-0063,Brightline Digital,Customer,Financial Services,NA,Mid-Market,250,94038750,Yuki Tanaka,2026-02-11
+ACC-0064,Monarch Software,Customer,Financial Services,NA,SMB,25,6189025,Yuki Tanaka,2024-09-19
+ACC-0065,Dovetail Digital,Customer,Telecommunications,LATAM,Mid-Market,1000,304450000,Liam O'Brien,2025-07-18
+ACC-0066,Redwood Industries,Customer,Media & Entertainment,NA,Mid-Market,250,55105500,Priya Nair,2024-03-19
+ACC-0067,Bramble Networks,Customer,Financial Services,APAC,Mid-Market,500,119633000,Sofia Rossi,2025-01-09
+ACC-0068,Granite Labs,Customer,Professional Services,NA,SMB,25,9434025,Priya Nair,2023-07-30
+ACC-0069,Kestrel Software,Customer,Media & Entertainment,NA,Enterprise,5000,1261855000,Ava Chen,2025-09-05
+ACC-0070,Monarch Technologies,Customer,Healthcare,NA,SMB,25,4116475,Sofia Rossi,2024-05-23
+ACC-0071,Lighthouse Digital,Customer,Public Sector,APAC,Enterprise,2500,862075000,Sofia Rossi,2024-09-17
+ACC-0072,Bluepeak Solutions,Customer,Manufacturing,EMEA,Mid-Market,250,61439500,Priya Nair,2023-12-22
+ACC-0073,Beacon Software,Customer,Manufacturing,NA,Enterprise,5000,1341125000,Sofia Rossi,2025-07-18
+ACC-0074,Orbital Holdings,Customer,Telecommunications,NA,Mid-Market,250,49528250,Diego Alvarez,2024-06-28
+ACC-0075,Crestpoint Group,Customer,Public Sector,NA,Mid-Market,500,165515000,Sofia Rossi,2024-07-11
+ACC-0076,Ironclad Networks,Customer,Telecommunications,EMEA,SMB,25,3339000,Sofia Rossi,2023-07-07
+ACC-0077,Northwind Holdings,Customer,Insurance,NA,Mid-Market,500,183338500,Priya Nair,2025-11-28
+ACC-0078,Meridian Networks,Customer,Logistics,APAC,Enterprise,2500,916050000,Marcus Reed,2024-12-13
+ACC-0079,Bluepeak Systems,Customer,Telecommunications,EMEA,Mid-Market,1000,329952000,Sofia Rossi,2026-01-31
+ACC-0080,Orbital Works,Customer,Telecommunications,APAC,SMB,50,18110400,Ava Chen,2025-04-26
+ACC-0081,Monarch Holdings,Customer,Software,NA,Enterprise,5000,1355050000,Priya Nair,2025-06-16
+ACC-0082,Trailhead Industries,Customer,Manufacturing,EMEA,SMB,100,16886800,Yuki Tanaka,2024-04-05
+ACC-0083,Catalyst Technologies,Customer,Public Sector,LATAM,SMB,100,38679500,Sofia Rossi,2024-07-13
+ACC-0084,Catalyst Digital,Customer,Telecommunications,NA,SMB,100,15660000,Priya Nair,2024-07-19
+ACC-0085,Junction Digital,Customer,Software,NA,Mid-Market,500,188356000,Sofia Rossi,2023-11-01
+ACC-0086,Cinder Analytics,Customer,Media & Entertainment,APAC,Enterprise,5000,1603935000,Diego Alvarez,2024-04-23
+ACC-0087,Cobalt Industries,Customer,Education,APAC,Enterprise,5000,1612080000,Yuki Tanaka,2023-11-08
+ACC-0088,Aster Networks,Customer,Financial Services,APAC,Mid-Market,1000,172277000,Nadia Haddad,2025-12-13
+ACC-0089,Nova Analytics,Customer,Financial Services,NA,SMB,100,29750300,Sofia Rossi,2025-03-25
+ACC-0090,Cobalt Holdings,Customer,Professional Services,NA,Enterprise,5000,1215435000,Marcus Reed,2024-08-11
+ACC-0091,Outrider Technologies,Customer,Public Sector,NA,SMB,50,6758800,Sofia Rossi,2023-04-05
+ACC-0092,Wavefront Works,Customer,Healthcare,NA,Enterprise,2500,536002500,Yuki Tanaka,2023-12-15
+ACC-0093,Clearwater Networks,Customer,Public Sector,APAC,Mid-Market,250,60433250,Priya Nair,2025-08-02
+ACC-0094,Brightline Software,Customer,Logistics,EMEA,Mid-Market,500,175796500,Marcus Reed,2024-12-08
+ACC-0095,Outrider Industries,Customer,Public Sector,APAC,Mid-Market,500,160845000,Diego Alvarez,2025-09-16
+ACC-0096,Wavefront Networks,Customer,Education,NA,Mid-Market,500,131953000,Yuki Tanaka,2023-01-17
+ACC-0097,Cascade Networks,Customer,Manufacturing,EMEA,Enterprise,5000,1523585000,Diego Alvarez,2024-03-24
+ACC-0098,Silverline Holdings,Customer,Logistics,EMEA,SMB,50,17555900,Sofia Rossi,2023-03-10
+ACC-0099,Ironclad Group,Customer,Education,NA,Mid-Market,1000,189289000,Diego Alvarez,2026-01-09
+ACC-0100,Aster Group,Customer,Manufacturing,APAC,SMB,100,27473900,Nadia Haddad,2024-11-24
+ACC-0101,Summit Systems,Customer,Logistics,EMEA,Mid-Market,250,77942750,Yuki Tanaka,2023-07-04
+ACC-0102,Cinder Technologies,Customer,Media & Entertainment,EMEA,Enterprise,5000,1598835000,Sofia Rossi,2025-01-30
+ACC-0103,Northwind Networks,Customer,Media & Entertainment,APAC,Enterprise,10000,1531430000,Diego Alvarez,2025-08-08
+ACC-0104,Beacon Technologies,Customer,Software,LATAM,SMB,100,37827700,Sofia Rossi,2023-08-26
+ACC-0105,Catalyst Works,Customer,Telecommunications,EMEA,Enterprise,10000,3375180000,Priya Nair,2023-07-22
+ACC-0106,Pinnacle Solutions,Customer,Public Sector,LATAM,Enterprise,5000,860450000,Liam O'Brien,2025-01-22
+ACC-0107,Wavefront Labs,Customer,Manufacturing,NA,Enterprise,2500,896005000,Marcus Reed,2023-07-07
+ACC-0108,Northwind Labs,Customer,Retail,LATAM,Mid-Market,1000,155971000,Diego Alvarez,2026-02-09
+ACC-0109,Lighthouse Works,Customer,Insurance,NA,SMB,100,18815300,Priya Nair,2026-01-11
+ACC-0110,Northwind Systems,Customer,Media & Entertainment,APAC,SMB,25,7243725,Diego Alvarez,2023-02-02
+ACC-0111,Beacon Digital,Customer,Education,NA,SMB,50,15490600,Nadia Haddad,2025-11-17
+ACC-0112,Lighthouse Networks,Customer,Education,APAC,SMB,25,9003650,Sofia Rossi,2023-03-05
+ACC-0113,Foundry Analytics,Customer,Public Sector,EMEA,SMB,50,7926500,Nadia Haddad,2023-06-15
+ACC-0114,Silverline Group,Customer,Education,NA,Enterprise,10000,3578770000,Sofia Rossi,2025-11-01
+ACC-0115,Redwood Holdings,Customer,Education,APAC,Enterprise,10000,3567440000,Yuki Tanaka,2024-04-12
+ACC-0116,Bluepeak Works,Customer,Media & Entertainment,EMEA,Enterprise,2500,500065000,Liam O'Brien,2025-08-29
+ACC-0117,Ironclad Analytics,Customer,Education,EMEA,SMB,50,7572350,Priya Nair,2026-04-16
+ACC-0118,Redwood Analytics,Customer,Logistics,LATAM,Mid-Market,1000,146972000,Yuki Tanaka,2024-08-12
+ACC-0119,Aster Solutions,Customer,Logistics,NA,SMB,100,30356000,Marcus Reed,2026-02-13
+ACC-0120,Lighthouse Analytics,Customer,Insurance,EMEA,Enterprise,10000,2602190000,Ava Chen,2023-03-01
+ACC-0121,Sterling Works,Customer,Software,NA,Mid-Market,1000,330126000,Priya Nair,2023-05-23
+ACC-0122,Northwind Technologies,Customer,Retail,NA,Enterprise,10000,2987270000,Nadia Haddad,2023-11-19
+ACC-0123,Ironclad Labs,Customer,Healthcare,EMEA,SMB,100,16277200,Ava Chen,2024-07-11
+ACC-0124,Longview Analytics,Customer,Retail,EMEA,Mid-Market,500,150484500,Marcus Reed,2025-05-30
+ACC-0125,Monarch Digital,Customer,Software,NA,Mid-Market,500,62015000,Ava Chen,2024-02-23
+ACC-0126,Harborview Works,Customer,Software,NA,SMB,50,10605700,Yuki Tanaka,2023-09-22
+ACC-0127,Aster Digital,Customer,Financial Services,NA,Mid-Market,1000,348704000,Ava Chen,2023-02-08
+ACC-0128,Cobalt Networks,Customer,Insurance,NA,Enterprise,2500,679472500,Yuki Tanaka,2023-08-24
+ACC-0129,Crestpoint Networks,Customer,Education,APAC,Enterprise,5000,1744810000,Marcus Reed,2023-08-05
+ACC-0130,Bramble Technologies,Customer,Manufacturing,EMEA,Enterprise,2500,736557500,Diego Alvarez,2023-12-11
+ACC-0131,Bramble Digital,Customer,Media & Entertainment,NA,Mid-Market,250,60968000,Priya Nair,2023-07-30
+ACC-0132,Nova Holdings,Customer,Healthcare,LATAM,SMB,50,18162250,Nadia Haddad,2026-02-28
+ACC-0133,Cobalt Systems,Customer,Financial Services,NA,Enterprise,5000,1320040000,Sofia Rossi,2026-04-26
+ACC-0134,Longview Labs,Customer,Media & Entertainment,APAC,SMB,25,4183525,Marcus Reed,2026-05-01
+ACC-0135,Dovetail Industries,Customer,Public Sector,APAC,SMB,25,7214300,Diego Alvarez,2026-05-24
+ACC-0136,Cascade Software,Customer,Media & Entertainment,LATAM,SMB,50,19226400,Marcus Reed,2023-12-20
+ACC-0137,Longview Digital,Customer,Insurance,NA,Enterprise,10000,2683170000,Liam O'Brien,2025-03-04
+ACC-0138,Junction Technologies,Customer,Financial Services,EMEA,Mid-Market,1000,268974000,Yuki Tanaka,2024-05-31
+ACC-0139,Nova Works,Customer,Insurance,EMEA,SMB,50,14132500,Liam O'Brien,2025-03-13
+ACC-0140,Dovetail Analytics,Customer,Healthcare,EMEA,Mid-Market,1000,341986000,Marcus Reed,2025-11-07
+ACC-0141,Meridian Solutions,Customer,Public Sector,NA,Mid-Market,1000,201235000,Priya Nair,2023-06-08
+ACC-0142,Bramble Labs,Customer,Insurance,NA,Mid-Market,1000,200872000,Yuki Tanaka,2023-11-29
+ACC-0143,Crestpoint Industries,Customer,Software,NA,Enterprise,5000,1764440000,Diego Alvarez,2024-08-06
+ACC-0144,Pinnacle Holdings,Customer,Public Sector,EMEA,Enterprise,5000,1918335000,Yuki Tanaka,2025-12-16
+ACC-0145,Anchor Networks,Customer,Manufacturing,NA,SMB,100,31462200,Nadia Haddad,2026-02-09
+ACC-0146,Ironclad Solutions,Customer,Media & Entertainment,LATAM,Enterprise,5000,739605000,Yuki Tanaka,2025-03-22
+ACC-0147,Ironclad Works,Customer,Software,NA,Mid-Market,250,73947000,Marcus Reed,2023-10-27
+ACC-0148,Silverline Industries,Customer,Public Sector,EMEA,Enterprise,5000,649815000,Marcus Reed,2024-06-08
+ACC-0149,Bramble Analytics,Customer,Manufacturing,NA,SMB,50,7251700,Marcus Reed,2024-05-03
+ACC-0150,Redwood Software,Customer,Software,EMEA,Enterprise,10000,1952750000,Diego Alvarez,2024-08-19
+ACC-0151,Trailhead Networks,Customer,Healthcare,EMEA,Enterprise,2500,986140000,Marcus Reed,2025-01-08
+ACC-0152,Dovetail Labs,Customer,Public Sector,NA,Enterprise,2500,789292500,Yuki Tanaka,2024-06-03
+ACC-0153,Bluepeak Networks,Customer,Healthcare,NA,Mid-Market,1000,211797000,Liam O'Brien,2025-08-09
+ACC-0154,Meridian Systems,Customer,Education,EMEA,SMB,50,6969500,Nadia Haddad,2024-08-23
+ACC-0155,Sterling Digital,Customer,Professional Services,NA,Enterprise,2500,550482500,Ava Chen,2024-08-08
+ACC-0156,Junction Group,Customer,Media & Entertainment,NA,SMB,50,17527400,Yuki Tanaka,2025-03-02
+ACC-0157,Monarch Works,Customer,Manufacturing,APAC,Enterprise,10000,1613800000,Yuki Tanaka,2025-05-31
+ACC-0158,Cobalt Technologies,Customer,Media & Entertainment,EMEA,SMB,50,17689400,Sofia Rossi,2026-05-19
+ACC-0159,Longview Works,Customer,Software,EMEA,Enterprise,5000,1740170000,Liam O'Brien,2024-07-16
+ACC-0160,Cascade Technologies,Customer,Media & Entertainment,EMEA,Enterprise,2500,340815000,Priya Nair,2023-10-20
+ACC-0161,Silverline Technologies,Customer,Logistics,NA,Mid-Market,250,34244750,Yuki Tanaka,2026-05-24
+ACC-0162,Pinnacle Works,Customer,Financial Services,EMEA,Enterprise,5000,1643420000,Liam O'Brien,2024-10-05
+ACC-0163,Redwood Labs,Customer,Public Sector,EMEA,SMB,100,25724600,Marcus Reed,2024-06-17
+ACC-0164,Harborview Industries,Customer,Retail,NA,Enterprise,5000,1785000000,Marcus Reed,2023-12-20
+ACC-0165,Ironclad Holdings,Customer,Logistics,NA,Mid-Market,1000,272233000,Marcus Reed,2024-09-06
+ACC-0166,Meridian Works,Customer,Retail,NA,Enterprise,10000,1928110000,Diego Alvarez,2024-04-29
+ACC-0167,Pinnacle Software,Customer,Healthcare,EMEA,Enterprise,10000,1544700000,Marcus Reed,2024-09-25
+ACC-0168,Kestrel Digital,Customer,Telecommunications,APAC,Enterprise,2500,464267500,Marcus Reed,2024-10-11
+ACC-0169,Silverline Digital,Customer,Healthcare,NA,SMB,100,18509600,Ava Chen,2025-11-27
+ACC-0170,Bramble Group,Customer,Manufacturing,NA,SMB,50,9281250,Sofia Rossi,2024-09-12
+ACC-0171,Nova Systems,Customer,Insurance,NA,Mid-Market,1000,162584000,Ava Chen,2023-04-04
+ACC-0172,Fieldstone Networks,Customer,Insurance,EMEA,Enterprise,2500,679677500,Nadia Haddad,2024-09-10
+ACC-0173,Foundry Group,Customer,Financial Services,EMEA,Enterprise,5000,1752395000,Priya Nair,2025-05-01
+ACC-0174,Wavefront Analytics,Customer,Media & Entertainment,EMEA,SMB,100,28730800,Marcus Reed,2024-05-10
+ACC-0175,Trailhead Systems,Customer,Software,NA,SMB,50,16961150,Yuki Tanaka,2024-05-23
+ACC-0176,Aster Software,Customer,Manufacturing,NA,Enterprise,5000,1630860000,Marcus Reed,2025-11-01
+ACC-0177,Cascade Group,Customer,Insurance,APAC,Enterprise,5000,1349070000,Nadia Haddad,2026-01-04
+ACC-0178,Pinnacle Analytics,Customer,Software,NA,Mid-Market,1000,310066000,Diego Alvarez,2026-02-07
+ACC-0179,Granite Networks,Customer,Healthcare,LATAM,SMB,50,15783150,Yuki Tanaka,2024-11-25
+ACC-0180,Aster Analytics,Customer,Software,NA,Enterprise,10000,2946090000,Priya Nair,2025-08-28
+ACC-0181,Aster Systems,Customer,Insurance,NA,Mid-Market,1000,276884000,Yuki Tanaka,2026-04-30
+ACC-0182,Northwind Works,Customer,Logistics,NA,Mid-Market,1000,281311000,Yuki Tanaka,2023-02-24
+ACC-0183,Lighthouse Industries,Customer,Insurance,NA,SMB,25,4936925,Yuki Tanaka,2024-05-11
+ACC-0184,Redwood Solutions,Customer,Public Sector,NA,SMB,25,8412750,Priya Nair,2024-02-22
+ACC-0185,Cascade Industries,Customer,Professional Services,NA,SMB,100,37080400,Liam O'Brien,2025-12-12
+ACC-0186,Wavefront Holdings,Customer,Insurance,NA,Mid-Market,500,133139500,Diego Alvarez,2026-02-16
+ACC-0187,Sterling Group,Customer,Education,EMEA,Mid-Market,250,92888750,Liam O'Brien,2024-12-15
+ACC-0188,Granite Group,Customer,Insurance,EMEA,SMB,50,16342400,Yuki Tanaka,2024-12-07
+ACC-0189,Harborview Labs,Customer,Education,NA,Mid-Market,500,127225000,Nadia Haddad,2025-09-08
+ACC-0190,Granite Digital,Customer,Healthcare,NA,Mid-Market,500,123558500,Diego Alvarez,2023-04-14
+ACC-0191,Lighthouse Labs,Customer,Telecommunications,NA,SMB,50,8635700,Nadia Haddad,2023-10-09
+ACC-0192,Cobalt Group,Customer,Financial Services,EMEA,SMB,25,3488875,Diego Alvarez,2023-12-25
+ACC-0193,Vertex Analytics,Customer,Healthcare,LATAM,Enterprise,5000,698215000,Sofia Rossi,2023-01-19
+ACC-0194,Catalyst Holdings,Customer,Professional Services,NA,Enterprise,10000,3843520000,Priya Nair,2025-08-16
+ACC-0195,Orbital Industries,Customer,Software,EMEA,SMB,100,22127200,Sofia Rossi,2023-12-26
+ACC-0196,Aster Works,Customer,Telecommunications,EMEA,SMB,50,9686050,Priya Nair,2025-09-04
+ACC-0197,Orbital Analytics,Customer,Public Sector,EMEA,Mid-Market,250,69576500,Liam O'Brien,2026-04-07
+ACC-0198,Pinnacle Industries,Customer,Software,EMEA,Mid-Market,250,70213500,Nadia Haddad,2023-11-24
+ACC-0199,Sterling Industries,Customer,Logistics,APAC,SMB,50,15634900,Sofia Rossi,2024-03-28
+ACC-0200,Nova Software,Customer,Telecommunications,EMEA,Mid-Market,1000,234510000,Nadia Haddad,2024-05-21

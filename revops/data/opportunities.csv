@@ -1,0 +1,487 @@
+opportunity_id,account_id,opportunity_name,opportunity_type,stage_name,amount,arr,close_date,is_won,is_closed,partner_sourced,partner_influenced,partner_account_id,created_date
+OPP-00001,ACC-0001,ACC-0001 - New Business,New Business,Closed Won,566000.0,283000,2023-03-30,true,true,false,false,,2023-01-23
+OPP-00002,ACC-0001,ACC-0001 - Renewal,Renewal,Closed Lost,283000,283000,2025-03-30,false,true,false,false,,2025-02-24
+OPP-00003,ACC-0001,ACC-0001 - New Business,New Business,Closed Won,600000.0,300000,2026-01-30,true,true,true,true,PRT-0009,2025-11-30
+OPP-00004,ACC-0002,ACC-0002 - New Business,New Business,Closed Won,344000.0,172000,2023-05-23,true,true,false,false,,2023-03-02
+OPP-00005,ACC-0002,ACC-0002 - Renewal,Renewal,Closed Lost,172000,172000,2025-05-23,false,true,false,false,,2025-02-27
+OPP-00006,ACC-0003,ACC-0003 - New Business,New Business,Closed Won,35000.0,35000,2023-11-30,true,true,true,true,PRT-0010,2023-09-12
+OPP-00007,ACC-0003,ACC-0003 - Renewal,Renewal,Closed Won,35000,35000,2024-11-30,true,true,false,false,,2024-11-08
+OPP-00008,ACC-0003,ACC-0003 - Expansion,Expansion,Closed Won,9000,9000,2024-11-30,true,true,false,false,,2024-10-14
+OPP-00009,ACC-0003,ACC-0003 - Renewal,Renewal,Closed Won,44000,44000,2025-11-30,true,true,false,false,,2025-09-27
+OPP-00010,ACC-0003,ACC-0003 - Expansion,Expansion,Closed Won,15000,15000,2025-11-30,true,true,false,false,,2025-11-03
+OPP-00011,ACC-0004,ACC-0004 - New Business,New Business,Closed Won,60000.0,20000,2025-08-04,true,true,false,false,,2025-07-11
+OPP-00012,ACC-0005,ACC-0005 - New Business,New Business,Closed Won,35000.0,35000,2025-04-01,true,true,false,true,PRT-0011,2025-01-18
+OPP-00013,ACC-0005,ACC-0005 - Renewal,Renewal,Closed Won,35000,35000,2026-04-01,true,true,false,false,,2026-01-14
+OPP-00014,ACC-0006,ACC-0006 - New Business,New Business,Closed Won,716000.0,358000,2024-06-26,true,true,false,true,PRT-0011,2024-03-29
+OPP-00015,ACC-0006,ACC-0006 - Renewal,Renewal,Closed Lost,358000,358000,2026-06-26,false,true,false,false,,2026-04-23
+OPP-00016,ACC-0007,ACC-0007 - New Business,New Business,Closed Won,362000.0,362000,2025-11-09,true,true,false,false,,2025-10-20
+OPP-00017,ACC-0007,ACC-0007 - Renewal,Renewal,Renewal - Discovery,362000,362000,2026-11-09,false,false,false,false,,2026-09-12
+OPP-00018,ACC-0008,ACC-0008 - New Business,New Business,Closed Won,11000.0,11000,2025-02-20,true,true,false,false,,2024-12-14
+OPP-00019,ACC-0008,ACC-0008 - Renewal,Renewal,Closed Won,11000,11000,2026-02-20,true,true,false,false,,2025-12-18
+OPP-00020,ACC-0008,ACC-0008 - Expansion,Expansion,Closed Won,2000,2000,2026-02-20,true,true,false,true,PRT-0015,2026-01-17
+OPP-00021,ACC-0009,ACC-0009 - New Business,New Business,Closed Won,7000.0,7000,2023-08-17,true,true,false,false,,2023-07-26
+OPP-00022,ACC-0009,ACC-0009 - Renewal,Renewal,Closed Lost,7000,7000,2024-08-17,false,true,false,false,,2024-07-20
+OPP-00023,ACC-0009,ACC-0009 - New Business,New Business,Closed Won,6000.0,6000,2024-10-17,true,true,false,false,,2024-09-21
+OPP-00024,ACC-0009,ACC-0009 - Renewal,Renewal,Closed Lost,6000,6000,2025-10-17,false,true,false,false,,2025-09-22
+OPP-00025,ACC-0010,ACC-0010 - New Business,New Business,Closed Won,31000.0,31000,2025-11-05,true,true,false,false,,2025-10-09
+OPP-00026,ACC-0010,ACC-0010 - Renewal,Renewal,Renewal - Negotiation,31000,31000,2026-11-05,false,false,false,false,,2026-08-13
+OPP-00027,ACC-0011,ACC-0011 - New Business,New Business,Closed Won,1218000.0,406000,2023-08-18,true,true,false,false,,2023-06-19
+OPP-00028,ACC-0011,ACC-0011 - Renewal,Renewal,Renewal - Quoted,406000,406000,2026-08-18,false,false,false,false,,2026-06-29
+OPP-00029,ACC-0012,ACC-0012 - New Business,New Business,Closed Won,20000.0,20000,2025-09-22,true,true,false,false,,2025-08-05
+OPP-00030,ACC-0012,ACC-0012 - Renewal,Renewal,Renewal - Verbal Commit,20000,20000,2026-09-22,false,false,false,false,,2026-07-26
+OPP-00031,ACC-0013,ACC-0013 - New Business,New Business,Closed Won,11000.0,11000,2025-12-16,true,true,false,false,,2025-11-04
+OPP-00032,ACC-0014,ACC-0014 - New Business,New Business,Closed Won,37000.0,37000,2025-11-25,true,true,false,false,,2025-09-22
+OPP-00033,ACC-0014,ACC-0014 - Renewal,Renewal,Renewal - Verbal Commit,37000,37000,2026-11-25,false,false,false,false,,2026-08-30
+OPP-00034,ACC-0015,ACC-0015 - New Business,New Business,Closed Won,5000.0,5000,2023-05-26,true,true,true,true,PRT-0007,2023-02-27
+OPP-00035,ACC-0015,ACC-0015 - Renewal,Renewal,Closed Won,5000,5000,2024-05-26,true,true,false,false,,2024-03-29
+OPP-00036,ACC-0015,ACC-0015 - Renewal,Renewal,Closed Won,5000,5000,2025-05-26,true,true,false,false,,2025-03-08
+OPP-00037,ACC-0015,ACC-0015 - Expansion,Expansion,Closed Won,2000,2000,2025-05-26,true,true,false,false,,2025-03-14
+OPP-00038,ACC-0015,ACC-0015 - Renewal,Renewal,Closed Won,7000,7000,2026-05-26,true,true,false,false,,2026-04-05
+OPP-00039,ACC-0015,ACC-0015 - Expansion,Expansion,Closed Won,1000,1000,2026-05-26,true,true,false,true,PRT-0002,2026-03-20
+OPP-00040,ACC-0016,ACC-0016 - New Business,New Business,Closed Won,71000.0,71000,2024-03-14,true,true,true,true,PRT-0005,2024-02-18
+OPP-00041,ACC-0016,ACC-0016 - Renewal,Renewal,Closed Won,71000,71000,2025-03-14,true,true,false,false,,2025-01-26
+OPP-00042,ACC-0016,ACC-0016 - Expansion,Expansion,Closed Won,20000,20000,2025-03-14,true,true,false,false,,2025-01-11
+OPP-00043,ACC-0016,ACC-0016 - Renewal,Renewal,Closed Won,91000,91000,2026-03-14,true,true,false,false,,2026-01-26
+OPP-00044,ACC-0017,ACC-0017 - New Business,New Business,Closed Won,774000.0,258000,2024-12-26,true,true,false,true,PRT-0013,2024-11-05
+OPP-00045,ACC-0018,ACC-0018 - New Business,New Business,Closed Won,13000.0,13000,2024-05-24,true,true,false,true,PRT-0004,2024-03-29
+OPP-00046,ACC-0018,ACC-0018 - Renewal,Renewal,Closed Won,13000,13000,2025-05-24,true,true,false,false,,2025-03-20
+OPP-00047,ACC-0018,ACC-0018 - Renewal,Renewal,Closed Lost,13000,13000,2026-05-24,false,true,false,false,,2026-03-19
+OPP-00048,ACC-0019,ACC-0019 - New Business,New Business,Closed Won,14000.0,14000,2026-02-01,true,true,false,false,,2025-11-13
+OPP-00049,ACC-0020,ACC-0020 - New Business,New Business,Closed Won,36000.0,18000,2024-03-13,true,true,true,true,PRT-0006,2024-01-25
+OPP-00050,ACC-0020,ACC-0020 - Renewal,Renewal,Closed Won,18000,18000,2026-03-13,true,true,false,false,,2025-12-13
+OPP-00051,ACC-0020,ACC-0020 - Expansion,Expansion,Closed Won,8000,8000,2026-03-13,true,true,false,false,,2025-12-30
+OPP-00052,ACC-0021,ACC-0021 - New Business,New Business,Closed Won,16000.0,16000,2025-05-16,true,true,false,true,PRT-0010,2025-02-22
+OPP-00053,ACC-0021,ACC-0021 - Renewal,Renewal,Closed Won,16000,16000,2026-05-16,true,true,false,false,,2026-03-14
+OPP-00054,ACC-0022,ACC-0022 - New Business,New Business,Closed Won,112000.0,112000,2026-04-01,true,true,false,false,,2026-01-09
+OPP-00055,ACC-0023,ACC-0023 - New Business,New Business,Closed Won,7000.0,7000,2025-11-06,true,true,false,true,PRT-0003,2025-08-16
+OPP-00056,ACC-0023,ACC-0023 - Renewal,Renewal,Renewal - Negotiation,7000,7000,2026-11-06,false,false,false,false,,2026-08-09
+OPP-00057,ACC-0024,ACC-0024 - New Business,New Business,Closed Won,183000.0,61000,2023-06-17,true,true,false,false,,2023-05-19
+OPP-00058,ACC-0024,ACC-0024 - Renewal,Renewal,Closed Won,61000,61000,2026-06-17,true,true,false,false,,2026-05-28
+OPP-00059,ACC-0025,ACC-0025 - New Business,New Business,Closed Won,67000.0,67000,2024-06-27,true,true,true,true,PRT-0012,2024-05-11
+OPP-00060,ACC-0025,ACC-0025 - Renewal,Renewal,Closed Won,67000,67000,2025-06-27,true,true,false,false,,2025-04-07
+OPP-00061,ACC-0025,ACC-0025 - Expansion,Expansion,Closed Won,23000,23000,2025-06-27,true,true,false,true,PRT-0009,2025-06-06
+OPP-00062,ACC-0025,ACC-0025 - Renewal,Renewal,Closed Lost,90000,90000,2026-06-27,false,true,false,false,,2026-05-03
+OPP-00063,ACC-0026,ACC-0026 - New Business,New Business,Closed Won,39000.0,39000,2026-01-06,true,true,false,false,,2025-10-23
+OPP-00064,ACC-0027,ACC-0027 - New Business,New Business,Closed Won,154000.0,77000,2025-12-19,true,true,false,true,PRT-0002,2025-10-30
+OPP-00065,ACC-0028,ACC-0028 - New Business,New Business,Closed Won,7000.0,7000,2024-07-11,true,true,false,false,,2024-05-18
+OPP-00066,ACC-0028,ACC-0028 - Renewal,Renewal,Closed Won,7000,7000,2025-07-11,true,true,false,false,,2025-05-01
+OPP-00067,ACC-0028,ACC-0028 - Expansion,Expansion,Closed Won,2000,2000,2025-07-11,true,true,true,true,PRT-0012,2025-06-11
+OPP-00068,ACC-0028,ACC-0028 - Renewal,Renewal,Closed Won,9000,9000,2026-07-11,true,true,false,false,,2026-06-17
+OPP-00069,ACC-0029,ACC-0029 - New Business,New Business,Closed Won,23000.0,23000,2025-05-17,true,true,false,false,,2025-04-20
+OPP-00070,ACC-0029,ACC-0029 - Renewal,Renewal,Closed Won,23000,23000,2026-05-17,true,true,false,false,,2026-04-17
+OPP-00071,ACC-0030,ACC-0030 - New Business,New Business,Closed Won,82000.0,82000,2023-08-18,true,true,false,false,,2023-07-17
+OPP-00072,ACC-0030,ACC-0030 - Renewal,Renewal,Closed Won,82000,82000,2024-08-18,true,true,false,false,,2024-06-30
+OPP-00073,ACC-0030,ACC-0030 - Renewal,Renewal,Closed Lost,82000,82000,2025-08-18,false,true,false,false,,2025-05-30
+OPP-00074,ACC-0031,ACC-0031 - New Business,New Business,Closed Won,30000.0,10000,2023-09-19,true,true,false,true,PRT-0009,2023-08-26
+OPP-00075,ACC-0031,ACC-0031 - Renewal,Renewal,Renewal - Negotiation,10000,10000,2026-09-19,false,false,false,false,,2026-07-21
+OPP-00076,ACC-0032,ACC-0032 - New Business,New Business,Closed Won,48000.0,48000,2026-02-20,true,true,false,true,PRT-0014,2025-12-12
+OPP-00077,ACC-0033,ACC-0033 - New Business,New Business,Closed Won,33000.0,11000,2024-11-11,true,true,false,false,,2024-09-03
+OPP-00078,ACC-0034,ACC-0034 - New Business,New Business,Closed Won,19000.0,19000,2024-03-31,true,true,true,true,PRT-0012,2024-03-01
+OPP-00079,ACC-0034,ACC-0034 - Renewal,Renewal,Closed Won,19000,19000,2025-03-31,true,true,false,false,,2025-03-05
+OPP-00080,ACC-0034,ACC-0034 - Renewal,Renewal,Closed Lost,19000,19000,2026-03-31,false,true,false,false,,2026-02-10
+OPP-00081,ACC-0035,ACC-0035 - New Business,New Business,Closed Won,25000.0,25000,2024-11-03,true,true,false,false,,2024-08-25
+OPP-00082,ACC-0035,ACC-0035 - Renewal,Renewal,Closed Won,25000,25000,2025-11-03,true,true,false,false,,2025-09-10
+OPP-00083,ACC-0035,ACC-0035 - Expansion,Expansion,Closed Won,9000,9000,2025-11-03,true,true,false,false,,2025-09-15
+OPP-00084,ACC-0035,ACC-0035 - Renewal,Renewal,Renewal - Quoted,34000,34000,2026-11-03,false,false,false,false,,2026-08-05
+OPP-00085,ACC-0036,ACC-0036 - New Business,New Business,Closed Won,552000.0,184000,2023-08-25,true,true,false,false,,2023-06-18
+OPP-00086,ACC-0036,ACC-0036 - Renewal,Renewal,Renewal - Discovery,184000,184000,2026-08-25,false,false,false,false,,2026-06-29
+OPP-00087,ACC-0037,ACC-0037 - New Business,New Business,Closed Won,12000.0,6000,2026-05-26,true,true,true,true,PRT-0003,2026-04-17
+OPP-00088,ACC-0038,ACC-0038 - New Business,New Business,Closed Won,30000.0,15000,2025-06-02,true,true,false,true,PRT-0001,2025-03-18
+OPP-00089,ACC-0039,ACC-0039 - New Business,New Business,Closed Won,43000.0,43000,2024-09-25,true,true,true,true,PRT-0003,2024-07-02
+OPP-00090,ACC-0039,ACC-0039 - Renewal,Renewal,Closed Won,43000,43000,2025-09-25,true,true,false,false,,2025-07-22
+OPP-00091,ACC-0039,ACC-0039 - Expansion,Expansion,Closed Won,13000,13000,2025-09-25,true,true,false,false,,2025-07-26
+OPP-00092,ACC-0039,ACC-0039 - Renewal,Renewal,Renewal - Verbal Commit,56000,56000,2026-09-25,false,false,false,false,,2026-09-04
+OPP-00093,ACC-0040,ACC-0040 - New Business,New Business,Closed Won,13000.0,13000,2026-03-11,true,true,false,true,PRT-0015,2026-01-19
+OPP-00094,ACC-0041,ACC-0041 - New Business,New Business,Closed Won,35000.0,35000,2025-06-23,true,true,true,true,PRT-0003,2025-04-30
+OPP-00095,ACC-0041,ACC-0041 - Renewal,Renewal,Closed Won,35000,35000,2026-06-23,true,true,false,false,,2026-04-09
+OPP-00096,ACC-0041,ACC-0041 - Expansion,Expansion,Closed Won,7000,7000,2026-06-23,true,true,true,true,PRT-0013,2026-05-02
+OPP-00097,ACC-0042,ACC-0042 - New Business,New Business,Closed Won,24000.0,8000,2024-04-26,true,true,false,false,,2024-03-12
+OPP-00098,ACC-0043,ACC-0043 - New Business,New Business,Closed Won,14000.0,14000,2025-07-21,true,true,true,true,PRT-0007,2025-05-14
+OPP-00099,ACC-0043,ACC-0043 - Renewal,Renewal,Closed Won,14000,14000,2026-07-21,true,true,false,false,,2026-05-20
+OPP-00100,ACC-0043,ACC-0043 - Expansion,Expansion,Closed Won,4000,4000,2026-07-21,true,true,false,false,,2026-06-14
+OPP-00101,ACC-0044,ACC-0044 - New Business,New Business,Closed Won,169000.0,169000,2023-08-07,true,true,false,false,,2023-05-18
+OPP-00102,ACC-0044,ACC-0044 - Renewal,Renewal,Closed Won,169000,169000,2024-08-07,true,true,false,false,,2024-06-08
+OPP-00103,ACC-0044,ACC-0044 - Renewal,Renewal,Closed Won,169000,169000,2025-08-07,true,true,false,false,,2025-05-17
+OPP-00104,ACC-0044,ACC-0044 - Renewal,Renewal,Renewal - Negotiation,169000,169000,2026-08-07,false,false,false,false,,2026-06-07
+OPP-00105,ACC-0045,ACC-0045 - New Business,New Business,Closed Won,15000.0,15000,2023-10-01,true,true,false,true,PRT-0002,2023-08-17
+OPP-00106,ACC-0045,ACC-0045 - Renewal,Renewal,Closed Won,15000,15000,2024-10-01,true,true,false,false,,2024-07-03
+OPP-00107,ACC-0045,ACC-0045 - Renewal,Renewal,Closed Won,9000,9000,2025-10-01,true,true,false,false,,2025-08-16
+OPP-00108,ACC-0045,ACC-0045 - Renewal,Renewal,Renewal - Verbal Commit,9000,9000,2026-10-01,false,false,false,false,,2026-08-05
+OPP-00109,ACC-0046,ACC-0046 - New Business,New Business,Closed Won,106000.0,53000,2023-11-22,true,true,false,false,,2023-09-11
+OPP-00110,ACC-0046,ACC-0046 - Renewal,Renewal,Closed Won,53000,53000,2025-11-22,true,true,false,false,,2025-09-25
+OPP-00111,ACC-0046,ACC-0046 - Expansion,Expansion,Closed Won,11000,11000,2025-11-22,true,true,false,false,,2025-09-09
+OPP-00112,ACC-0047,ACC-0047 - New Business,New Business,Closed Won,80000.0,40000,2025-06-19,true,true,false,false,,2025-03-30
+OPP-00113,ACC-0048,ACC-0048 - New Business,New Business,Closed Won,11000.0,11000,2024-03-14,true,true,false,false,,2024-01-01
+OPP-00114,ACC-0048,ACC-0048 - Renewal,Renewal,Closed Won,11000,11000,2025-03-14,true,true,false,false,,2025-01-07
+OPP-00115,ACC-0048,ACC-0048 - Renewal,Renewal,Closed Won,11000,11000,2026-03-14,true,true,false,false,,2026-02-12
+OPP-00116,ACC-0049,ACC-0049 - New Business,New Business,Closed Won,97000.0,97000,2026-04-11,true,true,false,false,,2026-03-01
+OPP-00117,ACC-0050,ACC-0050 - New Business,New Business,Closed Won,13000.0,13000,2026-01-07,true,true,false,false,,2025-10-28
+OPP-00118,ACC-0051,ACC-0051 - New Business,New Business,Closed Won,228000.0,76000,2024-11-19,true,true,false,false,,2024-10-17
+OPP-00119,ACC-0052,ACC-0052 - New Business,New Business,Closed Won,6000.0,6000,2023-06-21,true,true,false,false,,2023-03-27
+OPP-00120,ACC-0052,ACC-0052 - Renewal,Renewal,Closed Won,6000,6000,2024-06-21,true,true,false,false,,2024-05-04
+OPP-00121,ACC-0052,ACC-0052 - Renewal,Renewal,Closed Won,6000,6000,2025-06-21,true,true,false,false,,2025-03-29
+OPP-00122,ACC-0052,ACC-0052 - Expansion,Expansion,Closed Won,1000,1000,2025-06-21,true,true,false,false,,2025-04-01
+OPP-00123,ACC-0052,ACC-0052 - Renewal,Renewal,Closed Lost,7000,7000,2026-06-21,false,true,false,false,,2026-04-09
+OPP-00124,ACC-0053,ACC-0053 - New Business,New Business,Closed Won,18000.0,18000,2024-10-31,true,true,false,false,,2024-08-28
+OPP-00125,ACC-0053,ACC-0053 - Renewal,Renewal,Closed Won,18000,18000,2025-10-31,true,true,false,false,,2025-09-15
+OPP-00126,ACC-0053,ACC-0053 - Renewal,Renewal,Renewal - Quoted,13000,13000,2026-10-31,false,false,false,false,,2026-08-12
+OPP-00127,ACC-0054,ACC-0054 - New Business,New Business,Closed Won,75000.0,75000,2024-04-04,true,true,false,false,,2024-03-07
+OPP-00128,ACC-0054,ACC-0054 - Renewal,Renewal,Closed Won,75000,75000,2025-04-04,true,true,false,false,,2025-03-01
+OPP-00129,ACC-0054,ACC-0054 - Renewal,Renewal,Closed Lost,75000,75000,2026-04-04,false,true,false,false,,2026-01-31
+OPP-00130,ACC-0055,ACC-0055 - New Business,New Business,Closed Won,28000.0,28000,2023-09-16,true,true,false,false,,2023-07-27
+OPP-00131,ACC-0055,ACC-0055 - Renewal,Renewal,Closed Won,28000,28000,2024-09-16,true,true,false,false,,2024-07-16
+OPP-00132,ACC-0055,ACC-0055 - Renewal,Renewal,Closed Won,28000,28000,2025-09-16,true,true,false,false,,2025-07-29
+OPP-00133,ACC-0055,ACC-0055 - Renewal,Renewal,Renewal - Verbal Commit,28000,28000,2026-09-16,false,false,false,false,,2026-08-04
+OPP-00134,ACC-0056,ACC-0056 - New Business,New Business,Closed Won,22000.0,22000,2024-09-29,true,true,false,true,PRT-0012,2024-08-15
+OPP-00135,ACC-0056,ACC-0056 - Renewal,Renewal,Closed Won,22000,22000,2025-09-29,true,true,false,false,,2025-09-09
+OPP-00136,ACC-0056,ACC-0056 - Renewal,Renewal,Renewal - Negotiation,18000,18000,2026-09-29,false,false,false,false,,2026-08-05
+OPP-00137,ACC-0057,ACC-0057 - New Business,New Business,Closed Won,632000.0,316000,2026-04-27,true,true,false,true,PRT-0002,2026-01-29
+OPP-00138,ACC-0058,ACC-0058 - New Business,New Business,Closed Won,66000.0,66000,2024-12-12,true,true,false,false,,2024-10-20
+OPP-00139,ACC-0058,ACC-0058 - Renewal,Renewal,Closed Won,66000,66000,2025-12-12,true,true,false,false,,2025-10-13
+OPP-00140,ACC-0059,ACC-0059 - New Business,New Business,Closed Won,64000.0,64000,2025-06-06,true,true,false,true,PRT-0014,2025-04-25
+OPP-00141,ACC-0059,ACC-0059 - Renewal,Renewal,Closed Won,64000,64000,2026-06-06,true,true,false,false,,2026-04-09
+OPP-00142,ACC-0060,ACC-0060 - New Business,New Business,Closed Won,48000.0,16000,2025-08-10,true,true,false,false,,2025-06-11
+OPP-00143,ACC-0061,ACC-0061 - New Business,New Business,Closed Won,80000.0,80000,2024-11-19,true,true,true,true,PRT-0012,2024-09-11
+OPP-00144,ACC-0061,ACC-0061 - Renewal,Renewal,Closed Won,80000,80000,2025-11-19,true,true,false,false,,2025-09-11
+OPP-00145,ACC-0061,ACC-0061 - Expansion,Expansion,Closed Won,21000,21000,2025-11-19,true,true,false,false,,2025-08-23
+OPP-00146,ACC-0061,ACC-0061 - Renewal,Renewal,Renewal - Negotiation,101000,101000,2026-11-19,false,false,false,false,,2026-10-09
+OPP-00147,ACC-0062,ACC-0062 - New Business,New Business,Closed Won,39000.0,39000,2026-05-05,true,true,false,true,PRT-0008,2026-03-01
+OPP-00148,ACC-0063,ACC-0063 - New Business,New Business,Closed Won,204000.0,68000,2026-02-11,true,true,false,true,PRT-0007,2025-11-19
+OPP-00149,ACC-0064,ACC-0064 - New Business,New Business,Closed Won,10000.0,10000,2024-09-19,true,true,false,false,,2024-07-05
+OPP-00150,ACC-0064,ACC-0064 - Renewal,Renewal,Closed Won,10000,10000,2025-09-19,true,true,false,false,,2025-08-27
+OPP-00151,ACC-0064,ACC-0064 - Expansion,Expansion,Closed Won,4000,4000,2025-09-19,true,true,true,true,PRT-0001,2025-06-23
+OPP-00152,ACC-0064,ACC-0064 - Renewal,Renewal,Renewal - Quoted,14000,14000,2026-09-19,false,false,false,false,,2026-08-09
+OPP-00153,ACC-0065,ACC-0065 - New Business,New Business,Closed Won,76000.0,38000,2025-07-18,true,true,false,false,,2025-04-26
+OPP-00154,ACC-0066,ACC-0066 - New Business,New Business,Closed Won,39000.0,39000,2024-03-19,true,true,false,true,PRT-0013,2024-01-13
+OPP-00155,ACC-0066,ACC-0066 - Renewal,Renewal,Closed Won,39000,39000,2025-03-19,true,true,false,false,,2025-01-02
+OPP-00156,ACC-0066,ACC-0066 - Renewal,Renewal,Closed Won,39000,39000,2026-03-19,true,true,false,false,,2026-02-14
+OPP-00157,ACC-0067,ACC-0067 - New Business,New Business,Closed Won,42000.0,21000,2025-01-09,true,true,false,true,PRT-0014,2024-10-24
+OPP-00158,ACC-0068,ACC-0068 - New Business,New Business,Closed Won,13000.0,13000,2023-07-30,true,true,false,true,PRT-0014,2023-06-10
+OPP-00159,ACC-0068,ACC-0068 - Renewal,Renewal,Closed Won,13000,13000,2024-07-30,true,true,false,false,,2024-05-27
+OPP-00160,ACC-0068,ACC-0068 - Renewal,Renewal,Closed Won,13000,13000,2025-07-30,true,true,false,false,,2025-05-17
+OPP-00161,ACC-0068,ACC-0068 - Renewal,Renewal,Closed Lost,8000,8000,2026-07-30,false,true,false,false,,2026-06-14
+OPP-00162,ACC-0069,ACC-0069 - New Business,New Business,Closed Won,228000.0,114000,2025-09-05,true,true,false,false,,2025-06-09
+OPP-00163,ACC-0070,ACC-0070 - New Business,New Business,Closed Won,16000.0,16000,2024-05-23,true,true,true,true,PRT-0010,2024-02-28
+OPP-00164,ACC-0070,ACC-0070 - Renewal,Renewal,Closed Won,16000,16000,2025-05-23,true,true,false,false,,2025-04-21
+OPP-00165,ACC-0070,ACC-0070 - Renewal,Renewal,Closed Lost,16000,16000,2026-05-23,false,true,false,false,,2026-03-12
+OPP-00166,ACC-0071,ACC-0071 - New Business,New Business,Closed Won,336000.0,112000,2024-09-17,true,true,true,true,PRT-0014,2024-08-10
+OPP-00167,ACC-0072,ACC-0072 - New Business,New Business,Closed Won,31000.0,31000,2023-12-22,true,true,false,false,,2023-10-13
+OPP-00168,ACC-0072,ACC-0072 - Renewal,Renewal,Closed Won,31000,31000,2024-12-22,true,true,false,false,,2024-10-29
+OPP-00169,ACC-0072,ACC-0072 - Renewal,Renewal,Closed Won,31000,31000,2025-12-22,true,true,false,false,,2025-11-23
+OPP-00170,ACC-0072,ACC-0072 - Expansion,Expansion,Closed Won,10000,10000,2025-12-22,true,true,false,false,,2025-11-21
+OPP-00171,ACC-0073,ACC-0073 - New Business,New Business,Closed Won,174000.0,174000,2025-07-18,true,true,false,false,,2025-05-12
+OPP-00172,ACC-0073,ACC-0073 - Renewal,Renewal,Closed Won,174000,174000,2026-07-18,true,true,false,false,,2026-06-28
+OPP-00173,ACC-0074,ACC-0074 - New Business,New Business,Closed Won,50000.0,25000,2024-06-28,true,true,false,true,PRT-0008,2024-04-24
+OPP-00174,ACC-0074,ACC-0074 - Renewal,Renewal,Closed Won,25000,25000,2026-06-28,true,true,false,false,,2026-04-19
+OPP-00175,ACC-0075,ACC-0075 - New Business,New Business,Closed Won,55000.0,55000,2024-07-11,true,true,true,true,PRT-0005,2024-05-16
+OPP-00176,ACC-0075,ACC-0075 - Renewal,Renewal,Closed Won,55000,55000,2025-07-11,true,true,false,false,,2025-04-20
+OPP-00177,ACC-0075,ACC-0075 - Renewal,Renewal,Closed Won,55000,55000,2026-07-11,true,true,false,false,,2026-06-15
+OPP-00178,ACC-0076,ACC-0076 - New Business,New Business,Closed Won,15000.0,15000,2023-07-07,true,true,false,false,,2023-06-15
+OPP-00179,ACC-0076,ACC-0076 - Renewal,Renewal,Closed Lost,15000,15000,2024-07-07,false,true,false,false,,2024-05-28
+OPP-00180,ACC-0077,ACC-0077 - New Business,New Business,Closed Won,84000.0,84000,2025-11-28,true,true,false,true,PRT-0012,2025-10-01
+OPP-00181,ACC-0077,ACC-0077 - Renewal,Renewal,Renewal - Negotiation,84000,84000,2026-11-28,false,false,false,false,,2026-10-04
+OPP-00182,ACC-0078,ACC-0078 - New Business,New Business,Closed Won,206000.0,206000,2024-12-13,true,true,false,true,PRT-0011,2024-11-02
+OPP-00183,ACC-0078,ACC-0078 - Renewal,Renewal,Closed Lost,206000,206000,2025-12-13,false,true,false,false,,2025-10-15
+OPP-00184,ACC-0079,ACC-0079 - New Business,New Business,Closed Won,52000.0,26000,2026-01-31,true,true,true,true,PRT-0002,2025-11-11
+OPP-00185,ACC-0080,ACC-0080 - New Business,New Business,Closed Won,12000.0,12000,2025-04-26,true,true,false,false,,2025-02-09
+OPP-00186,ACC-0080,ACC-0080 - Renewal,Renewal,Closed Lost,12000,12000,2026-04-26,false,true,false,false,,2026-02-22
+OPP-00187,ACC-0081,ACC-0081 - New Business,New Business,Closed Won,792000.0,264000,2025-06-16,true,true,true,true,PRT-0002,2025-05-16
+OPP-00188,ACC-0082,ACC-0082 - New Business,New Business,Closed Won,38000.0,19000,2024-04-05,true,true,true,true,PRT-0015,2024-01-28
+OPP-00189,ACC-0082,ACC-0082 - Renewal,Renewal,Closed Won,19000,19000,2026-04-05,true,true,false,false,,2026-02-27
+OPP-00190,ACC-0083,ACC-0083 - New Business,New Business,Closed Won,12000.0,12000,2024-07-13,true,true,true,true,PRT-0010,2024-06-02
+OPP-00191,ACC-0083,ACC-0083 - Renewal,Renewal,Closed Won,12000,12000,2025-07-13,true,true,false,false,,2025-06-04
+OPP-00192,ACC-0083,ACC-0083 - Renewal,Renewal,Closed Won,12000,12000,2026-07-13,true,true,false,false,,2026-04-28
+OPP-00193,ACC-0084,ACC-0084 - New Business,New Business,Closed Won,36000.0,18000,2024-07-19,true,true,true,true,PRT-0013,2024-05-11
+OPP-00194,ACC-0084,ACC-0084 - Renewal,Renewal,Closed Won,18000,18000,2026-07-19,true,true,false,false,,2026-06-12
+OPP-00195,ACC-0084,ACC-0084 - Expansion,Expansion,Closed Won,4000,4000,2026-07-19,true,true,false,false,,2026-05-29
+OPP-00196,ACC-0085,ACC-0085 - New Business,New Business,Closed Won,54000.0,54000,2023-11-01,true,true,false,false,,2023-10-09
+OPP-00197,ACC-0085,ACC-0085 - Renewal,Renewal,Closed Won,54000,54000,2024-11-01,true,true,false,false,,2024-09-04
+OPP-00198,ACC-0085,ACC-0085 - Renewal,Renewal,Closed Lost,54000,54000,2025-11-01,false,true,false,false,,2025-08-08
+OPP-00199,ACC-0086,ACC-0086 - New Business,New Business,Closed Won,238000.0,238000,2024-04-23,true,true,false,false,,2024-03-04
+OPP-00200,ACC-0086,ACC-0086 - Renewal,Renewal,Closed Won,238000,238000,2025-04-23,true,true,false,false,,2025-01-30
+OPP-00201,ACC-0086,ACC-0086 - Expansion,Expansion,Closed Won,79000,79000,2025-04-23,true,true,false,true,PRT-0015,2025-02-16
+OPP-00202,ACC-0086,ACC-0086 - Renewal,Renewal,Closed Won,317000,317000,2026-04-23,true,true,false,false,,2026-02-09
+OPP-00203,ACC-0086,ACC-0086 - Expansion,Expansion,Closed Won,76000,76000,2026-04-23,true,true,false,false,,2026-02-02
+OPP-00204,ACC-0087,ACC-0087 - New Business,New Business,Closed Won,309000.0,103000,2023-11-08,true,true,true,true,PRT-0002,2023-09-22
+OPP-00205,ACC-0087,ACC-0087 - Renewal,Renewal,Renewal - Discovery,103000,103000,2026-11-08,false,false,false,false,,2026-10-12
+OPP-00206,ACC-0088,ACC-0088 - New Business,New Business,Closed Won,63000.0,21000,2025-12-13,true,true,false,true,PRT-0012,2025-10-01
+OPP-00207,ACC-0089,ACC-0089 - New Business,New Business,Closed Won,18000.0,18000,2025-03-25,true,true,false,false,,2024-12-27
+OPP-00208,ACC-0089,ACC-0089 - Renewal,Renewal,Closed Won,18000,18000,2026-03-25,true,true,false,false,,2026-01-25
+OPP-00209,ACC-0089,ACC-0089 - Expansion,Expansion,Closed Won,3000,3000,2026-03-25,true,true,false,false,,2026-02-14
+OPP-00210,ACC-0090,ACC-0090 - New Business,New Business,Closed Won,359000.0,359000,2024-08-11,true,true,false,false,,2024-07-14
+OPP-00211,ACC-0090,ACC-0090 - Renewal,Renewal,Closed Won,359000,359000,2025-08-11,true,true,false,false,,2025-06-22
+OPP-00212,ACC-0090,ACC-0090 - Expansion,Expansion,Closed Won,50000,50000,2025-08-11,true,true,true,true,PRT-0007,2025-07-15
+OPP-00213,ACC-0090,ACC-0090 - Renewal,Renewal,Renewal - Quoted,409000,409000,2026-08-11,false,false,false,false,,2026-06-30
+OPP-00214,ACC-0091,ACC-0091 - New Business,New Business,Closed Won,5000.0,5000,2023-04-05,true,true,false,false,,2023-02-24
+OPP-00215,ACC-0091,ACC-0091 - Renewal,Renewal,Closed Won,5000,5000,2024-04-05,true,true,false,false,,2024-01-10
+OPP-00216,ACC-0091,ACC-0091 - Expansion,Expansion,Closed Won,2000,2000,2024-04-05,true,true,false,false,,2024-02-24
+OPP-00217,ACC-0091,ACC-0091 - Renewal,Renewal,Closed Won,7000,7000,2025-04-05,true,true,false,false,,2025-02-10
+OPP-00218,ACC-0091,ACC-0091 - Renewal,Renewal,Closed Won,7000,7000,2026-04-05,true,true,false,false,,2026-03-13
+OPP-00219,ACC-0091,ACC-0091 - Expansion,Expansion,Closed Won,2000,2000,2026-04-05,true,true,false,false,,2026-01-08
+OPP-00220,ACC-0092,ACC-0092 - New Business,New Business,Closed Won,309000.0,309000,2023-12-15,true,true,false,false,,2023-11-16
+OPP-00221,ACC-0092,ACC-0092 - Renewal,Renewal,Closed Won,309000,309000,2024-12-15,true,true,false,false,,2024-11-18
+OPP-00222,ACC-0092,ACC-0092 - Renewal,Renewal,Closed Won,309000,309000,2025-12-15,true,true,false,false,,2025-10-09
+OPP-00223,ACC-0093,ACC-0093 - New Business,New Business,Closed Won,52000.0,52000,2025-08-02,true,true,false,false,,2025-06-29
+OPP-00224,ACC-0093,ACC-0093 - Renewal,Renewal,Renewal - Negotiation,52000,52000,2026-08-02,false,false,false,false,,2026-05-09
+OPP-00225,ACC-0094,ACC-0094 - New Business,New Business,Closed Won,41000.0,41000,2024-12-08,true,true,false,true,PRT-0001,2024-09-30
+OPP-00226,ACC-0094,ACC-0094 - Renewal,Renewal,Closed Won,41000,41000,2025-12-08,true,true,false,false,,2025-11-14
+OPP-00227,ACC-0094,ACC-0094 - Expansion,Expansion,Closed Won,12000,12000,2025-12-08,true,true,false,false,,2025-09-26
+OPP-00228,ACC-0095,ACC-0095 - New Business,New Business,Closed Won,47000.0,47000,2025-09-16,true,true,false,false,,2025-07-18
+OPP-00229,ACC-0095,ACC-0095 - Renewal,Renewal,Renewal - Quoted,47000,47000,2026-09-16,false,false,false,false,,2026-08-18
+OPP-00230,ACC-0096,ACC-0096 - New Business,New Business,Closed Won,68000.0,68000,2023-01-17,true,true,false,false,,2022-12-22
+OPP-00231,ACC-0096,ACC-0096 - Renewal,Renewal,Closed Lost,68000,68000,2024-01-17,false,true,false,false,,2023-10-23
+OPP-00232,ACC-0097,ACC-0097 - New Business,New Business,Closed Won,942000.0,314000,2024-03-24,true,true,false,false,,2024-01-28
+OPP-00233,ACC-0098,ACC-0098 - New Business,New Business,Closed Won,32000.0,16000,2023-03-10,true,true,true,true,PRT-0008,2023-01-24
+OPP-00234,ACC-0098,ACC-0098 - Renewal,Renewal,Closed Won,16000,16000,2025-03-10,true,true,false,false,,2025-01-18
+OPP-00235,ACC-0099,ACC-0099 - New Business,New Business,Closed Won,46000.0,46000,2026-01-09,true,true,false,false,,2025-11-25
+OPP-00236,ACC-0100,ACC-0100 - New Business,New Business,Closed Won,22000.0,11000,2024-11-24,true,true,false,false,,2024-10-16
+OPP-00237,ACC-0100,ACC-0100 - Renewal,Renewal,Renewal - Discovery,11000,11000,2026-11-24,false,false,false,false,,2026-09-13
+OPP-00238,ACC-0101,ACC-0101 - New Business,New Business,Closed Won,21000.0,21000,2023-07-04,true,true,false,false,,2023-06-13
+OPP-00239,ACC-0101,ACC-0101 - Renewal,Renewal,Closed Won,21000,21000,2024-07-04,true,true,false,false,,2024-04-27
+OPP-00240,ACC-0101,ACC-0101 - Expansion,Expansion,Closed Won,8000,8000,2024-07-04,true,true,false,false,,2024-06-01
+OPP-00241,ACC-0101,ACC-0101 - Renewal,Renewal,Closed Lost,29000,29000,2025-07-04,false,true,false,false,,2025-05-15
+OPP-00242,ACC-0102,ACC-0102 - New Business,New Business,Closed Won,522000.0,174000,2025-01-30,true,true,true,true,PRT-0005,2024-12-12
+OPP-00243,ACC-0103,ACC-0103 - New Business,New Business,Closed Won,398000.0,199000,2025-08-08,true,true,false,false,,2025-06-02
+OPP-00244,ACC-0104,ACC-0104 - New Business,New Business,Closed Won,18000.0,18000,2023-08-26,true,true,false,false,,2023-06-03
+OPP-00245,ACC-0104,ACC-0104 - Renewal,Renewal,Closed Lost,18000,18000,2024-08-26,false,true,false,false,,2024-06-17
+OPP-00246,ACC-0104,ACC-0104 - New Business,New Business,Closed Won,16000.0,16000,2024-10-26,true,true,false,false,,2024-09-06
+OPP-00247,ACC-0104,ACC-0104 - Renewal,Renewal,Closed Lost,16000,16000,2025-10-26,false,true,false,false,,2025-08-27
+OPP-00248,ACC-0105,ACC-0105 - New Business,New Business,Closed Won,312000.0,312000,2023-07-22,true,true,true,true,PRT-0008,2023-06-23
+OPP-00249,ACC-0105,ACC-0105 - Renewal,Renewal,Closed Won,312000,312000,2024-07-22,true,true,false,false,,2024-06-19
+OPP-00250,ACC-0105,ACC-0105 - Expansion,Expansion,Closed Won,53000,53000,2024-07-22,true,true,true,true,PRT-0008,2024-06-17
+OPP-00251,ACC-0105,ACC-0105 - Renewal,Renewal,Closed Won,365000,365000,2025-07-22,true,true,false,false,,2025-06-06
+OPP-00252,ACC-0105,ACC-0105 - Renewal,Renewal,Closed Won,365000,365000,2026-07-22,true,true,false,false,,2026-06-17
+OPP-00253,ACC-0105,ACC-0105 - Expansion,Expansion,Closed Won,55000,55000,2026-07-22,true,true,false,false,,2026-05-25
+OPP-00254,ACC-0106,ACC-0106 - New Business,New Business,Closed Won,884000.0,442000,2025-01-22,true,true,false,true,PRT-0014,2024-12-15
+OPP-00255,ACC-0107,ACC-0107 - New Business,New Business,Closed Won,321000.0,321000,2023-07-07,true,true,true,true,PRT-0009,2023-05-10
+OPP-00256,ACC-0107,ACC-0107 - Renewal,Renewal,Closed Won,321000,321000,2024-07-07,true,true,false,false,,2024-06-14
+OPP-00257,ACC-0107,ACC-0107 - Renewal,Renewal,Closed Won,321000,321000,2025-07-07,true,true,false,false,,2025-04-08
+OPP-00258,ACC-0107,ACC-0107 - Renewal,Renewal,Closed Won,321000,321000,2026-07-07,true,true,false,false,,2026-05-31
+OPP-00259,ACC-0107,ACC-0107 - Expansion,Expansion,Closed Won,51000,51000,2026-07-07,true,true,false,true,PRT-0013,2026-06-01
+OPP-00260,ACC-0108,ACC-0108 - New Business,New Business,Closed Won,35000.0,35000,2026-02-09,true,true,false,false,,2026-01-10
+OPP-00261,ACC-0109,ACC-0109 - New Business,New Business,Closed Won,7000.0,7000,2026-01-11,true,true,false,false,,2025-12-20
+OPP-00262,ACC-0110,ACC-0110 - New Business,New Business,Closed Won,15000.0,5000,2023-02-02,true,true,false,false,,2022-12-28
+OPP-00263,ACC-0110,ACC-0110 - Renewal,Renewal,Closed Lost,5000,5000,2026-02-02,false,true,false,false,,2025-12-02
+OPP-00264,ACC-0111,ACC-0111 - New Business,New Business,Closed Won,11000.0,11000,2025-11-17,true,true,false,false,,2025-09-08
+OPP-00265,ACC-0111,ACC-0111 - Renewal,Renewal,Renewal - Verbal Commit,11000,11000,2026-11-17,false,false,false,false,,2026-10-25
+OPP-00266,ACC-0112,ACC-0112 - New Business,New Business,Closed Won,12000.0,12000,2023-03-05,true,true,true,true,PRT-0015,2023-01-09
+OPP-00267,ACC-0112,ACC-0112 - Renewal,Renewal,Closed Won,12000,12000,2024-03-05,true,true,false,false,,2024-01-14
+OPP-00268,ACC-0112,ACC-0112 - Expansion,Expansion,Closed Won,4000,4000,2024-03-05,true,true,false,false,,2023-12-06
+OPP-00269,ACC-0112,ACC-0112 - Renewal,Renewal,Closed Won,16000,16000,2025-03-05,true,true,false,false,,2024-12-26
+OPP-00270,ACC-0112,ACC-0112 - Expansion,Expansion,Closed Won,3000,3000,2025-03-05,true,true,false,true,PRT-0015,2025-01-13
+OPP-00271,ACC-0112,ACC-0112 - Renewal,Renewal,Closed Won,19000,19000,2026-03-05,true,true,false,false,,2026-02-11
+OPP-00272,ACC-0113,ACC-0113 - New Business,New Business,Closed Won,18000.0,6000,2023-06-15,true,true,false,true,PRT-0009,2023-04-12
+OPP-00273,ACC-0113,ACC-0113 - Renewal,Renewal,Closed Won,6000,6000,2026-06-15,true,true,false,false,,2026-04-07
+OPP-00274,ACC-0114,ACC-0114 - New Business,New Business,Closed Won,126000.0,126000,2025-11-01,true,true,false,true,PRT-0013,2025-10-05
+OPP-00275,ACC-0114,ACC-0114 - Renewal,Renewal,Renewal - Verbal Commit,126000,126000,2026-11-01,false,false,false,false,,2026-08-06
+OPP-00276,ACC-0115,ACC-0115 - New Business,New Business,Closed Won,388000.0,388000,2024-04-12,true,true,true,true,PRT-0003,2024-02-22
+OPP-00277,ACC-0115,ACC-0115 - Renewal,Renewal,Closed Lost,388000,388000,2025-04-12,false,true,false,false,,2025-03-16
+OPP-00278,ACC-0116,ACC-0116 - New Business,New Business,Closed Won,1167000.0,389000,2025-08-29,true,true,false,false,,2025-06-21
+OPP-00279,ACC-0117,ACC-0117 - New Business,New Business,Closed Won,13000.0,13000,2026-04-16,true,true,false,false,,2026-03-05
+OPP-00280,ACC-0118,ACC-0118 - New Business,New Business,Closed Won,45000.0,45000,2024-08-12,true,true,false,false,,2024-06-08
+OPP-00281,ACC-0118,ACC-0118 - Renewal,Renewal,Closed Won,45000,45000,2025-08-12,true,true,false,false,,2025-06-08
+OPP-00282,ACC-0118,ACC-0118 - Expansion,Expansion,Closed Won,19000,19000,2025-08-12,true,true,false,false,,2025-06-29
+OPP-00283,ACC-0118,ACC-0118 - Renewal,Renewal,Renewal - Verbal Commit,64000,64000,2026-08-12,false,false,false,false,,2026-05-15
+OPP-00284,ACC-0119,ACC-0119 - New Business,New Business,Closed Won,16000.0,16000,2026-02-13,true,true,false,true,PRT-0004,2026-01-22
+OPP-00285,ACC-0120,ACC-0120 - New Business,New Business,Closed Won,343000.0,343000,2023-03-01,true,true,false,false,,2023-01-15
+OPP-00286,ACC-0120,ACC-0120 - Renewal,Renewal,Closed Won,343000,343000,2024-03-01,true,true,false,false,,2024-01-19
+OPP-00287,ACC-0120,ACC-0120 - Renewal,Renewal,Closed Won,294000,294000,2025-03-01,true,true,false,false,,2025-02-07
+OPP-00288,ACC-0120,ACC-0120 - Renewal,Renewal,Closed Won,189000,189000,2026-03-01,true,true,false,false,,2026-01-26
+OPP-00289,ACC-0120,ACC-0120 - Expansion,Expansion,Closed Won,75000,75000,2026-03-01,true,true,false,false,,2026-01-31
+OPP-00290,ACC-0121,ACC-0121 - New Business,New Business,Closed Won,64000.0,64000,2023-05-23,true,true,true,true,PRT-0002,2023-03-23
+OPP-00291,ACC-0121,ACC-0121 - Renewal,Renewal,Closed Lost,64000,64000,2024-05-23,false,true,false,false,,2024-04-13
+OPP-00292,ACC-0122,ACC-0122 - New Business,New Business,Closed Won,350000.0,350000,2023-11-19,true,true,false,false,,2023-09-20
+OPP-00293,ACC-0122,ACC-0122 - Renewal,Renewal,Closed Lost,350000,350000,2024-11-19,false,true,false,false,,2024-09-15
+OPP-00294,ACC-0123,ACC-0123 - New Business,New Business,Closed Won,11000.0,11000,2024-07-11,true,true,true,true,PRT-0012,2024-05-30
+OPP-00295,ACC-0123,ACC-0123 - Renewal,Renewal,Closed Won,11000,11000,2025-07-11,true,true,false,false,,2025-05-02
+OPP-00296,ACC-0123,ACC-0123 - Renewal,Renewal,Closed Won,11000,11000,2026-07-11,true,true,false,false,,2026-06-17
+OPP-00297,ACC-0124,ACC-0124 - New Business,New Business,Closed Won,67000.0,67000,2025-05-30,true,true,false,false,,2025-04-12
+OPP-00298,ACC-0124,ACC-0124 - Renewal,Renewal,Closed Won,67000,67000,2026-05-30,true,true,false,false,,2026-03-08
+OPP-00299,ACC-0124,ACC-0124 - Expansion,Expansion,Closed Won,11000,11000,2026-05-30,true,true,false,false,,2026-04-10
+OPP-00300,ACC-0125,ACC-0125 - New Business,New Business,Closed Won,35000.0,35000,2024-02-23,true,true,false,false,,2024-01-23
+OPP-00301,ACC-0125,ACC-0125 - Renewal,Renewal,Closed Won,35000,35000,2025-02-23,true,true,false,false,,2024-12-23
+OPP-00302,ACC-0125,ACC-0125 - Renewal,Renewal,Closed Won,35000,35000,2026-02-23,true,true,false,false,,2026-01-03
+OPP-00303,ACC-0125,ACC-0125 - Expansion,Expansion,Closed Won,12000,12000,2026-02-23,true,true,true,true,PRT-0013,2026-02-03
+OPP-00304,ACC-0126,ACC-0126 - New Business,New Business,Closed Won,15000.0,15000,2023-09-22,true,true,false,true,PRT-0003,2023-07-01
+OPP-00305,ACC-0126,ACC-0126 - Renewal,Renewal,Closed Won,15000,15000,2024-09-22,true,true,false,false,,2024-07-16
+OPP-00306,ACC-0126,ACC-0126 - Expansion,Expansion,Closed Won,2000,2000,2024-09-22,true,true,false,false,,2024-08-05
+OPP-00307,ACC-0126,ACC-0126 - Renewal,Renewal,Closed Lost,17000,17000,2025-09-22,false,true,false,false,,2025-08-24
+OPP-00308,ACC-0127,ACC-0127 - New Business,New Business,Closed Won,25000.0,25000,2023-02-08,true,true,true,true,PRT-0002,2022-12-29
+OPP-00309,ACC-0127,ACC-0127 - Renewal,Renewal,Closed Won,25000,25000,2024-02-08,true,true,false,false,,2024-01-10
+OPP-00310,ACC-0127,ACC-0127 - Expansion,Expansion,Closed Won,8000,8000,2024-02-08,true,true,false,false,,2024-01-08
+OPP-00311,ACC-0127,ACC-0127 - Renewal,Renewal,Closed Won,33000,33000,2025-02-08,true,true,false,false,,2024-11-19
+OPP-00312,ACC-0127,ACC-0127 - Renewal,Renewal,Closed Won,33000,33000,2026-02-08,true,true,false,false,,2025-12-29
+OPP-00313,ACC-0128,ACC-0128 - New Business,New Business,Closed Won,438000.0,438000,2023-08-24,true,true,true,true,PRT-0004,2023-05-26
+OPP-00314,ACC-0128,ACC-0128 - Renewal,Renewal,Closed Won,438000,438000,2024-08-24,true,true,false,false,,2024-07-02
+OPP-00315,ACC-0128,ACC-0128 - Renewal,Renewal,Closed Won,438000,438000,2025-08-24,true,true,false,false,,2025-07-23
+OPP-00316,ACC-0128,ACC-0128 - Expansion,Expansion,Closed Won,60000,60000,2025-08-24,true,true,false,false,,2025-06-03
+OPP-00317,ACC-0128,ACC-0128 - Renewal,Renewal,Renewal - Negotiation,498000,498000,2026-08-24,false,false,false,false,,2026-07-29
+OPP-00318,ACC-0129,ACC-0129 - New Business,New Business,Closed Won,302000.0,302000,2023-08-05,true,true,false,true,PRT-0011,2023-05-16
+OPP-00319,ACC-0129,ACC-0129 - Renewal,Renewal,Closed Lost,302000,302000,2024-08-05,false,true,false,false,,2024-07-13
+OPP-00320,ACC-0130,ACC-0130 - New Business,New Business,Closed Won,318000.0,318000,2023-12-11,true,true,false,false,,2023-11-07
+OPP-00321,ACC-0130,ACC-0130 - Renewal,Renewal,Closed Lost,318000,318000,2024-12-11,false,true,false,false,,2024-10-02
+OPP-00322,ACC-0131,ACC-0131 - New Business,New Business,Closed Won,68000.0,34000,2023-07-30,true,true,false,false,,2023-05-22
+OPP-00323,ACC-0131,ACC-0131 - Renewal,Renewal,Closed Lost,34000,34000,2025-07-30,false,true,false,false,,2025-05-23
+OPP-00324,ACC-0132,ACC-0132 - New Business,New Business,Closed Won,11000.0,11000,2026-02-28,true,true,false,false,,2026-01-11
+OPP-00325,ACC-0133,ACC-0133 - New Business,New Business,Closed Won,546000.0,273000,2026-04-26,true,true,false,true,PRT-0012,2026-03-27
+OPP-00326,ACC-0134,ACC-0134 - New Business,New Business,Closed Won,11000.0,11000,2026-05-01,true,true,false,true,PRT-0013,2026-01-31
+OPP-00327,ACC-0135,ACC-0135 - New Business,New Business,Closed Won,6000.0,6000,2026-05-24,true,true,false,false,,2026-02-25
+OPP-00328,ACC-0136,ACC-0136 - New Business,New Business,Closed Won,15000.0,15000,2023-12-20,true,true,false,false,,2023-10-31
+OPP-00329,ACC-0136,ACC-0136 - Renewal,Renewal,Closed Won,15000,15000,2024-12-20,true,true,false,false,,2024-11-26
+OPP-00330,ACC-0136,ACC-0136 - Expansion,Expansion,Closed Won,4000,4000,2024-12-20,true,true,false,false,,2024-11-12
+OPP-00331,ACC-0136,ACC-0136 - Renewal,Renewal,Closed Lost,19000,19000,2025-12-20,false,true,false,false,,2025-10-04
+OPP-00332,ACC-0137,ACC-0137 - New Business,New Business,Closed Won,636000.0,212000,2025-03-04,true,true,false,false,,2025-01-27
+OPP-00333,ACC-0138,ACC-0138 - New Business,New Business,Closed Won,66000.0,66000,2024-05-31,true,true,false,false,,2024-04-16
+OPP-00334,ACC-0138,ACC-0138 - Renewal,Renewal,Closed Won,66000,66000,2025-05-31,true,true,false,false,,2025-04-08
+OPP-00335,ACC-0138,ACC-0138 - Renewal,Renewal,Closed Won,66000,66000,2026-05-31,true,true,false,false,,2026-05-03
+OPP-00336,ACC-0139,ACC-0139 - New Business,New Business,Closed Won,15000.0,15000,2025-03-13,true,true,false,false,,2025-01-17
+OPP-00337,ACC-0139,ACC-0139 - Renewal,Renewal,Closed Won,15000,15000,2026-03-13,true,true,false,false,,2026-02-20
+OPP-00338,ACC-0140,ACC-0140 - New Business,New Business,Closed Won,90000.0,45000,2025-11-07,true,true,false,false,,2025-08-26
+OPP-00339,ACC-0141,ACC-0141 - New Business,New Business,Closed Won,75000.0,75000,2023-06-08,true,true,false,false,,2023-05-07
+OPP-00340,ACC-0141,ACC-0141 - Renewal,Renewal,Closed Won,75000,75000,2024-06-08,true,true,false,false,,2024-05-07
+OPP-00341,ACC-0141,ACC-0141 - Renewal,Renewal,Closed Won,75000,75000,2025-06-08,true,true,false,false,,2025-04-05
+OPP-00342,ACC-0141,ACC-0141 - Renewal,Renewal,Closed Won,75000,75000,2026-06-08,true,true,false,false,,2026-03-18
+OPP-00343,ACC-0141,ACC-0141 - Expansion,Expansion,Closed Won,23000,23000,2026-06-08,true,true,false,false,,2026-04-27
+OPP-00344,ACC-0142,ACC-0142 - New Business,New Business,Closed Won,68000.0,68000,2023-11-29,true,true,false,false,,2023-09-19
+OPP-00345,ACC-0142,ACC-0142 - Renewal,Renewal,Closed Lost,68000,68000,2024-11-29,false,true,false,false,,2024-09-28
+OPP-00346,ACC-0143,ACC-0143 - New Business,New Business,Closed Won,372000.0,372000,2024-08-06,true,true,true,true,PRT-0006,2024-06-09
+OPP-00347,ACC-0143,ACC-0143 - Renewal,Renewal,Closed Won,372000,372000,2025-08-06,true,true,false,false,,2025-07-05
+OPP-00348,ACC-0143,ACC-0143 - Renewal,Renewal,Renewal - Negotiation,372000,372000,2026-08-06,false,false,false,false,,2026-06-30
+OPP-00349,ACC-0144,ACC-0144 - New Business,New Business,Closed Won,148000.0,148000,2025-12-16,true,true,false,false,,2025-10-16
+OPP-00350,ACC-0145,ACC-0145 - New Business,New Business,Closed Won,15000.0,15000,2026-02-09,true,true,false,false,,2025-12-27
+OPP-00351,ACC-0146,ACC-0146 - New Business,New Business,Closed Won,175000.0,175000,2025-03-22,true,true,false,true,PRT-0008,2025-01-14
+OPP-00352,ACC-0146,ACC-0146 - Renewal,Renewal,Closed Won,175000,175000,2026-03-22,true,true,false,false,,2026-02-10
+OPP-00353,ACC-0147,ACC-0147 - New Business,New Business,Closed Won,40000.0,40000,2023-10-27,true,true,false,false,,2023-08-01
+OPP-00354,ACC-0147,ACC-0147 - Renewal,Renewal,Closed Won,40000,40000,2024-10-27,true,true,false,false,,2024-09-13
+OPP-00355,ACC-0147,ACC-0147 - Expansion,Expansion,Closed Won,16000,16000,2024-10-27,true,true,true,true,PRT-0001,2024-08-10
+OPP-00356,ACC-0147,ACC-0147 - Renewal,Renewal,Closed Lost,56000,56000,2025-10-27,false,true,false,false,,2025-08-22
+OPP-00357,ACC-0148,ACC-0148 - New Business,New Business,Closed Won,144000.0,144000,2024-06-08,true,true,false,false,,2024-05-04
+OPP-00358,ACC-0148,ACC-0148 - Renewal,Renewal,Closed Won,144000,144000,2025-06-08,true,true,false,false,,2025-03-18
+OPP-00359,ACC-0148,ACC-0148 - Expansion,Expansion,Closed Won,46000,46000,2025-06-08,true,true,false,true,PRT-0014,2025-03-10
+OPP-00360,ACC-0148,ACC-0148 - Renewal,Renewal,Closed Won,190000,190000,2026-06-08,true,true,false,false,,2026-04-16
+OPP-00361,ACC-0148,ACC-0148 - Expansion,Expansion,Closed Won,70000,70000,2026-06-08,true,true,false,false,,2026-04-13
+OPP-00362,ACC-0149,ACC-0149 - New Business,New Business,Closed Won,17000.0,17000,2024-05-03,true,true,false,false,,2024-03-17
+OPP-00363,ACC-0149,ACC-0149 - Renewal,Renewal,Closed Won,17000,17000,2025-05-03,true,true,false,false,,2025-03-18
+OPP-00364,ACC-0149,ACC-0149 - Renewal,Renewal,Closed Lost,17000,17000,2026-05-03,false,true,false,false,,2026-02-20
+OPP-00365,ACC-0150,ACC-0150 - New Business,New Business,Closed Won,622000.0,311000,2024-08-19,true,true,false,false,,2024-05-31
+OPP-00366,ACC-0150,ACC-0150 - Renewal,Renewal,Renewal - Negotiation,311000,311000,2026-08-19,false,false,false,false,,2026-07-08
+OPP-00367,ACC-0151,ACC-0151 - New Business,New Business,Closed Won,279000.0,279000,2025-01-08,true,true,false,true,PRT-0013,2024-11-14
+OPP-00368,ACC-0151,ACC-0151 - Renewal,Renewal,Closed Won,279000,279000,2026-01-08,true,true,false,false,,2025-11-05
+OPP-00369,ACC-0152,ACC-0152 - New Business,New Business,Closed Won,219000.0,219000,2024-06-03,true,true,false,false,,2024-03-25
+OPP-00370,ACC-0152,ACC-0152 - Renewal,Renewal,Closed Won,219000,219000,2025-06-03,true,true,false,false,,2025-03-28
+OPP-00371,ACC-0152,ACC-0152 - Expansion,Expansion,Closed Won,67000,67000,2025-06-03,true,true,false,false,,2025-04-08
+OPP-00372,ACC-0152,ACC-0152 - Renewal,Renewal,Closed Won,286000,286000,2026-06-03,true,true,false,false,,2026-05-06
+OPP-00373,ACC-0152,ACC-0152 - Expansion,Expansion,Closed Won,66000,66000,2026-06-03,true,true,false,true,PRT-0006,2026-04-11
+OPP-00374,ACC-0153,ACC-0153 - New Business,New Business,Closed Won,53000.0,53000,2025-08-09,true,true,false,false,,2025-06-26
+OPP-00375,ACC-0153,ACC-0153 - Renewal,Renewal,Renewal - Negotiation,53000,53000,2026-08-09,false,false,false,false,,2026-05-15
+OPP-00376,ACC-0154,ACC-0154 - New Business,New Business,Closed Won,34000.0,17000,2024-08-23,true,true,false,false,,2024-06-13
+OPP-00377,ACC-0154,ACC-0154 - Renewal,Renewal,Renewal - Quoted,17000,17000,2026-08-23,false,false,false,false,,2026-07-17
+OPP-00378,ACC-0155,ACC-0155 - New Business,New Business,Closed Won,742000.0,371000,2024-08-08,true,true,false,false,,2024-06-16
+OPP-00379,ACC-0155,ACC-0155 - Renewal,Renewal,Renewal - Verbal Commit,371000,371000,2026-08-08,false,false,false,false,,2026-05-29
+OPP-00380,ACC-0156,ACC-0156 - New Business,New Business,Closed Won,7000.0,7000,2025-03-02,true,true,false,false,,2025-01-17
+OPP-00381,ACC-0156,ACC-0156 - Renewal,Renewal,Closed Won,7000,7000,2026-03-02,true,true,false,false,,2025-12-04
+OPP-00382,ACC-0157,ACC-0157 - New Business,New Business,Closed Won,386000.0,386000,2025-05-31,true,true,false,false,,2025-03-27
+OPP-00383,ACC-0157,ACC-0157 - Renewal,Renewal,Closed Won,386000,386000,2026-05-31,true,true,false,false,,2026-04-18
+OPP-00384,ACC-0158,ACC-0158 - New Business,New Business,Closed Won,7000.0,7000,2026-05-19,true,true,false,false,,2026-04-06
+OPP-00385,ACC-0159,ACC-0159 - New Business,New Business,Closed Won,1125000.0,375000,2024-07-16,true,true,false,false,,2024-05-29
+OPP-00386,ACC-0160,ACC-0160 - New Business,New Business,Closed Won,334000.0,334000,2023-10-20,true,true,false,true,PRT-0013,2023-08-14
+OPP-00387,ACC-0160,ACC-0160 - Renewal,Renewal,Closed Won,334000,334000,2024-10-20,true,true,false,false,,2024-09-15
+OPP-00388,ACC-0160,ACC-0160 - Expansion,Expansion,Closed Won,92000,92000,2024-10-20,true,true,false,false,,2024-09-21
+OPP-00389,ACC-0160,ACC-0160 - Renewal,Renewal,Closed Won,426000,426000,2025-10-20,true,true,false,false,,2025-09-15
+OPP-00390,ACC-0160,ACC-0160 - Expansion,Expansion,Closed Won,173000,173000,2025-10-20,true,true,true,true,PRT-0005,2025-09-11
+OPP-00391,ACC-0160,ACC-0160 - Renewal,Renewal,Renewal - Negotiation,599000,599000,2026-10-20,false,false,false,false,,2026-09-05
+OPP-00392,ACC-0161,ACC-0161 - New Business,New Business,Closed Won,51000.0,51000,2026-05-24,true,true,false,false,,2026-03-07
+OPP-00393,ACC-0162,ACC-0162 - New Business,New Business,Closed Won,180000.0,180000,2024-10-05,true,true,false,true,PRT-0002,2024-08-24
+OPP-00394,ACC-0162,ACC-0162 - Renewal,Renewal,Closed Won,180000,180000,2025-10-05,true,true,false,false,,2025-07-20
+OPP-00395,ACC-0162,ACC-0162 - Expansion,Expansion,Closed Won,38000,38000,2025-10-05,true,true,false,false,,2025-08-25
+OPP-00396,ACC-0162,ACC-0162 - Renewal,Renewal,Renewal - Negotiation,218000,218000,2026-10-05,false,false,false,false,,2026-07-15
+OPP-00397,ACC-0163,ACC-0163 - New Business,New Business,Closed Won,14000.0,7000,2024-06-17,true,true,false,true,PRT-0007,2024-04-07
+OPP-00398,ACC-0163,ACC-0163 - Renewal,Renewal,Closed Won,7000,7000,2026-06-17,true,true,false,false,,2026-05-28
+OPP-00399,ACC-0163,ACC-0163 - Expansion,Expansion,Closed Won,1000,1000,2026-06-17,true,true,false,true,PRT-0006,2026-04-17
+OPP-00400,ACC-0164,ACC-0164 - New Business,New Business,Closed Won,500000.0,250000,2023-12-20,true,true,false,true,PRT-0001,2023-10-30
+OPP-00401,ACC-0164,ACC-0164 - Renewal,Renewal,Closed Won,250000,250000,2025-12-20,true,true,false,false,,2025-10-22
+OPP-00402,ACC-0165,ACC-0165 - New Business,New Business,Closed Won,70000.0,70000,2024-09-06,true,true,false,false,,2024-07-27
+OPP-00403,ACC-0165,ACC-0165 - Renewal,Renewal,Closed Lost,70000,70000,2025-09-06,false,true,false,false,,2025-08-12
+OPP-00404,ACC-0166,ACC-0166 - New Business,New Business,Closed Won,99000.0,99000,2024-04-29,true,true,false,false,,2024-02-26
+OPP-00405,ACC-0166,ACC-0166 - Renewal,Renewal,Closed Won,99000,99000,2025-04-29,true,true,false,false,,2025-03-23
+OPP-00406,ACC-0166,ACC-0166 - Renewal,Renewal,Closed Won,99000,99000,2026-04-29,true,true,false,false,,2026-02-23
+OPP-00407,ACC-0167,ACC-0167 - New Business,New Business,Closed Won,696000.0,348000,2024-09-25,true,true,false,false,,2024-07-16
+OPP-00408,ACC-0167,ACC-0167 - Renewal,Renewal,Renewal - Discovery,348000,348000,2026-09-25,false,false,false,false,,2026-08-07
+OPP-00409,ACC-0168,ACC-0168 - New Business,New Business,Closed Won,252000.0,252000,2024-10-11,true,true,false,true,PRT-0001,2024-08-31
+OPP-00410,ACC-0168,ACC-0168 - Renewal,Renewal,Closed Lost,252000,252000,2025-10-11,false,true,false,false,,2025-09-17
+OPP-00411,ACC-0169,ACC-0169 - New Business,New Business,Closed Won,7000.0,7000,2025-11-27,true,true,false,false,,2025-11-01
+OPP-00412,ACC-0169,ACC-0169 - Renewal,Renewal,Renewal - Discovery,7000,7000,2026-11-27,false,false,false,false,,2026-11-05
+OPP-00413,ACC-0170,ACC-0170 - New Business,New Business,Closed Won,5000.0,5000,2024-09-12,true,true,false,false,,2024-08-08
+OPP-00414,ACC-0170,ACC-0170 - Renewal,Renewal,Closed Won,5000,5000,2025-09-12,true,true,false,false,,2025-08-04
+OPP-00415,ACC-0170,ACC-0170 - Renewal,Renewal,Renewal - Discovery,3000,3000,2026-09-12,false,false,false,false,,2026-07-16
+OPP-00416,ACC-0171,ACC-0171 - New Business,New Business,Closed Won,74000.0,74000,2023-04-04,true,true,false,false,,2023-02-26
+OPP-00417,ACC-0171,ACC-0171 - Renewal,Renewal,Closed Won,74000,74000,2024-04-04,true,true,false,false,,2024-01-10
+OPP-00418,ACC-0171,ACC-0171 - Renewal,Renewal,Closed Won,74000,74000,2025-04-04,true,true,false,false,,2025-03-01
+OPP-00419,ACC-0171,ACC-0171 - Expansion,Expansion,Closed Won,28000,28000,2025-04-04,true,true,false,false,,2025-02-18
+OPP-00420,ACC-0171,ACC-0171 - Renewal,Renewal,Closed Won,102000,102000,2026-04-04,true,true,false,false,,2026-02-18
+OPP-00421,ACC-0172,ACC-0172 - New Business,New Business,Closed Won,380000.0,380000,2024-09-10,true,true,false,true,PRT-0009,2024-07-26
+OPP-00422,ACC-0172,ACC-0172 - Renewal,Renewal,Closed Won,380000,380000,2025-09-10,true,true,false,false,,2025-07-22
+OPP-00423,ACC-0172,ACC-0172 - Renewal,Renewal,Renewal - Discovery,228000,228000,2026-09-10,false,false,false,false,,2026-08-07
+OPP-00424,ACC-0173,ACC-0173 - New Business,New Business,Closed Won,326000.0,163000,2025-05-01,true,true,false,true,PRT-0002,2025-04-02
+OPP-00425,ACC-0174,ACC-0174 - New Business,New Business,Closed Won,16000.0,8000,2024-05-10,true,true,false,true,PRT-0004,2024-03-14
+OPP-00426,ACC-0174,ACC-0174 - Renewal,Renewal,Closed Lost,8000,8000,2026-05-10,false,true,false,false,,2026-04-14
+OPP-00427,ACC-0175,ACC-0175 - New Business,New Business,Closed Won,36000.0,18000,2024-05-23,true,true,true,true,PRT-0011,2024-04-19
+OPP-00428,ACC-0175,ACC-0175 - Renewal,Renewal,Closed Lost,18000,18000,2026-05-23,false,true,false,false,,2026-04-28
+OPP-00429,ACC-0176,ACC-0176 - New Business,New Business,Closed Won,177000.0,177000,2025-11-01,true,true,false,true,PRT-0008,2025-09-08
+OPP-00430,ACC-0176,ACC-0176 - Renewal,Renewal,Renewal - Discovery,177000,177000,2026-11-01,false,false,false,false,,2026-08-26
+OPP-00431,ACC-0177,ACC-0177 - New Business,New Business,Closed Won,258000.0,129000,2026-01-04,true,true,true,true,PRT-0008,2025-10-27
+OPP-00432,ACC-0178,ACC-0178 - New Business,New Business,Closed Won,47000.0,47000,2026-02-07,true,true,false,false,,2025-12-28
+OPP-00433,ACC-0179,ACC-0179 - New Business,New Business,Closed Won,10000.0,10000,2024-11-25,true,true,true,true,PRT-0014,2024-09-13
+OPP-00434,ACC-0179,ACC-0179 - Renewal,Renewal,Closed Won,10000,10000,2025-11-25,true,true,false,false,,2025-09-10
+OPP-00435,ACC-0179,ACC-0179 - Renewal,Renewal,Renewal - Verbal Commit,7000,7000,2026-11-25,false,false,false,false,,2026-09-21
+OPP-00436,ACC-0180,ACC-0180 - New Business,New Business,Closed Won,144000.0,144000,2025-08-28,true,true,false,false,,2025-07-23
+OPP-00437,ACC-0180,ACC-0180 - Renewal,Renewal,Renewal - Verbal Commit,144000,144000,2026-08-28,false,false,false,false,,2026-06-07
+OPP-00438,ACC-0181,ACC-0181 - New Business,New Business,Closed Won,78000.0,78000,2026-04-30,true,true,false,true,PRT-0005,2026-04-09
+OPP-00439,ACC-0182,ACC-0182 - New Business,New Business,Closed Won,39000.0,39000,2023-02-24,true,true,false,false,,2023-01-07
+OPP-00440,ACC-0182,ACC-0182 - Renewal,Renewal,Closed Won,39000,39000,2024-02-24,true,true,false,false,,2023-12-23
+OPP-00441,ACC-0182,ACC-0182 - Renewal,Renewal,Closed Won,39000,39000,2025-02-24,true,true,false,false,,2025-01-23
+OPP-00442,ACC-0182,ACC-0182 - Renewal,Renewal,Closed Won,39000,39000,2026-02-24,true,true,false,false,,2025-12-05
+OPP-00443,ACC-0183,ACC-0183 - New Business,New Business,Closed Won,19000.0,19000,2024-05-11,true,true,false,true,PRT-0014,2024-04-15
+OPP-00444,ACC-0183,ACC-0183 - Renewal,Renewal,Closed Lost,19000,19000,2025-05-11,false,true,false,false,,2025-04-01
+OPP-00445,ACC-0184,ACC-0184 - New Business,New Business,Closed Won,16000.0,16000,2024-02-22,true,true,false,true,PRT-0013,2024-01-03
+OPP-00446,ACC-0184,ACC-0184 - Renewal,Renewal,Closed Won,16000,16000,2025-02-22,true,true,false,false,,2024-11-30
+OPP-00447,ACC-0184,ACC-0184 - Expansion,Expansion,Closed Won,3000,3000,2025-02-22,true,true,false,false,,2024-12-13
+OPP-00448,ACC-0184,ACC-0184 - Renewal,Renewal,Closed Won,19000,19000,2026-02-22,true,true,false,false,,2025-12-08
+OPP-00449,ACC-0184,ACC-0184 - Expansion,Expansion,Closed Won,7000,7000,2026-02-22,true,true,false,false,,2025-12-01
+OPP-00450,ACC-0185,ACC-0185 - New Business,New Business,Closed Won,19000.0,19000,2025-12-12,true,true,false,false,,2025-11-20
+OPP-00451,ACC-0186,ACC-0186 - New Business,New Business,Closed Won,86000.0,86000,2026-02-16,true,true,false,false,,2026-01-27
+OPP-00452,ACC-0187,ACC-0187 - New Business,New Business,Closed Won,170000.0,85000,2024-12-15,true,true,false,false,,2024-10-18
+OPP-00453,ACC-0188,ACC-0188 - New Business,New Business,Closed Won,34000.0,17000,2024-12-07,true,true,false,false,,2024-09-20
+OPP-00454,ACC-0189,ACC-0189 - New Business,New Business,Closed Won,234000.0,78000,2025-09-08,true,true,false,true,PRT-0004,2025-07-08
+OPP-00455,ACC-0190,ACC-0190 - New Business,New Business,Closed Won,57000.0,57000,2023-04-14,true,true,false,false,,2023-02-07
+OPP-00456,ACC-0190,ACC-0190 - Renewal,Renewal,Closed Won,57000,57000,2024-04-14,true,true,false,false,,2024-02-26
+OPP-00457,ACC-0190,ACC-0190 - Expansion,Expansion,Closed Won,7000,7000,2024-04-14,true,true,false,true,PRT-0011,2024-02-17
+OPP-00458,ACC-0190,ACC-0190 - Renewal,Renewal,Closed Won,64000,64000,2025-04-14,true,true,false,false,,2025-03-12
+OPP-00459,ACC-0190,ACC-0190 - Expansion,Expansion,Closed Won,9000,9000,2025-04-14,true,true,false,true,PRT-0003,2025-02-01
+OPP-00460,ACC-0190,ACC-0190 - Renewal,Renewal,Closed Lost,73000,73000,2026-04-14,false,true,false,false,,2026-02-28
+OPP-00461,ACC-0191,ACC-0191 - New Business,New Business,Closed Won,39000.0,13000,2023-10-09,true,true,false,false,,2023-08-26
+OPP-00462,ACC-0191,ACC-0191 - Renewal,Renewal,Renewal - Quoted,13000,13000,2026-10-09,false,false,false,false,,2026-09-06
+OPP-00463,ACC-0192,ACC-0192 - New Business,New Business,Closed Won,34000.0,17000,2023-12-25,true,true,false,false,,2023-11-20
+OPP-00464,ACC-0192,ACC-0192 - Renewal,Renewal,Closed Won,17000,17000,2025-12-25,true,true,false,false,,2025-10-02
+OPP-00465,ACC-0193,ACC-0193 - New Business,New Business,Closed Won,307000.0,307000,2023-01-19,true,true,true,true,PRT-0015,2022-10-30
+OPP-00466,ACC-0193,ACC-0193 - Renewal,Renewal,Closed Won,307000,307000,2024-01-19,true,true,false,false,,2023-12-08
+OPP-00467,ACC-0193,ACC-0193 - Renewal,Renewal,Closed Won,307000,307000,2025-01-19,true,true,false,false,,2024-12-14
+OPP-00468,ACC-0193,ACC-0193 - Expansion,Expansion,Closed Won,47000,47000,2025-01-19,true,true,false,false,,2024-11-19
+OPP-00469,ACC-0193,ACC-0193 - Renewal,Renewal,Closed Won,354000,354000,2026-01-19,true,true,false,false,,2025-11-29
+OPP-00470,ACC-0194,ACC-0194 - New Business,New Business,Closed Won,1143000.0,381000,2025-08-16,true,true,false,false,,2025-07-10
+OPP-00471,ACC-0195,ACC-0195 - New Business,New Business,Closed Won,14000.0,14000,2023-12-26,true,true,false,false,,2023-10-02
+OPP-00472,ACC-0195,ACC-0195 - Renewal,Renewal,Closed Won,14000,14000,2024-12-26,true,true,false,false,,2024-10-27
+OPP-00473,ACC-0195,ACC-0195 - Renewal,Renewal,Closed Won,14000,14000,2025-12-26,true,true,false,false,,2025-11-09
+OPP-00474,ACC-0196,ACC-0196 - New Business,New Business,Closed Won,8000.0,8000,2025-09-04,true,true,false,true,PRT-0006,2025-07-30
+OPP-00475,ACC-0196,ACC-0196 - Renewal,Renewal,Renewal - Negotiation,8000,8000,2026-09-04,false,false,false,false,,2026-06-12
+OPP-00476,ACC-0197,ACC-0197 - New Business,New Business,Closed Won,21000.0,21000,2026-04-07,true,true,false,false,,2026-02-01
+OPP-00477,ACC-0198,ACC-0198 - New Business,New Business,Closed Won,55000.0,55000,2023-11-24,true,true,false,false,,2023-09-12
+OPP-00478,ACC-0198,ACC-0198 - Renewal,Renewal,Closed Won,55000,55000,2024-11-24,true,true,false,false,,2024-08-28
+OPP-00479,ACC-0198,ACC-0198 - Renewal,Renewal,Closed Lost,55000,55000,2025-11-24,false,true,false,false,,2025-09-11
+OPP-00480,ACC-0199,ACC-0199 - New Business,New Business,Closed Won,6000.0,6000,2024-03-28,true,true,true,true,PRT-0011,2024-02-03
+OPP-00481,ACC-0199,ACC-0199 - Renewal,Renewal,Closed Won,6000,6000,2025-03-28,true,true,false,false,,2025-01-31
+OPP-00482,ACC-0199,ACC-0199 - Expansion,Expansion,Closed Won,2000,2000,2025-03-28,true,true,false,true,PRT-0001,2025-01-30
+OPP-00483,ACC-0199,ACC-0199 - Renewal,Renewal,Closed Lost,8000,8000,2026-03-28,false,true,false,false,,2025-12-29
+OPP-00484,ACC-0200,ACC-0200 - New Business,New Business,Closed Won,62000.0,62000,2024-05-21,true,true,false,false,,2024-04-03
+OPP-00485,ACC-0200,ACC-0200 - Renewal,Renewal,Closed Won,62000,62000,2025-05-21,true,true,false,false,,2025-04-01
+OPP-00486,ACC-0200,ACC-0200 - Renewal,Renewal,Closed Won,46000,46000,2026-05-21,true,true,false,false,,2026-04-25
