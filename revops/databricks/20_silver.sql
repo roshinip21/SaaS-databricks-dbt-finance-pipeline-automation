@@ -136,3 +136,26 @@ FROM gtm.silver.accounts a
 LEFT JOIN gtm.silver.account_month_arr amc
     ON amc.account_id = a.account_id AND amc.month = DATE'2026-08-01'
 WHERE a.account_type = 'Customer';
+
+-- --- verification: confirms every table above was actually created --------
+-- IMPORTANT: this script has 7 CREATE TABLE statements. In the Databricks SQL
+-- Editor, "Run" alone only executes the statement under your cursor -- use
+-- "Run All" (select all text first) so every statement runs, including these
+-- last two tables that the gold marts depend on directly. If any row below
+-- shows anything other than 'OK', re-run this whole script with Run All
+-- before moving on to the gold scripts.
+SELECT 'accounts' AS expected_table,
+       CASE WHEN count(*) > 0 THEN 'OK' ELSE 'MISSING' END AS status
+FROM gtm.silver.accounts
+UNION ALL
+SELECT 'opportunities', CASE WHEN count(*) > 0 THEN 'OK' ELSE 'MISSING' END FROM gtm.silver.opportunities
+UNION ALL
+SELECT 'contracts', CASE WHEN count(*) > 0 THEN 'OK' ELSE 'MISSING' END FROM gtm.silver.contracts
+UNION ALL
+SELECT 'cases', CASE WHEN count(*) > 0 THEN 'OK' ELSE 'MISSING' END FROM gtm.silver.cases
+UNION ALL
+SELECT 'usage_monthly', CASE WHEN count(*) > 0 THEN 'OK' ELSE 'MISSING' END FROM gtm.silver.usage_monthly
+UNION ALL
+SELECT 'account_month_arr', CASE WHEN count(*) > 0 THEN 'OK' ELSE 'MISSING' END FROM gtm.silver.account_month_arr
+UNION ALL
+SELECT 'account_current', CASE WHEN count(*) > 0 THEN 'OK' ELSE 'MISSING' END FROM gtm.silver.account_current;
