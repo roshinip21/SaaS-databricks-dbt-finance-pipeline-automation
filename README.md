@@ -99,6 +99,109 @@ Once built, the marts worth starting with (all under `saas_analytics.marts`):
 - `fct_usage_daily` - daily active users / event volume per customer
 - `fct_support_tickets` - ticket volume, resolution time, satisfaction
 
+---
+
+## RevOps Module — Salesforce → Databricks → Tableau (live, built August 2026)
+
+A second, independent analytics module lives under `revops/`. It demonstrates a
+**real GTM/RevOps pipeline** — not just a dbt seed project — covering the
+Customer Success, Renewals, Customer Health, and Partner ARR reporting domains
+that a SaaS RevOps team owns.
+
+### What was built
+
+| Layer | How | Status |
+|---|---|---|
+| **Synthetic data** | `revops/generate_revops_data.py` — 200 customers, 15 partners, ~$17.2M ARR, deterministic (seed 42) | ✅ committed |
+| **Bronze** (`gtm.bronze`) | `10_bronze_load_csv.sql` — `read_files()` from a Unity Catalog Volume; or `05_ingest_salesforce.py` for the live Salesforce path | ✅ SQL committed; run in Databricks SQL editor |
+| **Silver** (`gtm.silver`) | `20_silver.sql` — type casting, contiguous ARR month spine using actual contract dates (not `date_trunc`), partner attribution flags | ✅ validated in Databricks |
+| **Gold** (`gtm.gold`) | 5 marts: `gold_arr_movement`, `gold_health_scores`, `gold_renewal_pipeline`, `gold_partner_attribution`, `gold_qbr_summary` + `gold_exec_kpis` | ✅ all running in Databricks |
+| **Validation** | `40_validation.sql` — RI checks, attribution invariant (sourced ≤ influenced), waterfall reconciliation, headline KPI readout | ✅ all checks passing |
+| **Tableau** | 4-tab dashboard (Executive QBR, Customer Health, Renewals, Partner/Channel) connected to `gtm.gold` via native Databricks connector (extract mode) | 🔄 dashboard build in progress |
+| **Cohere palette** | `revops/tableau/cohere_tableau_palette.tps` — XML preferences file (Categorical + Sequential + Diverging RAG palettes using Cohere coral `#FF7759`) | ✅ committed |
+
+### Key modeling decisions (talking points)
+
+- **Partner ARR: sourced vs. influenced are always separate columns, never summed.** `partner_influenced` is the superset of `partner_sourced`; adding them double-counts every sourced deal. The gold mart provides `influenced_only_arr = influenced − sourced` for safe stacking.
+- **NRR/GRR computed on a fixed cohort** (accounts that existed both 12 months ago and today) — new logos added mid-year inflate NRR if excluded from the denominator.
+- **ARR month spine uses actual contract dates** — `ct.start_date <= am.month AND ct.end_date > am.month` — not `date_trunc`-based joins, which silently drop contracts renewing later in the current month.
+- **Databricks SQL Editor "Run All"** — multi-statement scripts (silver, gold) must be run with "Run All" (select all text first), not just "Run", which only executes the statement under the cursor.
+
+Headline numbers from `40_validation.sql`: **$17.2M ARR · NRR ~92% · GRR ~85% · 43 renewals due in 120 days ($5.8M) · 19 Red-band accounts**
+
+---
+
+## How Claude was used in this project
+
+This project was built as a **Claude Code pair-programming session** — Claude
+drafted every artifact (generator, SQL scripts, Tableau guide, cheat-sheet,
+palette file, documentation) while the human ran the actual Databricks SQL
+editor, uploaded files to the Unity Catalog Volume, and drove Tableau. No
+credentials were ever passed through chat — all secrets are environment variables.
+
+Concrete things Claude did in this session:
+- Diagnosed the Databricks MCP connector "Server URL doesn't match expected format" error and provided the correct `/api/2.0/mcp/genie/<SPACE_ID>` path.
+- Wrote a deterministic, stdlib-only Python data generator with enforced referential integrity and a realistic at-risk cohort baked in.
+- Designed the ARR month-spine SQL so it uses half-open contract periods (avoiding a silent $3M ARR gap that a naïve `date_trunc` join produces).
+- Debugged a Databricks SQL Editor "Run" vs "Run All" confusion causing `TABLE_OR_VIEW_NOT_FOUND` errors.
+- Built the Cohere brand Tableau palette as valid XML (`.tps`) — Tableau's import format, not JSON.
+- Guided step-by-step execution of each script, interpreting row counts and validation output in real time.
+
+---
+
+## Claude API use cases for AI-driven GTM, Finance, and RevOps
+
+Below are patterns that extend this project from a static demo to a live, AI-augmented analytics stack.
+
+### 1. Skills / CLAUDE.md — encode team conventions as persistent AI memory
+
+Add a `CLAUDE.md` at the repo root (or inside `revops/`) with:
+- **Data model conventions**: "partner ARR is always two separate columns — never sum sourced and influenced"
+- **KPI definitions**: cohort-based NRR formula, ARR spine logic, health score weights
+- **SQL style guide**: preferred Spark SQL idioms, naming conventions, `date_trunc` vs actual-date joins
+
+Every Claude Code session in this repo reads `CLAUDE.md` on startup, so any engineer or analyst working in the repo gets the same guardrails without repeating the explanation.
+
+### 2. Natural language querying via Genie MCP
+
+Once you create a **Genie space** over `gtm.gold` and connect it as an MCP server (URL: `https://dbc-598889e4-cffd.cloud.databricks.com/api/2.0/mcp/genie/<SPACE_ID>`), Claude can answer ad-hoc business questions directly against the live gold marts:
+
+- *"Which Red-band accounts have renewals due in the next 60 days?"*
+- *"Show me expansion ARR by CSM owner for Q2."*
+- *"What's the top driver of risk for our Enterprise segment?"*
+
+No SQL required for the business user. The Claude API's tool-calling loop routes the natural language question through Genie's text-to-SQL engine and returns the result as prose.
+
+### 3. Autonomous renewal-risk agent
+
+An agent using the Claude API + Databricks MCP could run on a nightly trigger and:
+1. Query `gold_renewal_pipeline` for accounts newly flipped to `at_risk = true`.
+2. Pull their `top_driver` from `gold_health_scores`.
+3. Draft a CSM alert (Slack or email via Gmail MCP) with the account name, ARR at risk, days to renewal, and a suggested action ("schedule EBR", "engage technical success", etc.).
+4. Post a summary comment on the account's renewal opportunity in Salesforce (via Salesforce MCP).
+
+This is a direct extension of the n8n dunning workflow pattern already in the roadmap — same trigger/action structure, but Claude provides the reasoning layer that determines priority and drafts the message copy.
+
+### 4. Automated QBR generation
+
+At the start of each quarter, an agent can:
+1. Query `gold_qbr_summary` and `gold_exec_kpis` for the trailing period.
+2. Pull the partner attribution table and health distribution.
+3. Draft a QBR narrative (slide-ready bullets, not raw numbers) using the Claude API.
+4. Export it as a Markdown or Google Slides document for the CS/Revenue leadership review.
+
+The gold marts are already structured to support this — every metric the QBR needs is a single-row or simple aggregate away from `gold_exec_kpis`.
+
+### 5. Finance pipeline automation (AR/dunning)
+
+Extending the existing n8n roadmap with Claude:
+- Query `fct_ar_aging` nightly for invoices crossing 30 / 60 / 90-day buckets.
+- Use the Claude API to **draft** escalation emails that are context-aware (customer segment, support history, renewal timing) rather than templated.
+- A human-in-the-loop approval step (Slack approve/reject button) before emails are sent.
+- Claude API's batch processing mode for high-volume invoice portfolios.
+
+---
+
 ## Roadmap (planned — not yet built)
 
 The pieces below are the next phases of the project. They're documented here

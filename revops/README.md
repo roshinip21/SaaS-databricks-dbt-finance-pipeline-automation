@@ -114,6 +114,65 @@ See `tableau/dashboard_build_guide.md` for the field-by-field build.
 | Partner sourced / influenced ARR | ~$4.2M / ~$9.9M |
 | Customers by health | 82 Green · 61 Amber · 19 Red |
 
+## Tableau palette (Cohere branding)
+
+`tableau/cohere_tableau_palette.tps` is a Tableau preferences XML file with three
+Cohere-branded color palettes:
+
+| Palette | Type | Use for |
+|---|---|---|
+| **Cohere Categorical** | Regular | dimension coloring (RAG bands, segments, partners) |
+| **Cohere Sequential** | Ordered-sequential | heat maps, choropleth, single-measure gradient |
+| **Cohere Diverging RAG** | Ordered-diverging | health scores (red → neutral → teal), vs-target variance |
+
+Primary brand color: **coral `#FF7759`** · Near-black `#212121` · Teal `#5EC8C2`.
+
+**Install:** copy (or move) `cohere_tableau_palette.tps` to your Tableau
+repository preferences file, then restart Tableau Desktop:
+
+- **Mac:** `~/Documents/My Tableau Repository/Preferences.tps`
+- **Windows:** `C:\Users\<you>\Documents\My Tableau Repository\Preferences.tps`
+
+If `Preferences.tps` already exists, open it and paste the three `<color-palette>`
+blocks inside the existing `<preferences>` element.
+
+---
+
+## Current build status (August 2026)
+
+| Artifact | Status |
+|---|---|
+| Synthetic data (7 CSVs) | ✅ committed under `revops/data/` |
+| `gtm` catalog + schemas + landing Volume | ✅ created in Databricks (`00_setup.sql`) |
+| Bronze Delta tables (7 tables) | ✅ loaded from CSVs |
+| Silver tables (7 tables, including ARR month spine) | ✅ all OK per verification query |
+| Gold marts (5 tables + `gold_exec_kpis`) | ✅ running in `gtm.gold` |
+| Validation checks | ✅ all passing (sourced ≤ influenced, waterfall reconciles, RI clean) |
+| Tableau connection to `gtm.gold` | ✅ connected (extract mode) |
+| 4-tab Tableau dashboard | 🔄 build in progress (drag-and-drop per `dashboard_build_guide.md`) |
+| Cohere palette installed in Tableau | 🔄 copy `.tps` file and restart |
+| Salesforce custom fields + bulk load | ⬜ optional (Phase 2) — CSV path gives an identical demo |
+| Genie space + Databricks MCP connector | ⬜ optional (Phase 3) — enables natural-language querying |
+
+---
+
+## How Claude was used to build this
+
+This entire module was built in a single **Claude Code** pair-programming session.
+Claude drafted every file; the human ran the Databricks SQL editor, uploaded CSVs
+to the Volume, and drove Tableau. No credentials were ever passed through chat.
+
+Key moments where Claude caught or fixed real issues:
+
+| Problem | Root cause | Fix |
+|---|---|---|
+| ARR waterfall $14.17M vs $17.22M | Silver spine used `date_trunc('month', end_date)` — dropped Aug-2026 renewals that started mid-month | Changed to `ct.start_date <= am.month AND ct.end_date > am.month` (actual dates) |
+| `TABLE_OR_VIEW_NOT_FOUND: account_month_arr` | Databricks SQL Editor "Run" only runs the statement under the cursor, not all statements | Added 7-row OK/MISSING verification at end of `20_silver.sql`; always use "Run All" |
+| Databricks MCP "Server URL doesn't match expected format" | Connector needs `/api/2.0/mcp/genie/<ID>` path, not the bare workspace URL | Documented paste-ready URLs in § 0 above |
+| Tableau Data Source Error after PAT revoke | A live token was accidentally shared in chat (immediately revoked); Tableau still referenced it | Generate new PAT; update Databricks connection in Tableau → "Edit Connection" |
+
+---
+
 ## Regenerating the data
 
 `revops/generate_revops_data.py` is deterministic (fixed seed, stdlib only). The
