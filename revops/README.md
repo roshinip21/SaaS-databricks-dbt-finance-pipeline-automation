@@ -78,7 +78,88 @@ Then, in the Databricks SQL editor (GTM workspace), run in order:
 > replace every `gtm.` with an existing catalog you own (e.g. `workspace.`) in
 > all scripts. Structure is identical.
 
-## 2. Real pipeline (optional upgrade — the stronger interview story)
+## 2. Salesforce CRM integration & GTM initiatives
+
+Salesforce is the **system of record** for all customer-facing GTM activity.
+This pipeline pulls every object the RevOps, CS, Finance, and Partnerships teams
+care about into Databricks and transforms them into the gold marts that power
+the Tableau dashboard and AI agents described below.
+
+### What data flows from Salesforce
+
+| Salesforce object | `gtm.bronze` table | GTM purpose |
+|---|---|---|
+| **Account** | `bronze.accounts` | Company profile, segment, region, CSM owner — the master dimension every other table joins to |
+| **Opportunity** | `bronze.opportunities` | New business, expansion, renewal pipeline; `Partner_Sourced__c` and `Partner_Influenced__c` custom fields enable partner attribution |
+| **Contract** | `bronze.contracts` | ARR start/end dates, term, renewal date — drives the ARR month spine and the renewal pipeline |
+| **Case** | `bronze.cases` | Support ticket volume, priority, CSAT — major input to the health score (open high-sev cases drag the score) |
+| **CampaignMember** | `bronze.campaign_members` | Marketing-to-account linkage — tracks which accounts engaged with campaigns (partner co-marketing, renewal campaigns, onboarding sequences) |
+| **Campaign** | `bronze.campaigns` | Campaign metadata (type, budget, influence model) |
+
+### Custom Salesforce fields required for partner attribution
+
+Add these to your Developer org first (`salesforce/custom_fields.md` has the click-path):
+
+| Object | Field API name | Type | Purpose |
+|---|---|---|---|
+| Account | `External_Id__c` | Text, Unique, External ID | Idempotent upsert key for bulk loads |
+| Opportunity | `Partner_Sourced__c` | Checkbox | Partner *created* this pipeline |
+| Opportunity | `Partner_Influenced__c` | Checkbox | Partner touched this deal at any point |
+| Opportunity | `Partner_Account__c` | Lookup (Account) | Which partner gets credit |
+
+### Loading Salesforce and ingesting to Databricks
+
+```bash
+# Step 1 — add custom fields (one-time, manual in Setup or via sfdx)
+# see salesforce/custom_fields.md
+
+# Step 2 — bulk-load the synthetic CSVs into Salesforce
+export SF_USERNAME='your@email.com'
+export SF_PASSWORD='yourpassword'
+export SF_SECURITY_TOKEN='yourtoken'
+export SF_DOMAIN='login'                    # 'test' for sandbox
+python3 salesforce/load_salesforce.py       # --dry-run first to validate
+
+# Step 3 — ingest Salesforce → gtm.bronze in Databricks
+# Open databricks/05_ingest_salesforce.py as a notebook and Run All.
+# It reads creds from Databricks Secrets (scope: revops) — never hardcoded.
+# Silver and gold scripts are unchanged — the bronze boundary is the only swap.
+```
+
+### GTM initiatives this pipeline enables
+
+Once data flows from Salesforce through `gtm.gold`, the analytics stack supports:
+
+**1. Customer Success — health-led renewal motion**
+`gold_health_scores` combines adoption (usage trend), support (open cases, CSAT),
+contract status, and engagement into a 0–100 composite score with a Green/Amber/Red
+band. CSMs see their book-of-business health in Tableau and act on the `top_driver`
+before a renewal is at risk — not after it's already churned.
+
+**2. Renewals forecasting — forward 120-day pipeline**
+`gold_renewal_pipeline` joins every upcoming renewal to its current health score and
+computes `renewal_probability`. The Tableau parameter what-if ("lift probability by 10%
+→ what's the ARR impact?") turns a static report into a live forecasting conversation
+with CS leadership.
+
+**3. Partner attribution — sourced vs. influenced (never summed)**
+Salesforce's `Partner_Sourced__c` and `Partner_Influenced__c` flags flow through to
+`gold_partner_attribution` as two separate dollar measures. Partners can see their
+true sourced contribution without over-claiming the influenced superset. A critical
+RevOps data quality control: if these are ever summed into one "partner ARR" number,
+every sourced deal is double-counted.
+
+**4. Marketing campaign influence analysis**
+`bronze.campaign_members` links accounts to campaigns. Silver joins this to renewal
+and health data, enabling questions like "did accounts that attended the onboarding
+webinar have lower churn?" — a marketing-to-CS feedback loop.
+
+**5. Executive QBR — automated narrative from live data**
+`gold_exec_kpis` is a single row of pre-computed cohort-based NRR, GRR, at-risk ARR,
+and partner contribution %. At quarter-end, a Claude API agent can query this table
+and draft QBR slide bullets automatically (see Claude use cases in the root README).
+
+### Real pipeline (optional upgrade — the stronger interview story)
 
 Populate your empty Salesforce Developer org and ingest it live:
 
@@ -90,17 +171,90 @@ Populate your empty Salesforce Developer org and ingest it live:
 
 ---
 
-## The 5 gold marts → the 4 Tableau tabs
+## Tableau Dashboard — 4 tabs on `gtm.gold`
+
+**Connect:** Tableau Desktop → Connect → To a Server → Databricks.
+Server hostname: `dbc-598889e4-cffd.cloud.databricks.com` · HTTP path: from SQL Warehouses → Connection details.
+Auth: Personal Access Token (Settings → Developer → Access tokens).
+Catalog `gtm` · Schema `gold`. Switch each data source to **Extract** (not Live) — the gold marts are small and nightly-refreshed; an extract makes every filter sub-second and avoids warehouse wake latency.
+
+---
+
+### Tab 1 — Executive QBR Summary
+
+**Sources:** `gold_exec_kpis` (single KPI row) + `gold_qbr_summary` (monthly rollup) + `gold_arr_movement`
+
+**What it shows:**
+
+| Visual | Fields | Notes |
+|---|---|---|
+| KPI tiles (6 one-number sheets) | `total_arr`, `net_new_arr_12m`, `nrr`, `grr`, `renewal_rate_12m`, `at_risk_arr` | Format NRR/GRR/renewal as % |
+| ARR waterfall bar+line | `month` on Columns; `new_arr`, `expansion_arr`, `contraction_arr`, `churned_arr`, `reactivation_arr` as Measure Values bars; `ending_arr` as a dual-axis line | Greens for new/expansion, reds for contraction/churn |
+| Active customers trend | `active_customers` by `month` (line) | Spot logo churn visually |
+
+**Talking point:** NRR and GRR are **cohort-based** — measured only on accounts that existed both 12 months ago and today. New logos excluded from the denominator so mid-year growth doesn't inflate retention.
+
+---
+
+### Tab 2 — Customer Health & Adoption
+
+**Source:** `gold_health_scores`
+
+| Visual | Fields | Notes |
+|---|---|---|
+| RAG donut / stacked bar | `health_band` on Color, Count of accounts | Sort Red first; use Cohere Diverging RAG palette |
+| Health scatter | `health_score` (x) vs `current_arr` (y), colored by `health_band`, sized by `current_arr` | Surfaces "big + red" accounts — highest ARR protection priority |
+| Risk driver bar | Count by `top_driver` | Shows whether risk is adoption, usage decline, support, or engagement |
+
+**LOD calc (cohort adoption benchmark):**
+```
+{ FIXED [segment] : AVG([adoption_pct]) }
+```
+Subtract from `[adoption_pct]` → over/under-adoption vs. segment peers. This requires a Level-of-Detail expression because the segment average is at a coarser grain than the account row.
+
+**Tooltip on scatter:** account name, segment, CSM owner, `top_driver`, `health_score`.
+
+---
+
+### Tab 3 — Renewals & Retention
+
+**Sources:** `gold_renewal_pipeline` + `gold_arr_movement`
+
+| Visual | Fields | Notes |
+|---|---|---|
+| Renewal timeline bars | `renewal_date` on Columns, `arr_up_for_renewal` height, colored by `health_band` | Mart is pre-filtered to next-120-day window |
+| At-risk table | Account, `renewal_date`, `days_to_renewal`, `arr_up_for_renewal`, `health_score`, `renewal_probability`, `at_risk` | Sort by `arr_up_for_renewal` desc; conditional format `at_risk = true` rows in red |
+| What-if parameter | Parameter `Prob Adjustment` (float, −0.3 → +0.3) drives: `forecast = arr_up_for_renewal * MIN(1, MAX(0, renewal_probability + [Prob Adjustment]))` | "If we lift renewal probability by 10%, what's the revenue impact?" — live interactive moment |
+| NRR table calc | `WINDOW_SUM` of (expansion + contraction + churn) over trailing 12 months ÷ starting ARR from `gold_arr_movement` | Reproduces `gold_exec_kpis.nrr` as a table calc — demonstrates you can do it either way |
+
+---
+
+### Tab 4 — Partner / Channel
+
+**Source:** `gold_partner_attribution`
+
+| Visual | Fields | Notes |
+|---|---|---|
+| Side-by-side bars | `partner_name` on Rows; `sourced_arr` and `influenced_arr` as two separate bars (Measure Names on Columns) | **Never stacked** — influenced is the superset of sourced; summing = double-count |
+| Safe stack (alternative) | `sourced_arr` + `influenced_only_arr` = `influenced_arr` | Mart provides `influenced_only_arr = influenced − sourced` for this exact case |
+| Contribution % | `pct_of_net_new_sourced` and `pct_of_net_new_influenced` | Shows each partner's share of company net-new ARR |
+
+**Critical modeling rule:** `partner_influenced ⊇ partner_sourced`. "Sourced" = partner *created* the pipeline. "Influenced" = partner *touched* the deal at any point. These answer different questions and are always two separate bars, never one "partner ARR" number.
+
+---
+
+### Gold mart → Tableau tab mapping
 
 | Gold mart | Feeds tab | Headline measures |
 |---|---|---|
-| `gold_qbr_summary` + `gold_exec_kpis` | **Executive QBR** | total ARR, net-new ARR, NRR, GRR, renewal rate |
-| `gold_health_scores` | **Customer Health & Adoption** | health score, RAG band, top driver |
-| `gold_renewal_pipeline` | **Renewals & Retention** | ARR up for renewal, days-to-renewal, at-risk, renewal probability |
-| `gold_partner_attribution` | **Partner / Channel** | sourced ARR vs influenced ARR (side-by-side, never summed) |
-| `gold_arr_movement` | Executive QBR + Renewals | new / expansion / contraction / churn / reactivation |
+| `gold_exec_kpis` | Executive QBR (KPI tiles) | total ARR, NRR, GRR, renewal rate, at-risk ARR |
+| `gold_qbr_summary` | Executive QBR (waterfall + trend) | new/expansion/contraction/churn/reactivation ARR by month |
+| `gold_arr_movement` | Executive QBR + Renewals (table calc) | monthly ARR waterfall at account grain |
+| `gold_health_scores` | Customer Health | health score 0–100, RAG band, top driver, adoption % |
+| `gold_renewal_pipeline` | Renewals & Retention | ARR up for renewal, days-to-renewal, renewal probability, at-risk |
+| `gold_partner_attribution` | Partner / Channel | sourced ARR, influenced ARR, influenced-only ARR, contribution % |
 
-See `tableau/dashboard_build_guide.md` for the field-by-field build.
+See `tableau/dashboard_build_guide.md` for the field-by-field drag-and-drop instructions.
 
 ## Headline numbers in this dataset (from `40_validation.sql`)
 

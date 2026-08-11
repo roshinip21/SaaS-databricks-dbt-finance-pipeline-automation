@@ -120,6 +120,31 @@ that a SaaS RevOps team owns.
 | **Tableau** | 4-tab dashboard (Executive QBR, Customer Health, Renewals, Partner/Channel) connected to `gtm.gold` via native Databricks connector (extract mode) | 🔄 dashboard build in progress |
 | **Cohere palette** | `revops/tableau/cohere_tableau_palette.tps` — XML preferences file (Categorical + Sequential + Diverging RAG palettes using Cohere coral `#FF7759`) | ✅ committed |
 
+### Tableau Dashboard — 4 tabs
+
+Connected to `gtm.gold` via Tableau's native Databricks connector (extract mode — sub-second filters, no warehouse wake cost). Cohere brand palette installed from `revops/tableau/cohere_tableau_palette.tps`.
+
+| Tab | Source mart(s) | Key visuals |
+|---|---|---|
+| **Executive QBR Summary** | `gold_exec_kpis`, `gold_qbr_summary`, `gold_arr_movement` | 6 KPI tiles (ARR, net-new, NRR, GRR, renewal rate, at-risk ARR) · ARR waterfall bar+line by month · active-customers trend |
+| **Customer Health & Adoption** | `gold_health_scores` | RAG distribution donut · health score vs ARR scatter (sized by ARR — surfaces "big + red" accounts) · risk driver bar by `top_driver` · LOD adoption benchmark vs segment average |
+| **Renewals & Retention** | `gold_renewal_pipeline`, `gold_arr_movement` | Forward-120-day renewal timeline colored by health band · at-risk table sorted by ARR · parameter what-if ("lift renewal probability by X% → $Y impact") · NRR reproduced as a Tableau table calc |
+| **Partner / Channel** | `gold_partner_attribution` | Side-by-side bars: `sourced_arr` and `influenced_arr` as **two separate bars per partner** (never stacked/summed) · contribution % of net-new ARR |
+
+### Salesforce CRM integration & GTM initiatives
+
+Salesforce is the **system of record** for all GTM activity. Data flows from six Salesforce objects into `gtm.bronze`, through silver transformation, and into gold marts that serve each GTM team:
+
+| Salesforce object | GTM team served | What it drives |
+|---|---|---|
+| **Account** | All teams | Master dimension: segment, region, CSM owner, industry |
+| **Opportunity** (with `Partner_Sourced__c`, `Partner_Influenced__c`, `Partner_Account__c` custom fields) | Partnerships, Revenue | Partner attribution (sourced vs influenced ARR), win-rate by partner, pipeline creation |
+| **Contract** | CS, Finance | ARR month spine, renewal date tracking, `gold_renewal_pipeline` |
+| **Case** | CS, Support | Health score input (open high-sev cases drag score); CSAT trend |
+| **Campaign + CampaignMember** | Marketing | Campaign-to-renewal influence analysis — did onboarding webinar attendees churn less? |
+
+The CSV path (`10_bronze_load_csv.sql`) and the Salesforce ingest path (`05_ingest_salesforce.py`) produce **identical bronze schemas** — silver and all five gold marts are unchanged regardless of source. Swap the bronze source at any time without touching downstream logic.
+
 ### Key modeling decisions (talking points)
 
 - **Partner ARR: sourced vs. influenced are always separate columns, never summed.** `partner_influenced` is the superset of `partner_sourced`; adding them double-counts every sourced deal. The gold mart provides `influenced_only_arr = influenced − sourced` for safe stacking.
