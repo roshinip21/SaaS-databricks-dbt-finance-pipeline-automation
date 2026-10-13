@@ -150,3 +150,11 @@ python3 scripts/generate_seed_data.py
 
 This overwrites the CSVs in `seeds/`; rerun `dbt seed --full-refresh`
 afterward.
+
+## Copyright
+
+Copyright (C) 2026 Roshini Padmanabha. All rights reserved.
+
+This code is provided for portfolio display and educational purposes only. 
+No permission is granted to copy, modify, distribute, or use this software for any purpose without explicit written permission from the copyright holder.
+
